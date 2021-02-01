@@ -28,6 +28,7 @@ const ColumnLeft = styled(Column)`
         width    : 100%;
         position : relative;
     }
+    height: 100%;
 `
 
 const ColumnRight = styled(Column)`
@@ -57,7 +58,10 @@ export default function Layout({ children }) {
     return (
         <ThemeProvider theme={theme}>
             <Fragment>
-                <Helmet title={data.site.siteMetadata.title} />
+                <Helmet 
+                    title={data.site.siteMetadata.title} 
+                    htmlAttributes={{ lang : 'nl' }}
+                />
                 <GlobalStyle />
                 <ColumnLeft>
                     <ProfileSection />

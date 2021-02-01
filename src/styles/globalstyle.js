@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
   html {
     margin: 0;  
     background-color: ${(props) => props.theme.color.lightGrey};
+    height: 100%;
   }
   body {
     font-family : "Hind", sans-serif;
@@ -18,6 +19,7 @@ export const GlobalStyle = createGlobalStyle`
     font-weight : 300;
     background  : #111111;
     margin      : 0;
+    height: 100%;
   }
   p {
     margin: 0 0 20px;

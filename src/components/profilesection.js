@@ -7,9 +7,7 @@ const ProfileContainer = styled.header`
     position: relative;
     padding: 0;
     margin: 0;
-    height: 100vh;
-    min-height: 100vh;
-    min-height: -webkit-fill-available;
+    height: 100%;
 `
 
 const ProfileImg = styled(Img)`
@@ -17,11 +15,10 @@ const ProfileImg = styled(Img)`
   height: 100%;
   object-fit: cover;
   &::before, &::after{
-    
     content:'';
-  position:absolute;
-  left:0; top:0;
-  width:100%; height:100%;
+    position:absolute;
+    left:0; top:0;
+    width:100%; height:100%;
     background:linear-gradient(
       25deg,
       rgba(50, 150, 50, 0.7) 12%,
@@ -82,7 +79,7 @@ const ProfileSection = ({ children }) => {
         imgStyle={{ objectPosition: "top center" }}
         objectPosition="top center"
         loading="eager"
-        fadeIn="false"
+        fadeIn={false}
         fluid={bgImage.childImageSharp.fluid}
       />
       <Content>
