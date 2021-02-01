@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { Section } from "./intro"
 
 const Form = ({ children }) => {
-    //
+    // TODO Formium
     return (
         <form id="contactform" post="#">
             { children}
@@ -59,12 +59,13 @@ const ContactForm = () => {
                     <Input
                         type="text"
                         name="name"
+                        autocomplete="name"
                     />
                 </div>
 
                 <div>
                     <Label htmlFor="email">Your Email</Label>
-                    <Input type="email" name="email"/>
+                    <Input type="email" name="email" autocomplete="email"/>
                 </div>
                 <br/>
                 <div>

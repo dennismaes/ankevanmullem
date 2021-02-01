@@ -1,19 +1,36 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import styled from 'styled-components'
-import BackgroundImage from 'gatsby-background-image'
+import Img from 'gatsby-image'
 
-const ProfileImg = styled(BackgroundImage)`
-    padding        : 0;
-    margin         : 0;
-    height         : 100vh;
-    vertical-align : middle;
-    position       : relative;
-    &::before, &::after{
-        background-size: cover;
-        background-position: center top;
-        background-repeat: no-repeat;
-    }
+const ProfileContainer = styled.header`
+    position: relative;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+`
+
+const ProfileImg = styled(Img)`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  &::before, &::after{
+    
+    content:'';
+  position:absolute;
+  left:0; top:0;
+  width:100%; height:100%;
+    background:linear-gradient(
+      25deg,
+      rgba(50, 150, 50, 0.7) 12%,
+      rgba(100, 150, 50, 0.5) 24%,
+      transparent 60%,
+      transparent 100%
+    )
+  }
+
 `
 
 const Content = styled.div`
@@ -59,35 +76,21 @@ const ProfileSection = ({ children }) => {
       `
   )
 
-  // Set ImageData.
-  const imageStack = [
-    bgImage.childImageSharp.fluid,
-    `linear-gradient(
-            25deg,
-            rgba(50, 150, 50, 0.7) 10%,
-            rgba(100, 150, 50, 0.5) 30%,
-            transparent 60%,
-            transparent 100%
-        )`
-  ].reverse()
-
   return (
-    <ProfileImg
-      Tag="header"
-      fluid={imageStack}
-      style={{
-        // Make defaults are overwrite-able 
-        backgroundSize: '',
-        backgroundPosition: '',
-        backgroundRepeat: '',
-      }}
-    >
+    <ProfileContainer>
+      <ProfileImg
+        imgStyle={{ objectPosition: "top center" }}
+        objectPosition="top center"
+        loading="eager"
+        fadeIn="false"
+        fluid={bgImage.childImageSharp.fluid}
+      />
       <Content>
         <h1>Hey, ik ben Anke Van Mullem!</h1>
         <p>Health Consultant</p>
         <p>Preventieadviseur</p>
       </Content>
-    </ProfileImg>
+    </ProfileContainer>
   )
 }
 
