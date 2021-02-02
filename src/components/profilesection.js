@@ -2,12 +2,12 @@ import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import styled from 'styled-components'
 import Img from 'gatsby-image'
+import Div100vg from 'react-div-100vh'
 
-const ProfileContainer = styled.header`
+const ProfileContainer = styled(Div100vg)`
     position: relative;
     padding: 0;
     margin: 0;
-    height: 100%;
 `
 
 const ProfileImg = styled(Img)`

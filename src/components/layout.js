@@ -28,7 +28,6 @@ const ColumnLeft = styled(Column)`
         width    : 100%;
         position : relative;
     }
-    height: 100%;
 `
 
 const ColumnRight = styled(Column)`

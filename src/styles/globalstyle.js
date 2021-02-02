@@ -9,7 +9,6 @@ export const GlobalStyle = createGlobalStyle`
   html {
     margin: 0;  
     background-color: ${(props) => props.theme.color.lightGrey};
-    height: 100%;
   }
   body {
     font-family : "Hind", sans-serif;
