@@ -1,4 +1,5 @@
 import React from "react"
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import { Section, Wrapper } from "../components/intro"
 import Card from "../components/card"
@@ -64,7 +65,7 @@ const Index2 = ({ data }) => {
                 </div>
                 </Wrapper>
             </Section>
-            <ContactForm></ContactForm>
+            <ContactForm/>
         </Layout>
     )
 }
