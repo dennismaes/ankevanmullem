@@ -12,7 +12,7 @@ export const StyledFooter = styled.footer`
 const Footer = () => (
     <StyledFooter>
         <p>
-        Web development by <a href="mailto:dennis.maes@hotmail.com">Dennis Maes</a>
+        Design &amp; development by <a href="https://www.linkedin.com/in/dennis-maes/" rel="_blank">Dennis Maes</a>
         &nbsp; &copy; {new Date().getFullYear().toString()}{" "}
         </p>
 

@@ -48,7 +48,7 @@ const Form  = ({ children }) => {
           });
       };
       return (
-        <StyledForm onSubmit={handleOnSubmit} >
+        <StyledForm autoComplete="on" onSubmit={handleOnSubmit} >
             {children}
             <Button type="submit" >Versturen</Button>
             {serverState.status && (serverState.status.ok
@@ -160,7 +160,6 @@ const ContactForm = () => {
                         type="text"
                         name="name"
                         placeholder="Wie bent u?"
-                        autocomplete="name"
                         required
                     />
                     <label htmlFor="name">Uw naam</label>
