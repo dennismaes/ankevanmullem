@@ -16,7 +16,7 @@ const Index2 = ({ data }) => {
             </Section>
             <Section bgGrey id="gezondheidscoad">
                 <h2>Gezondheidscoach</h2>
-                <Wrapper cols={3}>
+                <Wrapper cols={2}>
                 <div>
                     <h3>Gezondheid: wat is het? </h3>
                     <p>Gezondheid is een ruim begrip: het omvat zowel lichamelijk,  geestelijk en maatschappelijk welzijn. Naast een gebalanceerde voeding en voldoende beweging dragen een tal van factoren bij aan uw algemene gezondheid: uw seksuele gezondheid, work-life balance, een natuurlijk slaappatroon, voldoene sociale contacten, en zoveel meer.</p>
