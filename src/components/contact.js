@@ -2,8 +2,6 @@ import React, { useState } from "react"
 import axios from "axios"
 import styled from 'styled-components'
 
-import { Section } from "./intro"
-
 const StyledForm = styled.form`
    width: 100%;
    margin: 45px auto;
@@ -149,50 +147,43 @@ const Button = styled.button`
 `
 
 const ContactForm = () => {
-
     return (
-        <Section id="contact">
-            <h2>Contact</h2>
-            <p>Wil je meer weten? Laat hier je bericht achter, en ik beantwoord uw vraag zo snel mogelijk.</p>
-            <Form>
-                <FormGroup>
-                    <input
-                        type="text"
-                        name="name"
-                        placeholder="Wie bent u?"
-                        required
-                    />
-                    <label htmlFor="name">Uw naam</label>
-                </FormGroup>
-                <FormGroup>
-                    <input 
-                        type="email" 
-                        name="email" 
-                        placeholder="Wat is uw e-mailadres?" 
-                        required/>
-                    <label htmlFor="email">Your Email</label>
-                </FormGroup>
-                <FormGroup>
-                    <input 
-                        type="tel"
-                        name="phone"
-                        placeholder="Wat is uw telefoonnummer? (optioneel)"
-                    />
-                    <label htmlFor="phone">Telefoonnummer (optioneel)</label>
-                </FormGroup>
-                <FormGroup>
-                    <textarea 
-                        type="text"
-                        name="message"
-                        placeholder="Wat is uw vraag?" 
-                        required
-                    />
-                    <label htmlFor="email">Uw vraag</label>
-                </FormGroup>
-                
-            </Form>
-        </Section>
-
+        <Form>
+            <FormGroup>
+                <input
+                    type="text"
+                    name="name"
+                    placeholder="Wie bent u?"
+                    required
+                />
+                <label htmlFor="name">Uw naam</label>
+            </FormGroup>
+            <FormGroup>
+                <input 
+                    type="email" 
+                    name="email" 
+                    placeholder="Wat is uw e-mailadres?" 
+                    required/>
+                <label htmlFor="email">Your Email</label>
+            </FormGroup>
+            <FormGroup>
+                <input 
+                    type="tel"
+                    name="phone"
+                    placeholder="Wat is uw telefoonnummer? (optioneel)"
+                />
+                <label htmlFor="phone">Telefoonnummer (optioneel)</label>
+            </FormGroup>
+            <FormGroup>
+                <textarea 
+                    type="text"
+                    name="message"
+                    placeholder="Wat is uw vraag?" 
+                    required
+                />
+                <label htmlFor="email">Uw vraag</label>
+            </FormGroup>
+        </Form>
     )
 }
 

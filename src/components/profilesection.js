@@ -2,10 +2,12 @@ import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import styled from 'styled-components'
 import Img from 'gatsby-image'
-import Div100vg from 'react-div-100vh'
 
-const ProfileContainer = styled(Div100vg)`
+const ProfileContainer = styled.div`
     position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 100vh;
     padding: 0;
     margin: 0;
 `
@@ -55,6 +57,11 @@ const Content = styled.div`
         color       : white;
         margin      : 0;  
         font-weight : 300;
+        text-align: center;
+    }
+    
+    @media (max-width : ${props => props.theme.size.s}) {
+      padding-bottom:20%
     }
 `
 
@@ -84,8 +91,7 @@ const ProfileSection = ({ children }) => {
       />
       <Content>
         <h1>Hey, ik ben Anke Van Mullem!</h1>
-        <p>Health Consultant</p>
-        <p>Preventieadviseur</p>
+        <p>Gezondheidscoach &#8211; Preventieadviseur</p>
       </Content>
     </ProfileContainer>
   )
