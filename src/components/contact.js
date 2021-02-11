@@ -2,6 +2,8 @@ import React, { useState } from "react"
 import axios from "axios"
 import styled from 'styled-components'
 
+import { ButtonButton } from './button'
+
 const StyledForm = styled.form`
    width: 100%;
    margin: 45px auto;
@@ -48,7 +50,7 @@ const Form  = ({ children }) => {
       return (
         <StyledForm autoComplete="on" onSubmit={handleOnSubmit} >
             {children}
-            <Button type="submit" >Versturen</Button>
+            <ButtonButton type="submit" >Versturen</ButtonButton>
             {serverState.status && (serverState.status.ok
                 ? <p>Bedankt voor uw bericht! Ik neem spoedig met u contact op. </p>
                 : <p>Er ging iets mis. Controleer uw e-mailadres en probeer opnieuw.</p>
@@ -78,8 +80,8 @@ const FormGroup = styled.div`
         transition: border-color 0.2s;
       
         &::placeholder {
-            color: ${props => props.theme.color.black};
-            font-size: 1.1rem;
+            color: ${props => props.theme.color.mediumGrey};
+            font-size: 1rem;
             cursor: text;
             top: 20px;
             font-weight: 400;

@@ -19,7 +19,7 @@ export const GlobalStyle = createGlobalStyle`
     font-weight : 300;
     background  : #111111;
     margin      : 0;
-    height: 100%;
+    overflow-y: scroll;
   }
   p {
     margin: 0 0 20px;

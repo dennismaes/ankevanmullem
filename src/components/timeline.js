@@ -72,6 +72,13 @@ export const TimlineEntry = styled.dl`
     position: relative;
     background-color: ${props => props.theme.color.primaryLight};
     
+    &:hover {
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 3px 10px 0 rgb(0 0 0 / 19%);
+        transition: all 0.3s ease 0s;
+        &:before {
+            background-color: ${props => props.theme.color.primary};
+        }
+    }
 
 	dt {
 		color: ${props => props.theme.color.primary};

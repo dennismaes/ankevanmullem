@@ -5,16 +5,18 @@ import styled, { ThemeProvider } from "styled-components"
 
 import { GlobalStyle } from '../styles/globalstyle';
 import { theme } from '../styles/theme'
-import Footer from '../components/footer'
-
 
 import ProfileSection from './profilesection'
+import Footer from '../components/footer'
+
 
 const Column = styled.div`
     display           : flex;
     flex-wrap         : wrap;
     justify-content   : space-around;
     box-sizing : border-box;
+    min-height: 100%;
+    flex-direction: column;
 `
 
 const ColumnLeft = styled(Column)`
@@ -42,6 +44,10 @@ const ColumnRight = styled(Column)`
     }
 `
 
+const Main = styled.main`
+    flex: 1;
+`
+
 export default function Layout({ children }) {
     const data = useStaticQuery(
         graphql`
@@ -66,7 +72,9 @@ export default function Layout({ children }) {
                     <ProfileSection />
                 </ColumnLeft>
                 <ColumnRight>
-                    {children}
+                    <Main>
+                        {children}
+                    </Main>
                     <Footer />
                 </ColumnRight>
             </Fragment>

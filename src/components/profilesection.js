@@ -72,7 +72,7 @@ const ProfileSection = ({ children }) => {
           bgImage: file(relativePath: { eq: "anke.jpg" }) {
             childImageSharp {
               fluid(quality: 90, maxWidth: 960) {
-                ...GatsbyImageSharpFluid_withWebp
+                ...GatsbyImageSharpFluid_withWebp_noBase64
               }
             }
           }
