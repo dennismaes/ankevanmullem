@@ -15,7 +15,7 @@ const Aboutme = () => {
         <ButtonHome />
         <ButtonLinkedin />
       </Sticky>
-      <Section id="intro">
+      <Section bgGrey id="aboutme">
         <h2>Over Anke</h2>
         <p>Ik ben geboren en getogen in Oost-Vlaanderen. Na enkele jaren in West-Vlaanderen te hebben gestudeerd, meer exact Oostende en Brugge, 
           ben ik enkele jaren naar Denemarken getrokken om onder andere een master in Kopenhagen te studeren. Na dit 6-jaren avontuur ben ik op dit moment weer terug te vinden in Oost-Vlaanderen.</p>
