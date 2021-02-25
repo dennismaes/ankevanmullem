@@ -24,6 +24,7 @@ const Aboutme = () => {
         <p>Als persoon ben ik te vinden voor openheid, dit zowel in communicatie alsook energetisch. In mijn familie gaat het gezegde “Anke heeft een Willeke”, dus je kan mij ook omschrijven als een tikkeltje eigenzinnig. 
           Wat je kan verwachten van mij: ik ben sociaal iemand en recht door zee. Ik zal steeds oprecht en eerlijk zijn naar jou en jouw proces en dit op een respectvolle manier. 
           Ook ben ik een gevoelsmatig persoon en kan hierdoor vaak door de woorden kijken naar de betekenis die er achterligt. Verder hou ik ervan om mensen te coachen en dus te inspireren, zeker als dit via een doelgerichte aanpak kan gebeuren.</p>
+      </Section>
       <Section id="timeline">
         <h2>Mijn professioneel traject</h2>
         <Timeline>
