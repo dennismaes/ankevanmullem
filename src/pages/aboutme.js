@@ -22,7 +22,7 @@ const Aboutme = () => {
         <p>In het dagelijkse leven werk ik sinds maart 2021 rond welzijn op het werk als veiligheidsconsultant, ook wel gekend als preventieadviseur. 
           Hiernaast kan je mij vinden als (hoofd)animator op voornamelijk buitenlandse jeugdkampen. En naast dit alles, kan ik ook jouw persoonlijke gezondheidscoach zijn.</p>
         <p>Als persoon ben ik te vinden voor openheid, dit zowel in communicatie alsook energetisch. In mijn familie gaat het gezegde “Anke heeft een Willeke”, dus je kan mij ook omschrijven als een tikkeltje eigenzinnig. 
-          Wat je kan verwachten van mij: ik ben sociaal iemand en recht door zee. Ik zal steeds oprecht en eerlijk zijn naar jou en jouw proces en dit op een respectvolle manier. 
+          Wat je kan verwachten van mij: ik ben een sociaal iemand en recht door zee. Ik zal steeds oprecht en eerlijk zijn naar jou en jouw proces, en dit op een respectvolle manier. 
           Ook ben ik een gevoelsmatig persoon en kan hierdoor vaak door de woorden kijken naar de betekenis die er achterligt. Verder hou ik ervan om mensen te coachen en dus te inspireren, zeker als dit via een doelgerichte aanpak kan gebeuren.</p>
       </Section>
       <Section id="timeline">
