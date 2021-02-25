@@ -15,6 +15,15 @@ const Aboutme = () => {
         <ButtonHome />
         <ButtonLinkedin />
       </Sticky>
+      <Section id="intro">
+        <h2>Over Anke</h2>
+        <p>Ik ben geboren en getogen in Oost-Vlaanderen. Na enkele jaren in West-Vlaanderen te hebben gestudeerd, meer exact Oostende en Brugge, 
+          ben ik enkele jaren naar Denemarken getrokken om onder andere een master in Kopenhagen te studeren. Na dit 6-jaren avontuur ben ik op dit moment weer terug te vinden in Oost-Vlaanderen.</p>
+        <p>In het dagelijkse leven werk ik sinds maart 2021 rond welzijn op het werk als veiligheidsconsultant, ook wel gekend als preventieadviseur. 
+          Hiernaast kan je mij vinden als (hoofd)animator op voornamelijk buitenlandse jeugdkampen. En naast dit alles, kan ik ook jouw persoonlijke gezondheidscoach zijn.</p>
+        <p>Als persoon ben ik te vinden voor openheid, dit zowel in communicatie alsook energetisch. In mijn familie gaat het gezegde “Anke heeft een Willeke”, dus je kan mij ook omschrijven als een tikkeltje eigenzinnig. 
+          Wat je kan verwachten van mij: ik ben sociaal iemand en recht door zee. Ik zal steeds oprecht en eerlijk zijn naar jou en jouw proces en dit op een respectvolle manier. 
+          Ook ben ik een gevoelsmatig persoon en kan hierdoor vaak door de woorden kijken naar de betekenis die er achterligt. Verder hou ik ervan om mensen te coachen en dus te inspireren, zeker als dit via een doelgerichte aanpak kan gebeuren.</p>
       <Section id="timeline">
         <h2>Mijn professioneel traject</h2>
         <Timeline>
