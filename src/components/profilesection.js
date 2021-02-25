@@ -90,8 +90,7 @@ const ProfileSection = ({ children }) => {
         fluid={bgImage.childImageSharp.fluid}
       />
       <Content>
-        <h1>Hey, mijn naam is </h1>
-        <h1>Anke Van Mullem!</h1>
+        <h1>Hey, mijn naam is<br/>Anke Van Mullem!</h1>
         <p>Gezondheidscoach &#8211; Preventieadviseur</p>
       </Content>
     </ProfileContainer>
