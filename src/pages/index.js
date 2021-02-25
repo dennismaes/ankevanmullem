@@ -23,7 +23,8 @@ const Index = ({ data }) => {
         <Wrapper cols={2}>
           <div>
             <h3>Gezondheid: wat is het? </h3>
-            <p>Gezondheid is een ruim begrip: het omvat zowel lichamelijk,  geestelijk en maatschappelijk welzijn. Naast een gebalanceerde voeding en voldoende beweging dragen een tal van factoren bij aan uw algemene gezondheid: uw seksuele gezondheid, work-life balance, een natuurlijk slaappatroon, voldoene sociale contacten, en zoveel meer.</p>
+            <p>Gezondheid is een ruim begrip: het omvat zowel lichamelijk, geestelijk en maatschappelijk welzijn. Naast een gebalanceerde voeding en voldoende beweging dragen een tal van factoren bij aan uw algemene gezondheid: 
+              uw work-life balance, een natuurlijk slaappatroon, seksuele gezondheid, vervullende sociale contacten, en zoveel meer.</p>
           </div>
           <div>
             <h3>Laagdrempelig</h3>
