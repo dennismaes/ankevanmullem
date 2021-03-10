@@ -57,6 +57,11 @@ const Aboutme = () => {
             <dd>Deze opleiding beantwoord de vraag: Hoe kunnen we cognitieve processen begrijpen die verband houden met de mediaconsumptie in de moderne samenleving? 
               De focus ligt op de psychologische en sociale processen die van invloed zijn op communicatie in audiovisuele media en face-to-face. Verder bestudeert het de interacties die plaatsvinden tussen mensen of tussen mensen en technologie. <a href="https://studies.ku.dk/masters/cognition-and-communication/profile-and-career/" target="_blank">Meer info.</a></dd>
           </TimlineEntry>
+          <TimelineEntry>
+            <dt><h3>Partner met Emma.health</h3><b>Maart 2021</b></dt>
+            <dd>Via de Emma.health academy heb ik een uitgebreid opleidingsprogramma gekregen rond hun DNA-resultaten en hoe ik deze gericht kan inzetten in mijn coachingsessies.
+              Dankzij dit partnerschap kan ik ook een korting aanbieden op hun analyses. Een aanrader indien je graag de sterktes en mogelijke noden van jouw lichaam en groei wil ontdekken. Je kan meer informatie lezen via <a href="https://emma.health/" target="_blank">Emma.health</a>.</dd>
+          </TimelineEntry>
         </Timeline>
       </Section>
 
