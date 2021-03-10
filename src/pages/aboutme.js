@@ -60,7 +60,7 @@ const Aboutme = () => {
           <TimlineEntry>
             <dt><h3>Partner met Emma.health</h3><b>Maart 2021</b></dt>
             <dd>Via de Emma.health academy heb ik een uitgebreid opleidingsprogramma gekregen rond hun DNA-resultaten en hoe ik deze gericht kan inzetten in mijn coachingsessies.
-              Dankzij dit partnerschap kan ik ook een korting aanbieden op hun analyses. Een aanrader indien je graag de sterktes en mogelijke noden van jouw lichaam en groei wil ontdekken. Je kan meer informatie lezen via <a href="https://emma.health/" target="_blank">Emma.health</a>.</dd>
+              Dankzij dit partnerschap kan ik ook een korting aanbieden op hun analyses. Een aanrader indien je graag de sterktes en mogelijke noden van jouw lichaam en groei wil ontdekken. Meer informatie via <a href="https://emma.health/" target="_blank">Emma.health</a>.</dd>
           </TimlineEntry>
         </Timeline>
       </Section>
