@@ -3,9 +3,8 @@ import { graphql, Link } from "gatsby"
 
 import Layout from "../components/layout"
 import { Sticky, Section, Wrapper } from "../components/intro"
-import { ButtonLinkedin, ButtonAboutme, ButtonContact } from "../components/button"
+import { ButtonDNA, ButtonAboutme, ButtonContact } from "../components/button"
 import Card from "../components/card"
-import ContactForm from "../components/contact"
 
 const Index = ({ data }) => {
   return (
@@ -17,6 +16,7 @@ const Index = ({ data }) => {
       <Sticky>
         <ButtonAboutme />
         <ButtonContact />
+        <ButtonDNA />
       </Sticky>
       <Section bgGrey id="gezondheidscoach">
         <h2>Gezondheidscoach</h2>
