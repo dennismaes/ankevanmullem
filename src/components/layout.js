@@ -26,6 +26,9 @@ const ColumnLeft = styled(Column)`
     overflow   : hidden;
     position   : fixed;
     left       : 0;
+    @media (min-width : ${props => props.theme.size.l}) {
+        width    : 40%;
+    }
     @media (max-width : ${props => props.theme.size.s}) {
         width    : 100%;
         position : relative;
@@ -37,6 +40,9 @@ const ColumnRight = styled(Column)`
     position   : absolute;
     right      : 0;
     box-shadow : -10px -10px 30px rgba(0, 0, 0, 0.2);
+    @media (min-width : ${props => props.theme.size.l}) {
+        width    : 60%;
+    }
     @media (max-width : ${props => props.theme.size.s}) {
         width    : 100%;
         position : relative;

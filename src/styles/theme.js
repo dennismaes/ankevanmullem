@@ -11,5 +11,6 @@ export const theme = {
     xs: '480px',
     s: '720px',
     m: '1080px',
+    l: '1440px',
   }
 };
