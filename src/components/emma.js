@@ -125,8 +125,18 @@ const ShopifyEmma = (props) => {
                         "title": "Winkelwagen",
                         "total": "Subtotaal",
                         "empty": "Winkelwagen leeg",
-                        "button": "Bestellen"
-                    }
+                        "button": "Bestellen",
+                        "notice": 'De kortingscode ANKEVANMULLEM wordt automatisch verrekend. Je bespaart hierdoor 2% extra!',
+                    },
+                    "events": {
+                        afterInit: (cart) => {
+                            cart.onCheckout = () => {
+                                const checkoutUrl = cart.model.webUrl + '&discount=ANKEVANMULLEM';
+                                // we dynamically change the checkout function.
+                                cart.checkout.open(checkoutUrl);
+                            };
+                        },
+                    },
                 },
                 "toggle": {
                     "styles": {
