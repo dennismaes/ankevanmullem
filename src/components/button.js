@@ -108,6 +108,6 @@ const DNA = styled(BiDna)`
 `
 export const ButtonDNA = () => (
     <ButtonLink to="/emma-health">
-        <DNA />emma.health
+        <DNA />Emma.health
     </ButtonLink>
 )

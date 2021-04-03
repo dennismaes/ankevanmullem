@@ -14,8 +14,8 @@ const Index = ({ data }) => {
         <p>In het dagelijkse leven werk ik rond welzijn op het werk als veiligheidsconsulent, beter bekend als preventieadviseur. Maar op deze site vind je alles over mijn werk als zelfstandige in bijberoep: uw persoonlijke gezondheidscoach.</p>
       </Section>
       <Sticky>
-        <ButtonAboutme />
         <ButtonContact />
+        <ButtonAboutme />
         <ButtonDNA />
       </Sticky>
       <Section bgGrey id="gezondheidscoach">

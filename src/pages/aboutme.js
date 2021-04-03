@@ -8,9 +8,6 @@ import { ButtonHome, ButtonLinkedin } from "../components/button"
 const Aboutme = () => {
   return (
     <Layout>
-      <Section id="intro">
-        <p>In het dagelijkse leven werk ik rond welzijn op het werk als veiligheidsconsultant, beter bekend als preventieadviseur. Maar op deze site vind je alles over mijn werk als zelfstandige in bijberoep: uw persoonlijke gezondheidscoach.</p>
-      </Section>
       <Sticky>
         <ButtonHome />
         <ButtonLinkedin />
@@ -46,7 +43,7 @@ const Aboutme = () => {
           <TimlineEntry>
             <dt><h3>Bachelor Toegepaste Gezondheidswetenschappen</h3><b>Juni 2017</b></dt>
             <dd>Deze bachelor geeft mij het specialisatie attest van preventieadviseur niveau II. 
-              Daarnaast richt deze opleiding zich op gezondheidsbevordering en preventie. Een gezondheidscoach begeleidt individuele mensen of groepen naar een gezondere levensstijl. Of ontwikkelt, implementeert en evalueert programma's voor gezondheidsbevordering binnen organisaties of bedrijven. <a href="https://www.howest.be/nl/opleidingen/bachelor/toegepaste-gezondheidswetenschappen?gclid=CjwKCAiAsaOBBhA4EiwAo0_AnM_Suv5L7wuqVxli8puEYOeh4jNJQp0vipjwToL_Ux_OE_KK222-QRoCZbEQAvD_BwE" target="_blank">Meer info.</a></dd>
+              Daarnaast richt deze opleiding zich op gezondheidsbevordering en preventie. Een gezondheidscoach begeleidt individuele mensen of groepen naar een gezondere levensstijl. Of ontwikkelt, implementeert en evalueert programma's voor gezondheidsbevordering binnen organisaties of bedrijven. <a href="https://www.howest.be/nl/opleidingen/bachelor/toegepaste-gezondheidswetenschappen?gclid=CjwKCAiAsaOBBhA4EiwAo0_AnM_Suv5L7wuqVxli8puEYOeh4jNJQp0vipjwToL_Ux_OE_KK222-QRoCZbEQAvD_BwE" target="_blank">Meer info</a>.</dd>
           </TimlineEntry>
           <TimlineEntry>
             <dt><h3>Sexual Healing & De-armouring retreat via The Gaia Method</h3><b>Oktober 2020</b></dt>
@@ -55,12 +52,12 @@ const Aboutme = () => {
           <TimlineEntry>
             <dt><h3>Master of Arts in Cognition and Communication</h3><b>Oktober 2020</b></dt>
             <dd>Deze opleiding beantwoord de vraag: Hoe kunnen we cognitieve processen begrijpen die verband houden met de mediaconsumptie in de moderne samenleving? 
-              De focus ligt op de psychologische en sociale processen die van invloed zijn op communicatie in audiovisuele media en face-to-face. Verder bestudeert het de interacties die plaatsvinden tussen mensen of tussen mensen en technologie. <a href="https://studies.ku.dk/masters/cognition-and-communication/profile-and-career/" target="_blank">Meer info.</a></dd>
+              De focus ligt op de psychologische en sociale processen die van invloed zijn op communicatie in audiovisuele media en face-to-face. Verder bestudeert het de interacties die plaatsvinden tussen mensen of tussen mensen en technologie. <a href="https://studies.ku.dk/masters/cognition-and-communication/profile-and-career/" target="_blank">Meer info</a>.</dd>
           </TimlineEntry>
           <TimlineEntry>
             <dt><h3>Partner met Emma.health</h3><b>Maart 2021</b></dt>
             <dd>Via de Emma.health academy heb ik een uitgebreid opleidingsprogramma gekregen rond hun DNA-resultaten en hoe ik deze gericht kan inzetten in mijn coachingsessies.
-              Dankzij dit partnerschap kan ik ook een korting aanbieden op hun analyses. Een aanrader indien je graag de sterktes en mogelijke noden van jouw lichaam en groei wil ontdekken. Meer informatie via <a href="https://emma.health/" target="_blank">Emma.health</a>.</dd>
+              Dankzij dit partnerschap kan ik ook een korting aanbieden op hun analyses. Een aanrader indien je graag de sterktes en mogelijke noden van jouw lichaam en groei wil ontdekken. <a href="https://ankevanmullem.be/emma-health/" target="_blank">Meer info</a>.</dd>
           </TimlineEntry>
         </Timeline>
       </Section>

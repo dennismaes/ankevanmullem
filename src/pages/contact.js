@@ -14,7 +14,6 @@ const Contact = () => {
       </Section>
       <Sticky>
         <ButtonHome />
-        <ButtonWhatsapp />
         <ButtonMail />
       </Sticky>
       <Section>
