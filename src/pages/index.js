@@ -11,7 +11,7 @@ const Index = ({ data }) => {
     <Layout>
       <Section id="top">
         <h2>Welkom op <Link to="/">ankevanmullem.be</Link></h2>
-        <p>In het dagelijkse leven werk ik rond welzijn op het werk als veiligheidsconsultant, beter bekend als preventieadviseur. Maar op deze site vind je alles over mijn werk als zelfstandige in bijberoep: uw persoonlijke gezondheidscoach.</p>
+        <p>In het dagelijkse leven werk ik rond welzijn op het werk als veiligheidsconsulent, beter bekend als preventieadviseur. Maar op deze site vind je alles over mijn werk als zelfstandige in bijberoep: uw persoonlijke gezondheidscoach.</p>
       </Section>
       <Sticky>
         <ButtonAboutme />
@@ -23,13 +23,13 @@ const Index = ({ data }) => {
         <Wrapper cols={2}>
           <div>
             <h3>Gezondheid: wat is het? </h3>
-            <p>Gezondheid is een ruim begrip: het omvat zowel lichamelijk, geestelijk en maatschappelijk welzijn. Naast een gebalanceerde voeding en voldoende beweging dragen een tal van factoren bij aan uw algemene gezondheid: 
-              uw work-life balance, een natuurlijk slaappatroon, seksuele gezondheid, vervullende sociale contacten, en zoveel meer.</p>
+            <p>Gezondheid is een ruim begrip: het omvat zowel lichamelijk, geestelijk en maatschappelijk welzijn. Naast een gebalanceerde voeding en voldoende beweging dragen een tal van factoren bij aan jouw algemene gezondheid: 
+              jouw work-life balance, een natuurlijk slaappatroon, seksuele gezondheid, vervullende sociale contacten, en zoveel meer.</p>
           </div>
           <div>
             <h3>Laagdrempelig</h3>
             <p>De sleutel tot duurzame gedragsveranderingen zijn laagdrempelige aanpassingen.
-            Deze aanpassingen kunt u makkelijk toepassen in je dagelijks leven. In plaats van je hele levensstijl om te gooien, neem ik samen met u kleine stappen die uiteindelijk een groot verschil maken.
+            Deze aanpassingen kan je makkelijk toepassen in je dagelijks leven. In plaats van je hele levensstijl om te gooien, neem ik samen met jou kleine stappen die uiteindelijk een groot verschil maken.
                   </p>
           </div>
           <div>
