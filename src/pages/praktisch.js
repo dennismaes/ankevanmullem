@@ -12,7 +12,7 @@ const Praktisch = () => {
       <Sticky>
         <ButtonHome />
       </Sticky>
-      <Section bgGrey id="aboutme">
+      <Section bgGrey id="gezondheidscoach">
         <h2>Waar en wanneer?</h2>
         <Wrapper cols={2}>
         <div>
