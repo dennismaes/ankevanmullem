@@ -3,7 +3,7 @@ import { graphql, Link } from "gatsby"
 
 import Layout from "../components/layout"
 import { Sticky, Section, Wrapper } from "../components/intro"
-import { ButtonDNA, ButtonAboutme, ButtonContact } from "../components/button"
+import { ButtonDNA, ButtonAboutme, ButtonContact, ButtonPraktisch } from "../components/button"
 import Card from "../components/card"
 
 const Index = ({ data }) => {
@@ -17,6 +17,7 @@ const Index = ({ data }) => {
         <ButtonContact />
         <ButtonAboutme />
         <ButtonDNA />
+        <ButtonPraktisch />
       </Sticky>
       <Section bgGrey id="gezondheidscoach">
         <h2>Gezondheidscoach</h2>

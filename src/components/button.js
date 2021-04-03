@@ -111,3 +111,12 @@ export const ButtonDNA = () => (
         <DNA />Emma.health
     </ButtonLink>
 )
+
+const Praktisch = styled(BiDna)`
+  ${si}
+`
+export const ButtonPraktisch = () => (
+    <ButtonLink to="/praktisch">
+        <DNA />Praktische info
+    </ButtonLink>
+)
