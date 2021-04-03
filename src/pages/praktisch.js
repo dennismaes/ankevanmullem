@@ -13,8 +13,17 @@ const Praktisch = () => {
       </Section>
       <Sticky>
         <ButtonHome />
-        <ButtonLinkedin />
       </Sticky>
+      <Section bgGrey id="aboutme">
+        <h2>Waar?</h2>
+          <p>Mogelijkheid tot live coaching te Sint-Niklaas of coaching aan huis.
+          Bij coaching aan huis is het aangeraden om een rustige ruimte te voorzien waar wij ongestoord onze sessie kunnen houden, of een rustige wandelroute waarbij buiten onze sessie kunnen houden.
+          Voor coaching aan huis buiten Sint-Niklaas wordt het tarief gerekend plus een kilometervergoeding van € 0,35/km (herzien op april 2021).</p>
+          <p>Verder is er ook online coaching mogelijk. In tijden van Covid-19 heeft dit de voorkeur.</p>
+        <h2>Kostprijs?</h2>
+        <p>
+        </p>
+      </Section>
     </Layout>
     )
 }
