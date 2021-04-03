@@ -44,9 +44,9 @@ const Praktisch = () => {
         <p>Ben je overtuigd? Maak dan een afspraak via info@ankevanmullem.be</p>
         <p>
         Toch nog niet helemaal zeker en heb je graag nog wat vrijblijvende informatie? 
-        Stel mij al jouw vragen en/of bedenkingen via <a href="https://ankevanmullem.be/contact/#contact" target="_blank">contactformulier</a> of via info@ankevanmullem.be. 
+        Stel mij al jouw vragen en/of bedenkingen via het <a href="https://ankevanmullem.be/contact/#contact" target="_blank">contactformulier</a> of via info@ankevanmullem.be. 
         Op aanvraag kunnen wij ook een onlinegesprek inplannen om elkaar wat beter aan te voelen en te kijken hoe ik jou kan helpen. 
-        Dan kan ik jouw gerichter vertellen over de mogelijkheden en een voorstel doen over hoe we kunnen samenwerken. 
+        Dan kan ik je gerichter vertellen over de mogelijkheden en een voorstel doen over hoe we kunnen samenwerken. 
         </p>
       </Section>
     </Layout>
