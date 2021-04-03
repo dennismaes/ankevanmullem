@@ -13,7 +13,7 @@ const Praktisch = () => {
         <ButtonHome />
       </Sticky>
       <Section bgGrey id="aboutme">
-        <h2>Waar?</h2>
+        <h2>Waar en wanneer?</h2>
         <Wrapper cols={2}>
         <div>
             <h3>Live coaching</h3>
@@ -30,16 +30,24 @@ const Praktisch = () => {
             <p>Het is ook mogelijk een coaching online te volgen. In tijden van Covid-19 heeft dit de voorkeur om iedereen zijn gezondheid te waarborgen. 
                 Bij online coaching is het aangeraden om ook een rustige ruimte te voorzien waar jij ongestoord de sessie kan houden.</p>
         </div>
+        <div>
+            <h3>Wanneer?</h3>
+            <p>Er is mogelijkheid om coaching te ontvangen in de weekdagen zowel in de namiddag alsook in de avond. 
+              Verder is het ook mogelijk op afspraak in het weekend.</p>
+        </div>
         </Wrapper>
       </Section>
+
       <Section id="aboutme">
-          <h2>Wanneer?</h2>
-          <p>Er is mogelijkheid om coaching te ontvangen in de weekdagen zowel in namiddag alsook in de avond. 
-              Verder is het ook mogelijk op afspraak in het weekend.</p>
-      </Section>
-      <Section bgGrey id="aboutme">
         <h2>Kostprijs?</h2>
         <p>Tabel met prijzen</p>
+        <p>Ben je overtuigd? Maak dan een afspraak via info@ankevanmullem.be</p>
+        <p>
+        Toch nog niet helemaal zeker en heb je graag nog wat vrijblijvende informatie? 
+        Stel mij al jouw vragen en/of bedenkingen via <a href="https://ankevanmullem.be/contact/#contact" target="_blank">contactformulier</a> of via info@ankevanmullem.be. 
+        Op aanvraag kunnen wij ook een onlinegesprek inplannen om elkaar wat beter aan te voelen en te kijken hoe ik jou kan helpen. 
+        Dan kan ik jouw gerichter vertellen over de mogelijkheden en een voorstel doen over hoe we kunnen samenwerken. 
+        </p>
       </Section>
     </Layout>
     )
