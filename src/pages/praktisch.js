@@ -9,9 +9,6 @@ import { ButtonHome, ButtonLinkedin } from "../components/button"
 const Praktisch = () => {
     return (
     <Layout>
-      <Section id="intro">
-        <p>In het dagelijkse leven werk ik rond welzijn op het werk als veiligheidsconsultant, beter bekend als preventieadviseur. Maar op deze site vind je alles over mijn werk als zelfstandige in bijberoep: uw persoonlijke gezondheidscoach.</p>
-      </Section>
       <Sticky>
         <ButtonHome />
       </Sticky>
@@ -28,6 +25,7 @@ const Praktisch = () => {
               Verder is het ook mogelijk op afspraak in het weekend.</p>
       </Section>
       <Section bgGrey id="aboutme">
+        <h2>Kostprijs?</h2>
         <p>Tabel met prijzen</p>
       </Section>
     </Layout>
