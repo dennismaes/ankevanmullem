@@ -22,8 +22,8 @@ const Praktisch = () => {
         <div>
             <h3>Coaching aan huis</h3>
             <p>Bij coaching aan huis is het aangeraden om een rustige ruimte te voorzien waar wij ongestoord onze sessie kunnen houden, 
-                of een rustige wandelroute in de buurt waarbij we buiten een sessie kunnen uitvoeren.</p>
-                <i>Voor coaching aan huis buiten Sint-Niklaas wordt het tarief gerekend plus 5 euro en een kilometervergoeding van € 0,35/km (herzien op april 2021).</i>
+                of een rustige wandelroute in de buurt waarbij we buiten een sessie kunnen uitvoeren.
+                <i>Voor coaching aan huis buiten Sint-Niklaas wordt het tarief gerekend plus 5 euro en een kilometervergoeding van € 0,35/km (herzien op april 2021).</i></p>
         </div>
         <div>
             <h3>Online coaching</h3>
