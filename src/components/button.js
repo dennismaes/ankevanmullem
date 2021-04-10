@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 
 import { SiLinkedin, SiWhatsapp, SiGmail } from 'react-icons/si'
 import { BsFillCaretLeftFill, BsFillPersonLinesFill, BsChatDotsFill } from 'react-icons/bs'
-import { BiDna } from 'react-icons/bi'
+import { BiDna, BiDirections } from 'react-icons/bi'
 
 const mixin = css`
     display: inline-block;
@@ -112,11 +112,11 @@ export const ButtonDNA = () => (
     </ButtonLink>
 )
 
-const Praktisch = styled(BiDna)`
+const Praktisch = styled(BiDirections)`
   ${si}
 `
 export const ButtonPraktisch = () => (
     <ButtonLink to="/praktisch">
-        <DNA />Praktische info
+        <Praktisch />Praktische info
     </ButtonLink>
 )
