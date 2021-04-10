@@ -16,10 +16,6 @@ const Praktisch = () => {
         <h2>Waar en wanneer?</h2>
         <Wrapper cols={2}>
           <div>
-              <h3>Live coaching</h3>
-              <p>Mogelijk tot live coaching te Sint-Niklaas <i>Kettermuitstraat 23, 9100 Sint-Niklaas</i></p>
-          </div>
-          <div>
               <h3>Coaching aan huis</h3>
               <p>Bij coaching aan huis is het aangeraden om een rustige ruimte te voorzien waar wij ongestoord onze sessie kunnen houden, 
                   of een rustige wandelroute in de buurt waarbij we buiten een sessie kunnen uitvoeren.
@@ -29,6 +25,10 @@ const Praktisch = () => {
               <h3>Online coaching</h3>
               <p>Het is ook mogelijk een coaching online te volgen. In tijden van Covid-19 heeft dit de voorkeur om iedereen zijn gezondheid te waarborgen. 
                   Bij online coaching is het aangeraden om ook een rustige ruimte te voorzien waar jij ongestoord de sessie kan houden.</p>
+          </div>
+          <div>
+              <h3>Live coaching</h3>
+              <p>Mogelijk tot live coaching te Sint-Niklaas <i>Kettermuitstraat 23, 9100 Sint-Niklaas</i></p>
           </div>
           <div>
               <h3>Wanneer?</h3>
@@ -43,26 +43,37 @@ const Praktisch = () => {
         <Table>
           <thead>
             <tr>
-              <th>Titel1</th>
-              <th>Titel2</th>
-              <th>Titel3</th>
+              <th> </th>
+              <th>Tarieven</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>item1</td>
-              <td>item2</td>
-              <td>item3</td>
+              <td>Sessie van 60 minuten</td>
+              <td>45 euro</td>
             </tr>
             <tr>
-              <td>item1</td>
-              <td>item2</td>
-              <td>item3</td>
+              <td>Vervolgsessie van 30 minuten</td>
+              <td>25 euro</td>
             </tr>
             <tr>
-              <td>item1</td>
-              <td>item2</td>
-              <td>item3</td>
+              <td>DNA-analyse (via mijn kortingscode)</td>
+              <td>391 euro</td>
+            </tr>
+          <tr>
+              <td>DNA-analyse + 6 sessies (van 1u)</td>
+              <td>600 euro <i>(bespaar 61 euro) 
+                De gesprekken zijn vrij in te plannen over een periode van 6 maanden na ontvangst van de DNA-resultaten.</i></td>
+            </tr>
+          <tr>
+              <td>Traject 3 sessies (van 1u)</td>
+              <td>120 euro <i>(bespaar 15 euro) 
+                De gesprekken zijn vrij in te plannen over een periode van 6 maanden na ontvangst van de DNA-resultaten.</i></td>
+            </tr>
+          <tr>
+              <td>Traject 6 sessies (van 1u)</td>
+              <td>240 euro <i>(bespaar 30 euro) 
+                De gesprekken zijn vrij in te plannen over een periode van 6 maanden na ontvangst van de DNA-resultaten.</i></td>
             </tr>
           </tbody>
         </Table>
