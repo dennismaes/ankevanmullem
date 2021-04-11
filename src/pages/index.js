@@ -44,15 +44,7 @@ const Index = ({ data }) => {
         </Wrapper>
       </Section>
 
-      <Section id="portfolio">
-        <h2>Portfolio</h2>
-        <Wrapper cols={2}>
-          <Card to="/page" title="Titel" subtitle="ondertitle" imgdata={data.image1} />
-          <Card to="/page" title="Titel" subtitle="ondertitle" imgdata={data.image2} />
-          <Card to="/page" title="Titel" subtitle="ondertitle" imgdata={data.image3} />
-          <Card to="/page" title="Titel" subtitle="ondertitle" imgdata={data.image4} />
-        </Wrapper>
-      </Section>
+
     </Layout>
   )
 }
