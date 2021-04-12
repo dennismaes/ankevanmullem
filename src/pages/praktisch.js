@@ -61,19 +61,22 @@ const Praktisch = () => {
               <td>391 euro</td>
             </tr>
           <tr>
-              <td>DNA-analyse + 6 sessies (van 1u) <i>De gesprekken zijn vrij in te plannen over een periode van 6 maanden na ontvangst van de DNA-resultaten.</i></td>
+              <td>DNA-analyse + 6 sessies van 1u (1, zie opmerking)</td>
               <td>600 euro <i>(bespaar 61 euro)</i></td>
             </tr>
           <tr>
-              <td>Traject 3 sessies (van 1u)<i>De gesprekken zijn vrij in te plannen over een periode van 6 maanden na ontvangst van de DNA-resultaten.</i></td>
+              <td>Traject 3 sessies van 1u (2, zie opmerking)</td>
               <td>120 euro <i>(bespaar 15 euro) </i></td>
             </tr>
           <tr>
-              <td>Traject 6 sessies (van 1u) <i>De gesprekken zijn vrij in te plannen over een periode van 6 maanden na ontvangst van de DNA-resultaten.</i></td>
+              <td>Traject 6 sessies van 1u (2, zie opmerking)</td>
               <td>240 euro <i>(bespaar 30 euro)</i></td>
             </tr>
           </tbody>
         </Table>
+        <p>Opmerkingen: (1) De gesprekken zijn vrij in te plannen over een periode van 6 maanden na ontvangst van de DNA-resultaten.
+          (2) De gesprekken zijn vrij in te plannen over een periode van 6 maanden vanaf de eerste coachingsessie.
+        </p>
         <p>Ben je overtuigd? Maak dan een afspraak via <a href="mailto:info@ankevanmullem.be" target="_blank">info@ankevanmullem.be</a></p>
         <p>
         Toch nog niet helemaal zeker en heb je graag nog wat vrijblijvende informatie? 
