@@ -61,15 +61,15 @@ const Praktisch = () => {
               <td>391 euro</td>
             </tr>
           <tr>
-              <td>DNA-analyse + 6 sessies van 1u (1, zie opmerking)</td>
+              <td>DNA-analyse + 6 sessies van 1u (zie opmerking 1)</td>
               <td>600 euro <i>(bespaar 61 euro)</i></td>
             </tr>
           <tr>
-              <td>Traject 3 sessies van 1u (2, zie opmerking)</td>
+              <td>Traject 3 sessies van 1u (zie opmerking 2)</td>
               <td>120 euro <i>(bespaar 15 euro) </i></td>
             </tr>
           <tr>
-              <td>Traject 6 sessies van 1u (2, zie opmerking)</td>
+              <td>Traject 6 sessies van 1u (zie opmerking 2)</td>
               <td>240 euro <i>(bespaar 30 euro)</i></td>
             </tr>
           </tbody>
