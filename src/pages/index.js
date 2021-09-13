@@ -58,7 +58,7 @@ const Index = ({ data }) => {
           </div>
           <div>
             <h3>De-armouring</h3>
-            <p>Dit is een manier om blokkades, vastzittende energie, emoties en spanning uit het lichaam te halen – ook wel armour  genoemd (in het Nederlands “pantser”). Het is een spanning en/of pijn die het lichaam vasthoudt wanneer iets is ervaren dat het zenuwstelsel activeerde op een manier die niet werd verwerkt. 
+            <p>Dit is een manier om blokkades, vastzittende energie, emoties en spanning uit het lichaam te halen – ook wel armour  genoemd (in het Nederlands “pantser”). Het is een spanning en/of pijn die het lichaam vasthoudt wanneer iets is ervaren dat het zenuwstelsel activeerde op een manier dat niet werd verwerkt. 
               Eén van de methodes die ik toepas is “soft-touch” de-armouring (vertaald “ontwapening”). De bedoeling is liefdevolle aandacht te brengen naar gebieden van spanning, gevoelloosheid en verbroken verbinding met onszelf en/of ons lichaam. 
               Belangrijk is dat we het pantser van het lichaam niet met geweld gaan doorbreken, eerder nodig we het lichaam uit zich te openen. Dit kan ook seksuele de-armouring inhouden; dit is zeer effectief voor mensen met seksueel trauma, stoornissen of gebrek aan gevoeligheid. </p>
           </div>
