@@ -49,7 +49,7 @@ const Praktisch = () => {
           </thead>
           <tbody>
             <tr>
-              <td>Gezondheidscoaching sessie van 60 minuten</td>
+              <td>Coaching sessie van 60 minuten</td>
               <td>45 euro</td>
             </tr>
             <tr>
@@ -66,7 +66,7 @@ const Praktisch = () => {
             </tr>
             <tr>
               <td>DNA-analyse (via mijn kortingscode)</td>
-              <td>Krijg 2% extra korting, eventueel bovenop een korting van Emma.health</td>
+              <td>Krijg 2% extra korting, bestel <a href="https://ankevanmullem.be/emma-health/" target="_blank">hier</a></td>
             </tr>
           <tr>
               <td>DNA-analyse + 6 sessies van 1u (zie opmerking 1)</td>
@@ -78,8 +78,8 @@ const Praktisch = () => {
           </tr>
           </tbody>
         </Table>
-        <p>Opmerkingen: (1) De gesprekken zijn vrij in te plannen over een periode van 12 maanden na ontvangst van de DNA-resultaten.
-          (2) De gesprekken zijn vrij in te plannen over een periode van 12 maanden vanaf de eerste coachingsessie.
+        <p>Opmerkingen: (1) De gesprekken zijn vrij in te plannen over een periode van 12 maanden vanaf de eerste coachingsessie.
+          (2) De gesprekken zijn vrij in te plannen over een periode van 12 maanden na ontvangst van de DNA-resultaten. Voor een korting te kunnen garanderen op de combinatie van de DNA-analyse en coachingsessies, gelieve mij eerst te contacteren via onderstaande informatie. 
         </p>
 
         <p>Ben je overtuigd? Maak dan een afspraak via <a href="mailto:info@ankevanmullem.be" target="_blank">info@ankevanmullem.be</a></p>
