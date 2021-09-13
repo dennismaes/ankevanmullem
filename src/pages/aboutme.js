@@ -64,9 +64,10 @@ const Aboutme = () => {
           <dt><h3>Algmene zelfontwikkeling via Compass to Connection</h3><b>Zomer 2021</b></dt>
           <dd>Niet alleen de zomer van 2021 stond in het teken van zelfontwikkeling, het gehele jaar staat hier in teken van. Sinds februari ben ik gestart met een individueel traject bij Compass to Connection. 
             Als coach en lichaamswerker is het voor mij belangrijk om zelf in beweging te blijven en te blijven groeien door bijvoorbeeld met eigen trauma en pijnstukken te werken. Ik ben van het geloof dat enkel wanneer ik hierzelf doorga, ik andere mensen kan helpen in hun proces.  
-            Ook heb ik deelgenomen aan een <i>Cocao Temple Ceremony</i>. Dit stond gelijk aan een tantrisch tempelritueel dat ons opent voor de speelse aard van liefde en eros. Speciefiek stond het in het teken van het openen van de zintuigen en genieten van onze sensuele natuur erin, een viering van onze sensuele geneugten. 
-            Verder ben ik ook deel geweest van een <i>Naakte Vrouwenencirkel</i>. Het doel hiervan was een kleine groep vrouwen van diverse leeftijden en achtergronden bij elkaar te brengen om tot een diepgaande uitwisseling te komen omtrent ons vrouwenleven en zo een gezamelijk groeiproces mee te maken. Kernwoorden hiervan zijn: zelf liefde en acceptatie, zelfzekerheid en empowerment (her)ondekken, heling brengen onze persoonlijke en collectieve pijn over de relatie die we hebben met ons lichaam,...
-            Dit alles draagt bij tot mijn professionele talent. 
+            <dd>Ook heb ik deelgenomen aan een <i>Cocao Temple Ceremony</i>. Dit stond gelijk aan een tantrisch tempelritueel dat ons opent voor de speelse aard van liefde en eros. Speciefiek stond het in het teken van het openen van de zintuigen en genieten van onze sensuele natuur erin, een viering van onze sensuele geneugten. </dd>
+            <dd>Verder ben ik ook deel geweest van een <i>Naakte Vrouwenencirkel</i>. Het doel hiervan was een kleine groep vrouwen van diverse leeftijden en achtergronden bij elkaar te brengen om tot een diepgaande uitwisseling te komen omtrent ons vrouwenleven en zo een gezamelijk groeiproces mee te maken. 
+            Kernwoorden hiervoor waren: zelf liefde en acceptatie, zelfzekerheid en empowerment (her)ondekken, heling brengen onze persoonlijke en collectieve pijn over de relatie die we hebben met ons lichaam,...</dd>
+            <dd>Dit alles draagt bij tot mijn professionele talent.</dd>
           </dd>
           </TimlineEntry>
           <TimlineEntry>
