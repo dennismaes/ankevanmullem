@@ -37,8 +37,8 @@ const Aboutme = () => {
           </TimlineEntry>
           <TimlineEntry>
             <dt><h3>Project <i>Say NO</i> in Spanje</h3><b>Mei 2017</b></dt>
-            <dd>Een internationale training rond gender gerelateerd geweld in samenwerking met 14 landen. Het leerdoel was om de kennis over gender gerelateerd geweld te vergroten, de competenties in het werken met jongeren te verbeteren, het bewustzijn van niet-formeel onderwijs in gender gerelateerd geweld bevorderen, en het uitwisselen van goede praktijken tussen jeugdwerkers.
-                  </dd>
+            <dd>Een internationale training rond gender gerelateerd geweld in samenwerking met 14 landen. Het leerdoel was om de kennis over gender gerelateerd geweld te vergroten, de competenties in het werken met jongeren te verbeteren, 
+              het bewustzijn van niet-formeel onderwijs in gender gerelateerd geweld bevorderen, en het uitwisselen van goede praktijken tussen jeugdwerkers.</dd>
           </TimlineEntry>
           <TimlineEntry>
             <dt><h3>Bachelor Toegepaste Gezondheidswetenschappen</h3><b>Juni 2017</b></dt>
@@ -47,7 +47,8 @@ const Aboutme = () => {
           </TimlineEntry>
           <TimlineEntry>
             <dt><h3>Sexual Healing & De-armouring retreat via The Gaia Method</h3><b>Oktober 2020</b></dt>
-            <dd>Zowel les als praktische training in lichaamswerk. <a href="https://www.the-gaia-method.com/sexual-healing-dearmouring" target="_blank">Meer info.</a></dd>
+            <dd>Dit retraite heeft mij uitgerust met theorie, kennis en hands-on oefeningen om onderdrukte emotionele en energetische trauma's, spanningen, blokkades en pijn uit het vrouwelijke en mannelijke lichaam los te laten. Dit op een gezonde, liefdevolle en veilige manier. 
+              <a href="https://www.the-gaia-method.com/sexual-healing-dearmouring" target="_blank">Meer info.</a></dd>
           </TimlineEntry>
           <TimlineEntry>
             <dt><h3>Master of Arts in Cognition and Communication</h3><b>Oktober 2020</b></dt>
@@ -58,6 +59,20 @@ const Aboutme = () => {
             <dt><h3>Partner met Emma.health</h3><b>Maart 2021</b></dt>
             <dd>Via de Emma.health academy heb ik een uitgebreid opleidingsprogramma gekregen rond hun DNA-resultaten en hoe ik deze gericht kan inzetten in mijn coachingsessies.
               Dankzij dit partnerschap kan ik ook een korting aanbieden op hun analyses. Een aanrader indien je graag de sterktes en mogelijke noden van jouw lichaam en groei wil ontdekken. <a href="https://ankevanmullem.be/emma-health/" target="_blank">Meer info</a>.</dd>
+          </TimlineEntry>
+          <TimlineEntry>
+          <dt><h3>Algmene zelfontwikkeling via Compass to Connection</h3><b>Zomer 2021</b></dt>
+          <dd>Niet alleen de zomer van 2021 stond in het teken van zelfontwikkeling, het gehele jaar staat hier in teken van. Sinds februari ben ik gestart met een individueel traject bij Compass to Connection. 
+            Als coach en lichaamswerker is het voor mij belangrijk om zelf in beweging te blijven en te blijven groeien door bijvoorbeeld met eigen trauma en pijnstukken te werken. Ik ben van het geloof dat enkel wanneer ik hierzelf doorga, ik andere mensen kan helpen in hun proces.  
+            Ook heb ik deelgenomen aan een <i>Cocao Temple Ceremony</i>. Dit stond gelijk aan een tantrisch tempelritueel dat ons opent voor de speelse aard van liefde en eros. Speciefiek stond het in het teken van het openen van de zintuigen en genieten van onze sensuele natuur erin, een viering van onze sensuele geneugten. 
+            Verder ben ik ook deel geweest van een <i>Naakte Vrouwenencirkel</i>. Het doel hiervan was een kleine groep vrouwen van diverse leeftijden en achtergronden bij elkaar te brengen om tot een diepgaande uitwisseling te komen omtrent ons vrouwenleven en zo een gezamelijk groeiproces mee te maken. Kernwoorden hiervan zijn: zelf liefde en acceptatie, zelfzekerheid en empowerment (her)ondekken, heling brengen onze persoonlijke en collectieve pijn over de relatie die we hebben met ons lichaam,...
+            Dit alles draagt bij tot mijn professionele talent. 
+          </dd>
+          </TimlineEntry>
+          <TimlineEntry>
+          <dt><h3>Zen-Sual retreat via Compass to Connection en House of Healing</h3><b>Augustus 2021</b></dt>
+          <dd>Zen, expressie, sensualiteit, integriteit, stilte, beweging, nabijheid, grenzen stellen en verlangen uiten stond centraal op  dit retraite. Mijn intentie die week was om lichamelijke en/of emotionele bagage los te laten om zo dieper te connecteren met mezelf, het universum en met anderen.
+          Verschillende oefeningen en coaching kwamen aanbod zoals het Wheel of Consent, emotioneel lichaamswerk, actieve meditatie en verschillende andere therapeutische werkvormen.          </dd>
           </TimlineEntry>
         </Timeline>
       </Section>

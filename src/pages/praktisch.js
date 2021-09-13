@@ -39,7 +39,7 @@ const Praktisch = () => {
       </Section>
 
       <Section id="aboutme">
-        <h2>Kostprijs?</h2>
+        <h2>Kostprijs gezondheidscoaching?</h2>
         <Table>
           <thead>
             <tr>
@@ -49,7 +49,7 @@ const Praktisch = () => {
           </thead>
           <tbody>
             <tr>
-              <td>Sessie van 60 minuten</td>
+              <td>Gezondheidscoaching sessie van 60 minuten</td>
               <td>45 euro</td>
             </tr>
             <tr>
@@ -57,26 +57,31 @@ const Praktisch = () => {
               <td>25 euro</td>
             </tr>
             <tr>
+              <td>Traject 3 sessies van 1u (zie opmerking 1)</td>
+              <td>120 euro <i>(bespaar 15 euro) </i></td>
+            </tr>
+          <tr>
+              <td>Traject 6 sessies van 1u (zie opmerking 1)</td>
+              <td>240 euro <i>(bespaar 30 euro)</i></td>
+            </tr>
+            <tr>
               <td>DNA-analyse (via mijn kortingscode)</td>
-              <td>391 euro</td>
+              <td>Krijg 2% extra korting, eventueel bovenop een korting van Emma.health</td>
             </tr>
           <tr>
               <td>DNA-analyse + 6 sessies van 1u (zie opmerking 1)</td>
               <td>600 euro <i>(bespaar 61 euro)</i></td>
             </tr>
           <tr>
-              <td>Traject 3 sessies van 1u (zie opmerking 2)</td>
-              <td>120 euro <i>(bespaar 15 euro) </i></td>
-            </tr>
-          <tr>
-              <td>Traject 6 sessies van 1u (zie opmerking 2)</td>
-              <td>240 euro <i>(bespaar 30 euro)</i></td>
-            </tr>
+            <td>Lichaamswerk</td>
+            <td>Contacteer mij voor prijzen</td>
+          </tr>
           </tbody>
         </Table>
-        <p>Opmerkingen: (1) De gesprekken zijn vrij in te plannen over een periode van 6 maanden na ontvangst van de DNA-resultaten.
-          (2) De gesprekken zijn vrij in te plannen over een periode van 6 maanden vanaf de eerste coachingsessie.
+        <p>Opmerkingen: (1) De gesprekken zijn vrij in te plannen over een periode van 12 maanden na ontvangst van de DNA-resultaten.
+          (2) De gesprekken zijn vrij in te plannen over een periode van 12 maanden vanaf de eerste coachingsessie.
         </p>
+
         <p>Ben je overtuigd? Maak dan een afspraak via <a href="mailto:info@ankevanmullem.be" target="_blank">info@ankevanmullem.be</a></p>
         <p>
         Toch nog niet helemaal zeker en heb je graag nog wat vrijblijvende informatie? 
