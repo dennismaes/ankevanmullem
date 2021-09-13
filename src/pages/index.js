@@ -43,7 +43,7 @@ const Index = ({ data }) => {
           </div>
         </Wrapper>
       </Section>
-      <Section bgGrey id="gezondheidscoach">
+      <Section id="top">
         <h2>Lichaamswerk</h2>
         <Wrapper cols={2}>
           <div>
