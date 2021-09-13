@@ -32,7 +32,7 @@ const Aboutme = () => {
                   </dd>
           </TimlineEntry>
           <TimlineEntry>
-            <dt><h3>Opleiding tot Healthie (gezondheidspromotor)</h3><b>Oktober 2016</b></dt>
+            <dt><h3>Opleiding tot <i>Healthie</i> (gezondheidspromotor)</h3><b>Oktober 2016</b></dt>
             <dd>Healthies trekken naar scholen in hun eigen regio om er vormingen rond seksualiteit te geven. Afhankelijk van de regio is er de mogelijkheid om nog andere vormingspakketten te geven.</dd>
           </TimlineEntry>
           <TimlineEntry>
@@ -46,7 +46,7 @@ const Aboutme = () => {
               Daarnaast richt deze opleiding zich op gezondheidsbevordering en preventie. Een gezondheidscoach begeleidt individuele mensen of groepen naar een gezondere levensstijl. Of ontwikkelt, implementeert en evalueert programma's voor gezondheidsbevordering binnen organisaties of bedrijven. <a href="https://www.howest.be/nl/opleidingen/bachelor/toegepaste-gezondheidswetenschappen?gclid=CjwKCAiAsaOBBhA4EiwAo0_AnM_Suv5L7wuqVxli8puEYOeh4jNJQp0vipjwToL_Ux_OE_KK222-QRoCZbEQAvD_BwE" target="_blank">Meer info</a>.</dd>
           </TimlineEntry>
           <TimlineEntry>
-            <dt><h3>Sexual Healing & De-armouring retreat via The Gaia Method</h3><b>Oktober 2020</b></dt>
+            <dt><h3><i>Sexual Healing & De-armouring retreat</i> via The Gaia Method</h3><b>Oktober 2020</b></dt>
             <dd>Dit retraite heeft mij uitgerust met theorie, kennis en hands-on oefeningen om onderdrukte emotionele en energetische trauma's, spanningen, blokkades en pijn uit het vrouwelijke en mannelijke lichaam los te laten. Dit op een gezonde, liefdevolle en veilige manier. 
               <a href="https://www.the-gaia-method.com/sexual-healing-dearmouring" target="_blank"> Meer info.</a></dd>
           </TimlineEntry>
