@@ -91,7 +91,7 @@ const ProfileSection = ({ children }) => {
       />
       <Content>
         <h1>Hey, mijn naam is<br/>Anke Van Mullem!</h1>
-        <p>Gezondheidscoach &#8211; Lichaamswerker</p>
+        <p>Gezondheidscoach &#8211; Bodyworker</p>
       </Content>
     </ProfileContainer>
   )

@@ -48,7 +48,7 @@ const Aboutme = () => {
           <TimlineEntry>
             <dt><h3>Sexual Healing & De-armouring retreat via The Gaia Method</h3><b>Oktober 2020</b></dt>
             <dd>Dit retraite heeft mij uitgerust met theorie, kennis en hands-on oefeningen om onderdrukte emotionele en energetische trauma's, spanningen, blokkades en pijn uit het vrouwelijke en mannelijke lichaam los te laten. Dit op een gezonde, liefdevolle en veilige manier. 
-              <a href="https://www.the-gaia-method.com/sexual-healing-dearmouring" target="_blank">Meer info.</a></dd>
+              <a href="https://www.the-gaia-method.com/sexual-healing-dearmouring" target="_blank"> Meer info.</a></dd>
           </TimlineEntry>
           <TimlineEntry>
             <dt><h3>Master of Arts in Cognition and Communication</h3><b>Oktober 2020</b></dt>
@@ -62,13 +62,13 @@ const Aboutme = () => {
           </TimlineEntry>
           <TimlineEntry>
           <dt><h3>Algmene zelfontwikkeling via Compass to Connection</h3><b>Zomer 2021</b></dt>
-          <dd>Niet alleen de zomer van 2021 stond in het teken van zelfontwikkeling, het gehele jaar staat hier in teken van. Sinds februari ben ik gestart met een individueel traject bij Compass to Connection. 
-            Als coach en lichaamswerker is het voor mij belangrijk om zelf in beweging te blijven en te blijven groeien door bijvoorbeeld met eigen trauma en pijnstukken te werken. Ik ben van het geloof dat enkel wanneer ik hierzelf doorga, ik andere mensen kan helpen in hun proces.  
-            <dd>Ook heb ik deelgenomen aan een <i>Cocao Temple Ceremony</i>. Dit stond gelijk aan een tantrisch tempelritueel dat ons opent voor de speelse aard van liefde en eros. Speciefiek stond het in het teken van het openen van de zintuigen en genieten van onze sensuele natuur erin, een viering van onze sensuele geneugten. </dd>
-            <dd>Verder ben ik ook deel geweest van een <i>Naakte Vrouwenencirkel</i>. Het doel hiervan was een kleine groep vrouwen van diverse leeftijden en achtergronden bij elkaar te brengen om tot een diepgaande uitwisseling te komen omtrent ons vrouwenleven en zo een gezamelijk groeiproces mee te maken. 
-            Kernwoorden hiervoor waren: zelf liefde en acceptatie, zelfzekerheid en empowerment (her)ondekken, heling brengen onze persoonlijke en collectieve pijn over de relatie die we hebben met ons lichaam,...</dd>
-            <dd>Dit alles draagt bij tot mijn professionele talent.</dd>
-          </dd>
+          <p1>Niet alleen de zomer van 2021 stond in het teken van zelfontwikkeling, het gehele jaar staat hier in teken van. Sinds februari ben ik gestart met een individueel traject bij Compass to Connection. 
+            Als coach en bodyworker is het voor mij belangrijk om zelf in beweging te blijven en te blijven groeien door bijvoorbeeld met eigen trauma en pijnstukken te werken. Ik ben van het geloof dat enkel wanneer ik hierzelf doorga, ik andere mensen kan helpen in hun proces.  
+            <p1>Ook heb ik deelgenomen aan een <i>Cocao Temple Ceremony</i>. Dit stond gelijk aan een tantrisch tempelritueel dat ons opent voor de speelse aard van liefde en eros. Speciefiek stond het in het teken van het openen van de zintuigen en genieten van onze sensuele natuur erin, een viering van onze sensuele geneugten. </p1>
+            <p1>Verder ben ik ook deel geweest van een <i>Naakte Vrouwenencirkel</i>. Het doel hiervan was een gemengde groep van vrouwen bij elkaar te brengen om tot een diepgaande uitwisseling te komen omtrent ons vrouwenleven en zo een gezamelijk groeiproces mee te maken. 
+            Kernwoorden hiervoor waren: zelf liefde en acceptatie, zelfzekerheid en empowerment (her)ondekken, heling brengen aan onze persoonlijke en collectieve pijn rond de relatie die we hebben met ons lichaam,...</p1>
+            <p1>Dit alles draagt bij tot mijn professionele ervaring.</p1>
+          </p1>
           </TimlineEntry>
           <TimlineEntry>
           <dt><h3>Zen-Sual retreat via Compass to Connection en House of Healing</h3><b>Augustus 2021</b></dt>
