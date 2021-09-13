@@ -62,16 +62,16 @@ const Aboutme = () => {
           </TimlineEntry>
           <TimlineEntry>
           <dt><h3>Algmene zelfontwikkeling via Compass to Connection</h3><b>Zomer 2021</b></dt>
-          <p1>Niet alleen de zomer van 2021 stond in het teken van zelfontwikkeling, het gehele jaar staat hier in teken van. Sinds februari ben ik gestart met een individueel traject bij Compass to Connection. 
+          <dd>Niet alleen de zomer van 2021 stond in het teken van zelfontwikkeling, het gehele jaar staat hier in teken van. Sinds februari ben ik gestart met een individueel traject bij Compass to Connection. 
             Als coach en bodyworker is het voor mij belangrijk om zelf in beweging te blijven en te blijven groeien door bijvoorbeeld met eigen trauma en pijnstukken te werken. Ik ben van het geloof dat enkel wanneer ik hierzelf doorga, ik andere mensen kan helpen in hun proces.  
-            <p1>Ook heb ik deelgenomen aan een <i>Cocao Temple Ceremony</i>. Dit stond gelijk aan een tantrisch tempelritueel dat ons opent voor de speelse aard van liefde en eros. Speciefiek stond het in het teken van het openen van de zintuigen en genieten van onze sensuele natuur erin, een viering van onze sensuele geneugten. </p1>
-            <p1>Verder ben ik ook deel geweest van een <i>Naakte Vrouwenencirkel</i>. Het doel hiervan was een gemengde groep van vrouwen bij elkaar te brengen om tot een diepgaande uitwisseling te komen omtrent ons vrouwenleven en zo een gezamelijk groeiproces mee te maken. 
-            Kernwoorden hiervoor waren: zelf liefde en acceptatie, zelfzekerheid en empowerment (her)ondekken, heling brengen aan onze persoonlijke en collectieve pijn rond de relatie die we hebben met ons lichaam,...</p1>
-            <p1>Dit alles draagt bij tot mijn professionele ervaring.</p1>
-          </p1>
+            <dd>Ook heb ik deelgenomen aan een <i>Cocao Temple Ceremony</i>. Dit stond gelijk aan een tantrisch tempelritueel dat ons opent voor de speelse aard van liefde en eros. Speciefiek stond het in het teken van het openen van de zintuigen en genieten van onze sensuele natuur erin, een viering van onze sensuele geneugten. </dd>
+            <dd>Verder ben ik ook deel geweest van een <i>Naakte Vrouwenencirkel</i>. Het doel hiervan was een gemengde groep van vrouwen bij elkaar te brengen om tot een diepgaande uitwisseling te komen omtrent ons vrouwenleven en zo een gezamelijk groeiproces mee te maken. 
+            Kernwoorden hiervoor waren: zelf liefde en acceptatie, zelfzekerheid en empowerment (her)ondekken, heling brengen aan onze persoonlijke en collectieve pijn rond de relatie die we hebben met ons lichaam,...</dd>
+            <dd>Dit alles draagt bij tot mijn professionele ervaring.</dd>
+          </dd>
           </TimlineEntry>
           <TimlineEntry>
-          <dt><h3>Zen-Sual retreat via Compass to Connection en House of Healing</h3><b>Augustus 2021</b></dt>
+          <dt><h3><i>Zen-Sual retreat</i> via Compass to Connection en House of Healing</h3><b>Augustus 2021</b></dt>
           <dd>Zen, expressie, sensualiteit, integriteit, stilte, beweging, nabijheid, grenzen stellen en verlangen uiten stond centraal op  dit retraite. Mijn intentie die week was om lichamelijke en/of emotionele bagage los te laten om zo dieper te connecteren met mezelf, het universum en met anderen.
           Verschillende oefeningen en coaching kwamen aanbod zoals het Wheel of Consent, emotioneel lichaamswerk, actieve meditatie en verschillende andere therapeutische werkvormen.          </dd>
           </TimlineEntry>

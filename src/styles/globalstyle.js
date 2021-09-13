@@ -26,11 +26,6 @@ export const GlobalStyle = createGlobalStyle`
     text-align: justify;
   }
 
-  p1 {
-    margin: 0 0 10px;
-    text-align: justify;
-  }
-
   h1 {
     font-weight: 700;
   }
