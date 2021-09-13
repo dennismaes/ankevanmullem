@@ -71,7 +71,7 @@ const Mail = styled(SiGmail)`
 `
 export const ButtonMail = () => (
     <Button href="mailto:info@ankevanmullem.be?body=Dag%20Anke%0D%0A%0D%0A" target="_blank">
-        <Mail />Stuur me een mail
+        <Mail />Stuur mij een mail
     </Button>
 )
 
