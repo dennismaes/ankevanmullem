@@ -46,7 +46,7 @@ const Aboutme = () => {
               Daarnaast richt deze opleiding zich op gezondheidsbevordering en preventie. Een gezondheidscoach begeleidt individuele mensen of groepen naar een gezondere levensstijl. Of ontwikkelt, implementeert en evalueert programma's voor gezondheidsbevordering binnen organisaties of bedrijven. <a href="https://www.howest.be/nl/opleidingen/bachelor/toegepaste-gezondheidswetenschappen?gclid=CjwKCAiAsaOBBhA4EiwAo0_AnM_Suv5L7wuqVxli8puEYOeh4jNJQp0vipjwToL_Ux_OE_KK222-QRoCZbEQAvD_BwE" target="_blank">Meer info</a>.</dd>
           </TimlineEntry>
           <TimlineEntry>
-            <dt><h3>Erkenning</h3> bij VVGC<b>Juli 2019</b></dt>
+            <dt><h3>Erkenning bij VVGC</h3><b>Juli 2019</b></dt>
             <dd>Binnen de Vlaamse Verening GezondheidsCoaches (VVGC) ben ik erkent als professionele gezondheidscoach onder het erkenningsnummer 19-01-02-004. 
               Om binnen VVGC erkent te worden moet je aan verschillende voorwaarden voldoen: een holistische kijk hebben op de mens en zijn gezondheid, preventie hoog in het vaandel dragen, en coaching aanbieden binnen de 4 pijlers; Voeding, Beweging, Slaap en ontspanning, en als laatste Sociale relaties. </dd>
           </TimlineEntry>
