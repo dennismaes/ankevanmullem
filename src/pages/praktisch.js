@@ -78,8 +78,8 @@ const Praktisch = () => {
           </tr>
           </tbody>
         </Table>
-        <p>Opmerkingen: (1) De gesprekken zijn vrij in te plannen over een periode van 12 maanden vanaf de eerste coachingsessie.
-          (2) De gesprekken zijn vrij in te plannen over een periode van 12 maanden na ontvangst van de DNA-resultaten. Voor een korting te kunnen garanderen op de combinatie van de DNA-analyse en coachingsessies, gelieve mij eerst te contacteren via onderstaande informatie. 
+        <p>Opmerkingen: (1) De gesprekken zijn vrij in te plannen over een periode van 6 maanden vanaf de eerste coachingsessie.
+          (2) De gesprekken zijn vrij in te plannen over een periode van 6 maanden na ontvangst van de DNA-resultaten. Voor een korting te kunnen garanderen op de combinatie van de DNA-analyse en coachingsessies, gelieve mij eerst te contacteren via onderstaande informatie. 
         </p>
 
         <p>Ben je overtuigd? Maak dan een afspraak via <a href="mailto:info@ankevanmullem.be" target="_blank">info@ankevanmullem.be</a></p>
