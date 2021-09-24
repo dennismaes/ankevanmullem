@@ -43,7 +43,7 @@ const Index = ({ data }) => {
           </div>
         </Wrapper>
       </Section>
-      <Section id="top">
+      <Section id="lichaamswerk">
         <h2>Lichaamswerk</h2>
         <Wrapper cols={2}>
           <div>
@@ -63,7 +63,7 @@ const Index = ({ data }) => {
               Belangrijk is dat we het pantser van het lichaam niet met geweld gaan doorbreken, eerder nodigen we het lichaam uit zich te openen. Dit kan ook seksuele de-armouring inhouden; dit is zeer effectief voor mensen met seksueel trauma, stoornissen of gebrek aan gevoeligheid. </p>
           </div>
         </Wrapper>
-        </Section>
+      </Section>
 
 
     </Layout>

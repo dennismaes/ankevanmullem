@@ -7,7 +7,7 @@ import { Table } from "../components/table"
 
 const Praktisch = () => {
     return (
-    <Layout>
+    <Layout leftHiddenMobile>
       <Sticky>
         <ButtonHome />
         <ButtonContact />

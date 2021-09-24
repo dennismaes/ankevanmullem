@@ -8,6 +8,7 @@ import { theme } from '../styles/theme'
 
 import ProfileSection from './profilesection'
 import Footer from '../components/footer'
+import { BsPersonPlusFill } from "react-icons/bs";
 
 
 const Column = styled.div`
@@ -32,6 +33,7 @@ const ColumnLeft = styled(Column)`
     @media (max-width : ${props => props.theme.size.s}) {
         width    : 100%;
         position : relative;
+        display  : ${props => props.leftHiddenMobile ? 'none': 'block'};
     }
 `
 
@@ -54,7 +56,7 @@ const Main = styled.main`
     flex: 1;
 `
 
-export default function Layout({ children }) {
+export default function Layout({ children, leftHiddenMobile }) {
     const data = useStaticQuery(
         graphql`
           query {
@@ -74,7 +76,7 @@ export default function Layout({ children }) {
                     htmlAttributes={{ lang : 'nl' }}
                 />
                 <GlobalStyle />
-                <ColumnLeft>
+                <ColumnLeft leftHiddenMobile={leftHiddenMobile}>
                     <ProfileSection />
                 </ColumnLeft>
                 <ColumnRight>

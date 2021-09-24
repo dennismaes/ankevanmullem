@@ -79,7 +79,7 @@ const Aboutme = styled(BsFillPersonLinesFill)`
   ${si}
 `
 export const ButtonAboutme = () => (
-    <ButtonLink to="/aboutme#intro" target="_blank">
+    <ButtonLink to="/aboutme">
         <Aboutme />Wat meer over mij
     </ButtonLink>
 )
@@ -89,7 +89,7 @@ const Back = styled(BsFillCaretLeftFill)`
   ${si}
 `
 export const ButtonHome = () => (
-    <ButtonLink to="/#top"><
+    <ButtonLink to="/"><
         Back />Home
     </ButtonLink>
 )
@@ -98,7 +98,7 @@ const Contact = styled(BsChatDotsFill)`
   ${si}
 `
 export const ButtonContact = () => (
-    <ButtonLink to="/contact#contact">
+    <ButtonLink to="/contact">
         <Contact />Neem contact op
     </ButtonLink>
 )

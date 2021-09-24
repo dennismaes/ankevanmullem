@@ -8,7 +8,7 @@ import LoadableShopifyEmma from "../components/emma-loadable"
 
 const EmmaHealth = () => {
     return (
-        <Layout>
+        <Layout leftHiddenMobile>
             <Sticky>
                 <ButtonHome />
                 <ButtonContact />

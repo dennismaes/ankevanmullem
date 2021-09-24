@@ -7,7 +7,7 @@ import ContactForm from "../components/contact"
 
 const Contact = () => {
   return (
-    <Layout>
+    <Layout leftHiddenMobile>
       <Section id="contact">
         <h2>Contact</h2>
         <p>Wil je meer weten? Laat hier je bericht achter, en ik beantwoord uw vraag zo snel mogelijk.</p>
