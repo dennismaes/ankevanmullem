@@ -69,9 +69,9 @@ const Aboutme = () => {
           <dt><h3>Algmene zelfontwikkeling via Compass to Connection</h3><b>Zomer 2021</b></dt>
           <dd><p>Niet alleen de zomer van 2021 stond in het teken van zelfontwikkeling, het gehele jaar staat hier in teken van. Sinds februari ben ik gestart met een individueel traject bij Compass to Connection.
           Als coach en bodyworker is het voor mij belangrijk om zelf in beweging te blijven en te blijven groeien door bijvoorbeeld met eigen trauma en pijnstukken te werken. Ik ben van het geloof dat enkel wanneer ik hierzelf doorga, ik andere mensen kan helpen in hun proces.</p>
-          <p>Ook heb ik deelgenomen aan een <i>Cocao Temple Ceremony</i>. Dit stond gelijk aan een tantrisch tempelritueel dat ons opent voor de speelse aard van liefde en eros. Speciefiek stond het in het teken van het openen van de zintuigen en genieten van onze sensuele natuur erin, een viering van onze sensuele geneugten.
-          Verder ben ik ook deel geweest van een <i>Naakte Vrouwenencirkel</i>. Het doel hiervan was een gemengde groep van vrouwen bij elkaar te brengen om tot een diepgaande uitwisseling te komen omtrent ons vrouwenleven en zo een gezamelijk groeiproces mee te maken.</p>
-          <p>Kernwoorden hiervoor waren: zelf liefde en acceptatie, zelfzekerheid en empowerment (her)ondekken, heling brengen aan onze persoonlijke en collectieve pijn rond de relatie die we hebben met ons lichaam,...</p>
+          <p>Ook heb ik deelgenomen aan een <i>Cocao Temple Ceremony</i>. Dit stond gelijk aan een tantrisch tempelritueel dat ons opent voor de speelse aard van liefde en eros. Speciefiek stond het in het teken van het openen van de zintuigen en genieten van onze sensuele natuur erin, een viering van onze sensuele geneugten.</p>
+          <p>Verder ben ik ook deel geweest van een <i>Naakte Vrouwenencirkel</i>. Het doel hiervan was een gemengde groep van vrouwen bij elkaar te brengen om tot een diepgaande uitwisseling te komen omtrent ons vrouwenleven en zo een gezamelijk groeiproces mee te maken.
+          Kernwoorden hiervoor waren: zelf liefde en acceptatie, zelfzekerheid en empowerment (her)ondekken, heling brengen aan onze persoonlijke en collectieve pijn rond de relatie die we hebben met ons lichaam,...</p>
           <p>Dit alles draagt bij tot mijn professionele ervaring.</p>
           </dd>
           </TimlineEntry>
