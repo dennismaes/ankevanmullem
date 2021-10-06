@@ -28,7 +28,7 @@ const Praktisch = () => {
           </div>
           <div>
               <h3>Live coaching</h3>
-              <p>Mogelijk tot live coaching te Sint-Niklaas <i>Kettermuitstraat 23, 9100 Sint-Niklaas</i></p>
+              <p>Mogelijkheid tot live coaching te <i>Sint-Niklaas</i>.</p>
           </div>
           <div>
               <h3>Wanneer?</h3>
