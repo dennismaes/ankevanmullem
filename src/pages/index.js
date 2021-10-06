@@ -10,7 +10,7 @@ const Index = ({ data }) => {
   return (
     <Layout>
       <Section id="top">
-        <h2>Welkom op <Link to="/">ankevanmullem.be</Link></h2>
+        <h2>Welkom bij Path to Body and Health</h2>
         <p>In het dagelijkse leven werk ik rond welzijn op het werk als veiligheidsconsulent, beter bekend als preventieadviseur. Maar op deze site vind je alles over mijn werk als zelfstandige in bijberoep: uw persoonlijke gezondheidscoach en bodyworker.</p>
       </Section>
       <Sticky>
