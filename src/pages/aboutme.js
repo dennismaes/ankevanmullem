@@ -66,12 +66,12 @@ const Aboutme = () => {
               Dankzij dit partnerschap kan ik ook een korting aanbieden op hun analyses. Een aanrader indien je graag de sterktes en mogelijke noden van jouw lichaam en groei wil ontdekken. <a href="https://ankevanmullem.be/emma-health/" target="_blank">Meer info</a>.</dd>
           </TimlineEntry>
           <TimlineEntry>
-          <dt><h3>Algmene zelfontwikkeling via Compass to Connection</h3><b>Zomer 2021</b></dt>
-          <dd><p>Niet alleen de zomer van 2021 stond in het teken van zelfontwikkeling, het gehele jaar staat hier in teken van. Sinds februari ben ik gestart met een individueel traject bij Compass to Connection.
-          Als coach en bodyworker is het voor mij belangrijk om zelf in beweging te blijven en te blijven groeien door bijvoorbeeld met eigen trauma en pijnstukken te werken. Ik ben van het geloof dat enkel wanneer ik hierzelf doorga, ik andere mensen kan helpen in hun proces.</p>
-          <p>Ook heb ik deelgenomen aan een <i>Cocao Temple Ceremony</i>. Dit stond gelijk aan een tantrisch tempelritueel dat ons opent voor de speelse aard van liefde en eros. Speciefiek stond het in het teken van het openen van de zintuigen en genieten van onze sensuele natuur erin, een viering van onze sensuele geneugten.</p>
-          <p>Verder ben ik ook deel geweest van een <i>Naakte Vrouwenencirkel</i>. Het doel hiervan was een gemengde groep van vrouwen bij elkaar te brengen om tot een diepgaande uitwisseling te komen omtrent ons vrouwenleven en zo een gezamelijk groeiproces mee te maken.
-          Kernwoorden hiervoor waren: zelf liefde en acceptatie, zelfzekerheid en empowerment (her)ondekken, heling brengen aan onze persoonlijke en collectieve pijn rond de relatie die we hebben met ons lichaam,...</p>
+          <dt><h3>Algmene zelfontwikkeling via Compass to Connection</h3><b>2021</b></dt>
+          <dd><p>Het jaar 2021 stond en staat in het teken van zelfontwikkeling voor mij. Sinds februari ben ik gestart met een individueel traject bij Compass to Connection.
+          Als coach en bodyworker is het voor mij belangrijk om zelf in beweging te blijven en te blijven groeien door bijvoorbeeld met eigen trauma en pijnstukken te werken. 
+          Ik ben van het geloof dat enkel wanneer ik hierzelf doorga, ik andere mensen kan helpen in hun proces.</p>
+          <p>Ook heb ik deelgenomen aan een <i>Cocao Temple Ceremony</i> en ben ik een deel geweest van een <i>Naakte Vrouwenencirkel</i>. 
+          Beide stonden in het teken van het openen van de zintuigen. De eerste in het teken van sensule geneugten, en de laatste in het teken van zelfliefde en acceptatie.</p>
           <p>Dit alles draagt bij tot mijn professionele ervaring.</p>
           </dd>
           </TimlineEntry>
