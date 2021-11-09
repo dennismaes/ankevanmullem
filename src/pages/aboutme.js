@@ -80,6 +80,12 @@ const Aboutme = () => {
           <dd>Zen, expressie, sensualiteit, integriteit, stilte, beweging, nabijheid, grenzen stellen en verlangen uiten stond centraal op  dit retraite. Mijn intentie die week was om lichamelijke en/of emotionele bagage los te laten om zo dieper te connecteren met mezelf, het universum en met anderen.
           Verschillende oefeningen en coaching kwamen aanbod zoals het Wheel of Consent, emotioneel lichaamswerk, actieve meditatie en verschillende andere therapeutische werkvormen.          </dd>
           </TimlineEntry>
+          <TimlineEntry>
+          <dt><h3>Dagworkshop <i>Hormoonyoga</i> via Yoga On Call</h3><b>Oktober 2021</b></dt>
+          <dd>Binnen deze dagworkshop ben ik een set houdingen aangeleerd die Dinah Rodrigues ontwikkeld heeft onder de naam hormoonyoga. 
+            Het stimuleert de hormoonklieren waardoor de hormoonbalans in je lichaam wordt hersteld en je hormoonproductie op peil wordt gehouden. 
+            Verder heb ik informatie gekregen over de essentiële rol van hormonen, hoe ze samenwerken, hoe voeding kan bijdragen tot een gezonde hormoonhuishouding, enzoverder.</dd>
+          </TimlineEntry>
         </Timeline>
       </Section>
 
