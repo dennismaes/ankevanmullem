@@ -25,45 +25,16 @@ const Aboutme = () => {
       <Section id="timeline">
         <h2>Mijn professioneel traject</h2>
         <Timeline>
-          <TimlineEntry>
-            <dt><h3>Summer School in <i>Health Promotion</i> in Polen</h3><b>Juni 2016</b></dt>
-            <dd>
-              Hier stond het onderwerp gezondheidsbevordering in verschillende levensfasen centraal: van de vroege kinderjaren tot gezond ouder worden.
-                  </dd>
+        <TimlineEntry>
+          <dt><h3>Dagworkshop <i>Hormoonyoga</i> via Yoga On Call</h3><b>Oktober 2021</b></dt>
+          <dd>Binnen deze dagworkshop ben ik een set houdingen aangeleerd die Dinah Rodrigues ontwikkeld heeft onder de naam hormoonyoga. 
+            Het stimuleert de hormoonklieren waardoor de hormoonbalans in je lichaam wordt hersteld en je hormoonproductie op peil wordt gehouden. 
+            Verder heb ik informatie gekregen over de essentiële rol van hormonen, hoe ze samenwerken, hoe voeding kan bijdragen tot een gezonde hormoonhuishouding, enzoverder.</dd>
           </TimlineEntry>
           <TimlineEntry>
-            <dt><h3>Opleiding tot <i>Healthie</i> (gezondheidspromotor)</h3><b>Oktober 2016</b></dt>
-            <dd>Healthies trekken naar scholen in hun eigen regio om er vormingen rond seksualiteit te geven. Afhankelijk van de regio is er de mogelijkheid om nog andere vormingspakketten te geven.</dd>
-          </TimlineEntry>
-          <TimlineEntry>
-            <dt><h3>Project <i>Say NO</i> in Spanje</h3><b>Mei 2017</b></dt>
-            <dd>Een internationale training rond gender gerelateerd geweld in samenwerking met 14 landen. Het leerdoel was om de kennis over gender gerelateerd geweld te vergroten, de competenties in het werken met jongeren te verbeteren, 
-              het bewustzijn van niet-formeel onderwijs in gender gerelateerd geweld bevorderen, en het uitwisselen van goede praktijken tussen jeugdwerkers.</dd>
-          </TimlineEntry>
-          <TimlineEntry>
-            <dt><h3>Bachelor Toegepaste Gezondheidswetenschappen</h3><b>Juni 2017</b></dt>
-            <dd>Deze bachelor geeft mij het specialisatie attest van preventieadviseur niveau II. 
-              Daarnaast richt deze opleiding zich op gezondheidsbevordering en preventie. Een gezondheidscoach begeleidt individuele mensen of groepen naar een gezondere levensstijl. Of ontwikkelt, implementeert en evalueert programma's voor gezondheidsbevordering binnen organisaties of bedrijven. <a href="https://www.howest.be/nl/opleidingen/bachelor/toegepaste-gezondheidswetenschappen?gclid=CjwKCAiAsaOBBhA4EiwAo0_AnM_Suv5L7wuqVxli8puEYOeh4jNJQp0vipjwToL_Ux_OE_KK222-QRoCZbEQAvD_BwE" target="_blank">Meer info</a>.</dd>
-          </TimlineEntry>
-          <TimlineEntry>
-            <dt><h3>Erkenning bij VVGC</h3><b>Juli 2019</b></dt>
-            <dd>Binnen de Vlaamse Verening GezondheidsCoaches (VVGC) ben ik erkend als professionele gezondheidscoach onder het erkenningsnummer 19-01-02-004. 
-              Om binnen VVGC erkend te worden moet je aan verschillende voorwaarden voldoen: een holistische kijk hebben op de mens en zijn gezondheid, preventie hoog in het vaandel dragen, en coaching aanbieden binnen de 4 pijlers; Voeding, Beweging, Slaap en ontspanning, en als laatste Sociale relaties. </dd>
-          </TimlineEntry>
-          <TimlineEntry>
-            <dt><h3><i>Sexual Healing & De-armouring retreat</i> via The Gaia Method</h3><b>Oktober 2020</b></dt>
-            <dd>Dit retraite heeft mij uitgerust met theorie, kennis en hands-on oefeningen om onderdrukte emotionele en energetische trauma's, spanningen, blokkades en pijn uit het vrouwelijke en mannelijke lichaam los te laten. Dit op een gezonde, liefdevolle en veilige manier. 
-              <a href="https://www.the-gaia-method.com/sexual-healing-dearmouring" target="_blank"> Meer info.</a></dd>
-          </TimlineEntry>
-          <TimlineEntry>
-            <dt><h3>Master of Arts in Cognition and Communication</h3><b>Oktober 2020</b></dt>
-            <dd>Deze opleiding beantwoord de vraag: Hoe kunnen we cognitieve processen begrijpen die verband houden met de mediaconsumptie in de moderne samenleving? 
-              De focus ligt op de psychologische en sociale processen die van invloed zijn op communicatie in audiovisuele media en face-to-face. Verder bestudeert het de interacties die plaatsvinden tussen mensen of tussen mensen en technologie. <a href="https://studies.ku.dk/masters/cognition-and-communication/profile-and-career/" target="_blank">Meer info</a>.</dd>
-          </TimlineEntry>
-          <TimlineEntry>
-            <dt><h3>Partner met Emma.health</h3><b>Maart 2021</b></dt>
-            <dd>Via de Emma.health academy heb ik een uitgebreid opleidingsprogramma gekregen rond hun DNA-resultaten en hoe ik deze gericht kan inzetten in mijn coachingsessies.
-              Dankzij dit partnerschap kan ik ook een korting aanbieden op hun analyses. Een aanrader indien je graag de sterktes en mogelijke noden van jouw lichaam en groei wil ontdekken. <a href="https://ankevanmullem.be/emma-health/" target="_blank">Meer info</a>.</dd>
+          <dt><h3><i>Zen-Sual retreat</i> via Compass to Connection en House of Healing</h3><b>Augustus 2021</b></dt>
+          <dd>Zen, expressie, sensualiteit, integriteit, stilte, beweging, nabijheid, grenzen stellen en verlangen uiten stond centraal op  dit retraite. Mijn intentie die week was om lichamelijke en/of emotionele bagage los te laten om zo dieper te connecteren met mezelf, het universum en met anderen.
+          Verschillende oefeningen en coaching kwamen aanbod zoals het Wheel of Consent, emotioneel lichaamswerk, actieve meditatie en verschillende andere therapeutische werkvormen.          </dd>
           </TimlineEntry>
           <TimlineEntry>
           <dt><h3>Algmene zelfontwikkeling via Compass to Connection</h3><b>2021</b></dt>
@@ -76,15 +47,44 @@ const Aboutme = () => {
           </dd>
           </TimlineEntry>
           <TimlineEntry>
-          <dt><h3><i>Zen-Sual retreat</i> via Compass to Connection en House of Healing</h3><b>Augustus 2021</b></dt>
-          <dd>Zen, expressie, sensualiteit, integriteit, stilte, beweging, nabijheid, grenzen stellen en verlangen uiten stond centraal op  dit retraite. Mijn intentie die week was om lichamelijke en/of emotionele bagage los te laten om zo dieper te connecteren met mezelf, het universum en met anderen.
-          Verschillende oefeningen en coaching kwamen aanbod zoals het Wheel of Consent, emotioneel lichaamswerk, actieve meditatie en verschillende andere therapeutische werkvormen.          </dd>
+            <dt><h3>Partner met Emma.health</h3><b>Maart 2021</b></dt>
+            <dd>Via de Emma.health academy heb ik een uitgebreid opleidingsprogramma gekregen rond hun DNA-resultaten en hoe ik deze gericht kan inzetten in mijn coachingsessies.
+              Dankzij dit partnerschap kan ik ook een korting aanbieden op hun analyses. Een aanrader indien je graag de sterktes en mogelijke noden van jouw lichaam en groei wil ontdekken. <a href="https://ankevanmullem.be/emma-health/" target="_blank">Meer info</a>.</dd>
           </TimlineEntry>
           <TimlineEntry>
-          <dt><h3>Dagworkshop <i>Hormoonyoga</i> via Yoga On Call</h3><b>Oktober 2021</b></dt>
-          <dd>Binnen deze dagworkshop ben ik een set houdingen aangeleerd die Dinah Rodrigues ontwikkeld heeft onder de naam hormoonyoga. 
-            Het stimuleert de hormoonklieren waardoor de hormoonbalans in je lichaam wordt hersteld en je hormoonproductie op peil wordt gehouden. 
-            Verder heb ik informatie gekregen over de essentiële rol van hormonen, hoe ze samenwerken, hoe voeding kan bijdragen tot een gezonde hormoonhuishouding, enzoverder.</dd>
+            <dt><h3>Master of Arts in Cognition and Communication</h3><b>Oktober 2020</b></dt>
+            <dd>Deze opleiding beantwoord de vraag: Hoe kunnen we cognitieve processen begrijpen die verband houden met de mediaconsumptie in de moderne samenleving? 
+              De focus ligt op de psychologische en sociale processen die van invloed zijn op communicatie in audiovisuele media en face-to-face. Verder bestudeert het de interacties die plaatsvinden tussen mensen of tussen mensen en technologie. <a href="https://studies.ku.dk/masters/cognition-and-communication/profile-and-career/" target="_blank">Meer info</a>.</dd>
+          </TimlineEntry>
+          <TimlineEntry>
+            <dt><h3><i>Sexual Healing & De-armouring retreat</i> via The Gaia Method</h3><b>Oktober 2020</b></dt>
+            <dd>Dit retraite heeft mij uitgerust met theorie, kennis en hands-on oefeningen om onderdrukte emotionele en energetische trauma's, spanningen, blokkades en pijn uit het vrouwelijke en mannelijke lichaam los te laten. Dit op een gezonde, liefdevolle en veilige manier. 
+              <a href="https://www.the-gaia-method.com/sexual-healing-dearmouring" target="_blank"> Meer info.</a></dd>
+          </TimlineEntry>
+          <TimlineEntry>
+            <dt><h3>Erkenning bij VVGC</h3><b>Juli 2019</b></dt>
+            <dd>Binnen de Vlaamse Verening GezondheidsCoaches (VVGC) ben ik erkend als professionele gezondheidscoach onder het erkenningsnummer 19-01-02-004. 
+              Om binnen VVGC erkend te worden moet je aan verschillende voorwaarden voldoen: een holistische kijk hebben op de mens en zijn gezondheid, preventie hoog in het vaandel dragen, en coaching aanbieden binnen de 4 pijlers; Voeding, Beweging, Slaap en ontspanning, en als laatste Sociale relaties. </dd>
+          </TimlineEntry>
+          <TimlineEntry>
+            <dt><h3>Bachelor Toegepaste Gezondheidswetenschappen</h3><b>Juni 2017</b></dt>
+            <dd>Deze bachelor geeft mij het specialisatie attest van preventieadviseur niveau II. 
+              Daarnaast richt deze opleiding zich op gezondheidsbevordering en preventie. Een gezondheidscoach begeleidt individuele mensen of groepen naar een gezondere levensstijl. Of ontwikkelt, implementeert en evalueert programma's voor gezondheidsbevordering binnen organisaties of bedrijven. <a href="https://www.howest.be/nl/opleidingen/bachelor/toegepaste-gezondheidswetenschappen?gclid=CjwKCAiAsaOBBhA4EiwAo0_AnM_Suv5L7wuqVxli8puEYOeh4jNJQp0vipjwToL_Ux_OE_KK222-QRoCZbEQAvD_BwE" target="_blank">Meer info</a>.</dd>
+          </TimlineEntry>
+          <TimlineEntry>
+            <dt><h3>Project <i>Say NO</i> in Spanje</h3><b>Mei 2017</b></dt>
+            <dd>Een internationale training rond gender gerelateerd geweld in samenwerking met 14 landen. Het leerdoel was om de kennis over gender gerelateerd geweld te vergroten, de competenties in het werken met jongeren te verbeteren, 
+              het bewustzijn van niet-formeel onderwijs in gender gerelateerd geweld bevorderen, en het uitwisselen van goede praktijken tussen jeugdwerkers.</dd>
+          </TimlineEntry>
+          <TimlineEntry>
+            <dt><h3>Opleiding tot <i>Healthie</i> (gezondheidspromotor)</h3><b>Oktober 2016</b></dt>
+            <dd>Healthies trekken naar scholen in hun eigen regio om er vormingen rond seksualiteit te geven. Afhankelijk van de regio is er de mogelijkheid om nog andere vormingspakketten te geven.</dd>
+          </TimlineEntry>
+          <TimlineEntry>
+            <dt><h3>Summer School in <i>Health Promotion</i> in Polen</h3><b>Juni 2016</b></dt>
+            <dd>
+              Hier stond het onderwerp gezondheidsbevordering in verschillende levensfasen centraal: van de vroege kinderjaren tot gezond ouder worden.
+                  </dd>
           </TimlineEntry>
         </Timeline>
       </Section>
