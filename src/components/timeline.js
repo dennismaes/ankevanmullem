@@ -1,3 +1,4 @@
+import React, { useState, useRef }  from "react"
 import styled from 'styled-components'
 
 export const Timeline = styled.div`
@@ -41,7 +42,7 @@ export const Timeline = styled.div`
     }
 `
 
-export const TimlineEntry = styled.dl`
+const TimelineEntryContainer = styled.dl`
     height: fit-content;
 
     &:first-child {
@@ -81,7 +82,6 @@ export const TimlineEntry = styled.dl`
     }
 
 	dt {
-		color: ${props => props.theme.color.primary};
 		font-weight: 700;
 		font-size: 1rem;
 		padding: 0.5em 1em;
@@ -96,12 +96,9 @@ export const TimlineEntry = styled.dl`
 			left: -1em;
 			border-right: 10px solid ${props => props.theme.color.primaryLight};
 		}
-	}
-	
-	dd {
-		background-color: ${props => props.theme.color.lightGrey};
-		padding: 1em;
-		margin: 0;
+        &:hover {
+            cursor: pointer;
+        }
 	}
 			
 	&:before {
@@ -120,5 +117,37 @@ export const TimlineEntry = styled.dl`
 		top: 0.5em;
         left: -2.25em;
 	}
+
+    h3 {
+        margin: 0;
+    }
 }
 `
+
+const TimelineEntryContent = styled.dd`
+    background-color: ${props => props.theme.color.lightGrey};
+    padding: ${props => props.open ? '1em': '0 1em'};
+    margin: 0;
+    max-height: ${props => props.open ? '700px': '0px'};
+    overflow: hidden;    
+    transition: all 0.6s ease-in-out;
+`
+
+export const TimelineEntry = ({ title, date, children }) => {
+    const [ open, setOpen ] = React.useState(false);
+    const handleClick = () => {
+        setOpen(!open);
+    };
+    return (
+        <TimelineEntryContainer>
+            <dt onClick={handleClick}>
+                <b>{date}</b>
+                <h3>{title}</h3>
+                
+            </dt>
+            <TimelineEntryContent open={open}>
+                {children}
+            </TimelineEntryContent>
+        </TimelineEntryContainer>
+    );
+};
