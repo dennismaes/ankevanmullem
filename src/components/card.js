@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from 'styled-components'
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image";
 
 const CardInfo = styled.div`
     position: absolute;
@@ -42,7 +42,7 @@ const Card = ({ to, title, subtitle, imgdata }) => (
             <h3>{title}</h3>
             <small>{subtitle}</small>
         </CardInfo>
-        <Img fluid={imgdata.childImageSharp.fluid}/>
+        <GatsbyImage image={imgdata.childImageSharp.gatsbyImageData} />
     </CardContainer>
 )
 
