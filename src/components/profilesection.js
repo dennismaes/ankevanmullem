@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import styled from 'styled-components'
-import Img from 'gatsby-image'
+import { StaticImage } from "gatsby-plugin-image";
 
 const ProfileContainer = styled.div`
     position: relative;
@@ -10,26 +10,20 @@ const ProfileContainer = styled.div`
     min-height: 100vh;
     padding: 0;
     margin: 0;
-`
 
-const ProfileImg = styled(Img)`
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  &::before, &::after{
-    content:'';
-    position:absolute;
-    left:0; top:0;
-    width:100%; height:100%;
-    background:linear-gradient(
-      25deg,
-      rgba(50, 150, 50, 0.7) 12%,
-      rgba(100, 150, 50, 0.5) 24%,
-      transparent 60%,
-      transparent 100%
-    )
-  }
-
+    picture:after{
+      content:'';
+      position:absolute;
+      left:0; top:0;
+      width:100%; height:100%;
+      background:linear-gradient(
+        25deg,
+        rgba(50, 150, 50, 0.7) 12%,
+        rgba(100, 150, 50, 0.5) 24%,
+        transparent 60%,
+        transparent 100%
+      )
+    }
 `
 
 const Content = styled.div`
@@ -65,37 +59,23 @@ const Content = styled.div`
     }
 `
 
-const ProfileSection = ({ children }) => {
-  const { bgImage } = useStaticQuery(
-    graphql`
-        query {
-          bgImage: file(relativePath: { eq: "anke.jpg" }) {
-            childImageSharp {
-              fluid(quality: 90, maxWidth: 960) {
-                ...GatsbyImageSharpFluid_withWebp_noBase64
-              }
-            }
-          }
-        }
-      `
-  )
-
-  return (
+const ProfileSection = () => (
     <ProfileContainer>
-      <ProfileImg
-        imgStyle={{ objectPosition: "top center" }}
-        objectPosition="top center"
+      <StaticImage
+        src="../images/anke.jpg"
+        quality={100}
+        alt="Anke Van Mullem"
+        placeholder="blurred"
         loading="eager"
-        fadeIn={false}
-        fluid={bgImage.childImageSharp.fluid}
+        transformOptions={{fit: "cover", cropFocus: "attention"}}
+        style ={{width: "100%", height: "100%"}}
       />
       <Content>
         <h1>Hey, mijn naam is<br/>Anke Van Mullem!</h1>
         <p>Gezondheidscoach &#8211; Bodyworker</p>
       </Content>
     </ProfileContainer>
-  )
-}
+)
 
 
 export default ProfileSection

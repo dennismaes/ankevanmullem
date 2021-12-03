@@ -1,10 +1,9 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import { Sticky, Section, Wrapper } from "../components/intro"
 import { ButtonDNA, ButtonAboutme, ButtonContact, ButtonPraktisch } from "../components/button"
-import Card from "../components/card"
 
 const Index = ({ data }) => {
   return (
@@ -73,14 +72,11 @@ const Index = ({ data }) => {
 export default Index
 
 
-export const cardImage = graphql`
-  fragment cardImage on File {
-    childImageSharp {
-      fluid(maxWidth: 640, maxHeight: 480) {
-        ...GatsbyImageSharpFluid
-      }
-    }
+export const cardImage = graphql`fragment cardImage on File {
+  childImageSharp {
+    gatsbyImageData(width: 640, height: 480, layout: CONSTRAINED)
   }
+}
 `
 
 export const query = graphql`
