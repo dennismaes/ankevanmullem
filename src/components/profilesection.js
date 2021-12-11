@@ -18,8 +18,8 @@ const ProfileContainer = styled.div`
       width:100%; height:100%;
       background:linear-gradient(
         25deg,
-        rgba(50, 150, 50, 0.7) 12%,
-        rgba(100, 150, 50, 0.5) 24%,
+        ${props => props.theme.color.primary+'b2'} 12%,
+        ${props => props.theme.color.primary+'80'} 24%,
         transparent 60%,
         transparent 100%
       )

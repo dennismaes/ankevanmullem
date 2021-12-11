@@ -7,13 +7,15 @@ import { Helmet } from "react-helmet"
 import Loadable from "@loadable/component"
 import ShopifyBuy from "@shopify/buy-button-js"
 
-const ShopifyEmma = (props) => {
+const ShopifyEmma = () => {
     useEffect(() => {
         const client = ShopifyBuy.buildClient({
             domain: "emma-health.myshopify.com",
             storefrontAccessToken: "a3553d262303e4ed45bd3dadb894d333",
         })
         const ui = ShopifyBuy.UI.init(client)
+        const primary = '#329632'
+        const primaryLight = '#ecf8ec'
         ui.createComponent('product', {
             id: '4458480435283',
             node: document.getElementById('bestel-emma'),
@@ -47,9 +49,9 @@ const ShopifyEmma = (props) => {
                             "border": "2px solid transparent",
                             "border-radius": "0px",
                             "background": "#f6f6f6",
-                            "color": "#329632",
+                            "color": primary,
                             ':hover': {
-                                "background": "#ecf8ec",
+                                "background": primaryLight,
                                 "box-shadow": "0 4px 8px 0 rgb(0 0 0 / 20%), 0 3px 10px 0 rgb(0 0 0 / 19%)",
                                 "text-decoration": "none"
                             }
@@ -141,7 +143,7 @@ const ShopifyEmma = (props) => {
                 "toggle": {
                     "styles": {
                         "toggle": {
-                            "background-color": "#329632",
+                            "background-color": primary,
                             ':hover': {
                                 "background": "#8f8f8f"
                             }
