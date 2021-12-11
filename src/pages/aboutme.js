@@ -45,16 +45,16 @@ const Aboutme = () => {
           <TimelineEntry title="Partner met Emma.health" date="Maart 2021">
             Via de Emma.health academy heb ik een uitgebreid opleidingsprogramma gekregen rond hun DNA-resultaten en hoe ik deze gericht kan inzetten in mijn coachingsessies.
             Dankzij dit partnerschap kan ik ook een korting aanbieden op hun analyses. Een aanrader indien je graag de sterktes en mogelijke noden van jouw lichaam en groei wil ontdekken.<br/>
-            <a href="https://ankevanmullem.be/emma-health/" target="_blank">Meer info</a>.
+            <Link to="/emma-health">Meer info</Link>.
           </TimelineEntry>
           <TimelineEntry title="Master of Arts in Cognition and Communication" date="Oktober 2020">
             Deze opleiding beantwoord de vraag: Hoe kunnen we cognitieve processen begrijpen die verband houden met de mediaconsumptie in de moderne samenleving? 
             De focus ligt op de psychologische en sociale processen die van invloed zijn op communicatie in audiovisuele media en face-to-face. Verder bestudeert het de interacties die plaatsvinden tussen mensen of tussen mensen en technologie.<br/>
-            <a href="https://studies.ku.dk/masters/cognition-and-communication/profile-and-career/" target="_blank">Meer info</a>.
+            <a href="https://studies.ku.dk/masters/cognition-and-communication/profile-and-career/" target="_blank" rel="noreferrer">Meer info</a>.
           </TimelineEntry>
           <TimelineEntry title="Sexual Healing & De-armouring retreat via The Gaia Method" date="Oktober 2020">
             Dit retraite heeft mij uitgerust met theorie, kennis en hands-on oefeningen om onderdrukte emotionele en energetische trauma's, spanningen, blokkades en pijn uit het vrouwelijke en mannelijke lichaam los te laten. Dit op een gezonde, liefdevolle en veilige manier.<br/>
-            <a href="https://www.the-gaia-method.com/sexual-healing-dearmouring" target="_blank"> Meer info.</a>
+            <a href="https://www.the-gaia-method.com/sexual-healing-dearmouring" target="_blank" rel="noreferrer"> Meer info.</a>
           </TimelineEntry>
           <TimelineEntry title="Erkenning bij VVGC" date="Juli 2019">
             Binnen de Vlaamse Verening GezondheidsCoaches (VVGC) ben ik erkend als professionele gezondheidscoach onder het erkenningsnummer 19-01-02-004. 
@@ -63,7 +63,7 @@ const Aboutme = () => {
           <TimelineEntry title="Bachelor Toegepaste Gezondheidswetenschappen" date="Juni 2017">
             Deze bachelor geeft mij het specialisatie attest van preventieadviseur niveau II. 
             Daarnaast richt deze opleiding zich op gezondheidsbevordering en preventie. Een gezondheidscoach begeleidt individuele mensen of groepen naar een gezondere levensstijl. Of ontwikkelt, implementeert en evalueert programma's voor gezondheidsbevordering binnen organisaties of bedrijven.
-            <a href="https://www.howest.be/nl/opleidingen/bachelor/toegepaste-gezondheidswetenschappen?gclid=CjwKCAiAsaOBBhA4EiwAo0_AnM_Suv5L7wuqVxli8puEYOeh4jNJQp0vipjwToL_Ux_OE_KK222-QRoCZbEQAvD_BwE" target="_blank">Meer info</a>.
+            <a href="https://www.howest.be/nl/opleidingen/bachelor/toegepaste-gezondheidswetenschappen?gclid=CjwKCAiAsaOBBhA4EiwAo0_AnM_Suv5L7wuqVxli8puEYOeh4jNJQp0vipjwToL_Ux_OE_KK222-QRoCZbEQAvD_BwE" target="_blank" rel="noreferrer">Meer info</a>.
           </TimelineEntry>
           <TimelineEntry title="Project Say NO in Spanje" date="Mei 2017">
             Een internationale training rond gender gerelateerd geweld in samenwerking met 14 landen. Het leerdoel was om de kennis over gender gerelateerd geweld te vergroten, de competenties in het werken met jongeren te verbeteren, het bewustzijn van niet-formeel onderwijs in gender gerelateerd geweld bevorderen, en het uitwisselen van goede praktijken tussen jeugdwerkers.

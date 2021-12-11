@@ -1,10 +1,5 @@
-import React, { Component, useEffect } from "react"
-import Layout from "../components/layout"
-import { Sticky, Section } from "../components/intro"
-import { ButtonHome } from "../components/button"
-import { Helmet } from "react-helmet"
+import React, { useEffect } from "react"
 
-import Loadable from "@loadable/component"
 import ShopifyBuy from "@shopify/buy-button-js"
 
 const ShopifyEmma = () => {

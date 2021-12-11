@@ -52,7 +52,7 @@ const LinkedIn = styled(SiLinkedin)`
   ${si}
 `
 export const ButtonLinkedin = () => (
-    <Button href="https://linkedin.com/in/ankevanmullem96/" target="_blank">
+    <Button href="https://linkedin.com/in/ankevanmullem96/" target="_blank" rel="noreferrer">
         <LinkedIn />LinkedIn
     </Button>
 )
@@ -61,7 +61,7 @@ const Whatsapp = styled(SiWhatsapp)`
   ${si}
 `
 export const ButtonWhatsapp = () => (
-    <Button href="https://api.whatsapp.com/send?phone=32485941511&text=Dag%20Anke" target="_blank">
+    <Button href="https://api.whatsapp.com/send?phone=32485941511&text=Dag%20Anke" target="_blank" rel="noreferrer">
         <Whatsapp />Stuur een bericht op Whatsapp
     </Button>
 )
@@ -70,7 +70,7 @@ const Mail = styled(SiGmail)`
   ${si}
 `
 export const ButtonMail = () => (
-    <Button href="mailto:info@ankevanmullem.be?body=Dag%20Anke%0D%0A%0D%0A" target="_blank">
+    <Button href="mailto:info@ankevanmullem.be?body=Dag%20Anke%0D%0A%0D%0A" target="_blank" rel="noreferrer">
         <Mail />Stuur mij een mail
     </Button>
 )

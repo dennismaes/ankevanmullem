@@ -66,7 +66,7 @@ const Praktisch = () => {
             </tr>
             <tr>
               <td>DNA-analyse (via mijn kortingscode)</td>
-              <td>Krijg 2% extra korting, bestel <a href="https://ankevanmullem.be/emma-health/" target="_blank">hier</a></td>
+              <td>Krijg 2% extra korting, <Link to="/emma-health">bestel hier</Link></td>
             </tr>
           <tr>
               <td>DNA-analyse + 6 sessies van 1u (zie opmerking 1)</td>
@@ -82,10 +82,10 @@ const Praktisch = () => {
           (2) De gesprekken zijn vrij in te plannen over een periode van 6 maanden na ontvangst van de DNA-resultaten. Voor een korting te kunnen garanderen op de combinatie van de DNA-analyse en coachingsessies, gelieve mij eerst te contacteren via onderstaande informatie. 
         </p>
 
-        <p>Ben je overtuigd? Maak dan een afspraak via <a href="mailto:info@ankevanmullem.be" target="_blank">info@ankevanmullem.be</a></p>
+        <p>Ben je overtuigd? Maak dan een afspraak via <a href="mailto:info@ankevanmullem.be" target="_blank" rel="noreferrer">info@ankevanmullem.be</a></p>
         <p>
         Toch nog niet helemaal zeker en heb je graag nog wat vrijblijvende informatie? 
-        Stel mij al jouw vragen en/of bedenkingen via het <Link to="/contact">contactformulier</Link> of via <a href="mailto:info@ankevanmullem.be" target="_blank">info@ankevanmullem.be</a>. 
+        Stel mij al jouw vragen en/of bedenkingen via het <Link to="/contact">contactformulier</Link> of via <a href="mailto:info@ankevanmullem.be" target="_blank" rel="noreferrer">info@ankevanmullem.be</a>. 
         Op aanvraag kunnen wij ook een online gesprek inplannen om elkaar wat beter aan te voelen en te kijken hoe ik jou kan helpen. 
         Dan kan ik je gerichter vertellen over de mogelijkheden en een voorstel doen over hoe we kunnen samenwerken. 
         </p>

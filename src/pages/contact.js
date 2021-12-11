@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import { Sticky, Section } from "../components/intro"
-import { ButtonHome, ButtonWhatsapp, ButtonMail } from "../components/button"
+import { ButtonHome, ButtonMail } from "../components/button"
 import ContactForm from "../components/contact"
 
 const Contact = () => {

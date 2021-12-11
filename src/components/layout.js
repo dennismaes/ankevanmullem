@@ -8,7 +8,6 @@ import { theme } from '../styles/theme'
 
 import ProfileSection from './profilesection'
 import Footer from '../components/footer'
-import { BsPersonPlusFill } from "react-icons/bs";
 
 
 const Column = styled.div`
