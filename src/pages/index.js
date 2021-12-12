@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 import Layout from "../components/layout"
 import { Sticky, Section, Wrapper } from "../components/intro"
-import { ButtonDNA, ButtonAboutme, ButtonContact, ButtonPraktisch } from "../components/button"
+import { ButtonDNA, ButtonAboutme, ButtonContact, ButtonPraktisch, ButtonFacebook } from "../components/button"
 
 const Index = () => {
   return (
@@ -18,6 +18,7 @@ const Index = () => {
         <ButtonAboutme />
         <ButtonDNA />
         <ButtonPraktisch />
+        <ButtonFacebook />
       </Sticky>
       <Section bgGrey id="gezondheidscoach">
         <h2>Gezondheidscoaching</h2>
