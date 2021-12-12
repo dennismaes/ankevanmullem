@@ -1,3 +1,4 @@
+import { Link } from "gatsby"
 import React from "react"
 import styled from 'styled-components'
 
@@ -13,11 +14,13 @@ export const StyledFooter = styled.footer`
 
 const Footer = () => (
     <StyledFooter>
-        
-        Design &amp; development by <a href="https://www.linkedin.com/in/dennis-maes/" rel="_blank">Dennis Maes</a>
+        Path to Body and Health &#8211; Anke Van Mullem &#8211;
+        Erkend gezondheidscoach <a href="https://www.vvgc.be/" rel="_blank" rel="noreferrer">VVGC</a> (19-01-02-004)
+        <br></br>
+        Neem <Link to="/contact">contact</Link> op (<a href="mailto:info@ankevanmullem.be" rel="_blank" rel="noreferrer">info@ankevanmullem.be</a>)
+        <br></br>
+        Design &amp; development by <a href="https://www.linkedin.com/in/dennis-maes/" rel="_blank" rel="noreferrer">Dennis Maes</a>
         &nbsp; &copy; {new Date().getFullYear().toString()}{" "}
-        
-
     </StyledFooter>
 )
 
