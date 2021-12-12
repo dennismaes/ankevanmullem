@@ -5,7 +5,7 @@ export const theme = {
     lightGrey: '#f6f6f6',
     mediumGrey: '#8f8f8f',
     primary: '#824921',
-    primaryLight: '#FFE2BA',
+    primaryLight: '#fbefda',
   },
   size: {
     xs: '480px',

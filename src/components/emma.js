@@ -9,8 +9,8 @@ const ShopifyEmma = () => {
             storefrontAccessToken: "a3553d262303e4ed45bd3dadb894d333",
         })
         const ui = ShopifyBuy.UI.init(client)
-        const primary = '#329632'
-        const primaryLight = '#ecf8ec'
+        const primary = '#824921'
+        const primaryLight = '#fbefda'
         ui.createComponent('product', {
             id: '4458480435283',
             node: document.getElementById('bestel-emma'),

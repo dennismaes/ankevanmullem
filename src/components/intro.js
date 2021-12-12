@@ -7,6 +7,9 @@ export const Section = styled.div`
         padding: 30px 20px;
     }
     background-color: ${props => props.bgGrey ? props.theme.color.lightGrey : "white"};
+    h2 {
+        ${props => props.bgGrey ? "color: props.theme.color.primary": ""}
+    }
 `
 export const Wrapper = styled.div`
     display: grid;

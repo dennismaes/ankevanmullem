@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import { Sticky, Section, Wrapper } from "../components/intro"
 import { ButtonDNA, ButtonAboutme, ButtonContact, ButtonPraktisch } from "../components/button"
 
-const Index = ({ data }) => {
+const Index = () => {
   return (
     <Layout>
       <Section id="top">
@@ -65,12 +65,12 @@ const Index = ({ data }) => {
           <div>
             <StaticImage
               src="../images/_DSC0147.jpg"
-              quality={100}
+              width={600}
+              quality={60}
               alt="Anke Van Mullem"
               placeholder="blurred"
               loading="lazy"
               transformOptions={{ fit: "cover", cropFocus: "attention" }}
-              style={{ width: "100%", height: "100%" }}
             />
           </div>
         </Wrapper>

@@ -62,12 +62,12 @@ const ProfileSection = () => (
     <ProfileContainer>
       <StaticImage
         src="../images/anke.jpg"
-        quality={100}
         alt="Anke Van Mullem"
         placeholder="blurred"
         loading="eager"
         transformOptions={{fit: "cover", cropFocus: "attention"}}
         style ={{width: "100%", height: "100%"}}
+        width={1000}
       />
       <Content>
         <h1>Hey, mijn naam is<br/>Anke Van Mullem!</h1>

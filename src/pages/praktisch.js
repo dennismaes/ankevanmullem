@@ -31,12 +31,12 @@ const Praktisch = () => {
           <div>
             <StaticImage
               src="../images/_DSC0110.jpg"
-              quality={100}
+              width={600}
+              quality={60}
               alt="Anke Van Mullem"
               placeholder="blurred"
-              loading="lazy"
+              loading="eager"
               transformOptions={{ fit: "cover", cropFocus: "attention" }}
-              style={{ width: "100%", height: "100%" }}
             />
           </div>
           <div>
