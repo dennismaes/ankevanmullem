@@ -47,7 +47,6 @@ const Aboutme = () => {
             />
           </div>
         </Wrapper>
-        <p></p>
         <p>
           Als persoon ben ik te vinden voor openheid, dit zowel in communicatie
           alsook energetisch. In mijn familie gaat het gezegde “Anke heeft een
