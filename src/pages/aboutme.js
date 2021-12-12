@@ -1,9 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
-import { Section, Sticky } from "../components/intro"
-import { Timeline, TimelineEntry } from "../components/timeline"
-import { ButtonHome, ButtonLinkedin } from "../components/button"
+import { Section, Sticky, Wrapper } from "../components/intro";
+import { Timeline, TimelineEntry } from "../components/timeline";
+import { ButtonHome, ButtonLinkedin } from "../components/button";
+import { StaticImage } from "gatsby-plugin-image";
 
 const Aboutme = () => {
   return (
@@ -14,13 +15,51 @@ const Aboutme = () => {
       </Sticky>
       <Section bgGrey id="aboutme">
         <h2>Over Anke</h2>
-        <p>Ik ben geboren en getogen in Oost-Vlaanderen. Na enkele jaren in West-Vlaanderen te hebben gestudeerd, meer exact Oostende en Brugge, 
-          ben ik enkele jaren naar Denemarken getrokken om onder andere een master in Kopenhagen te studeren. Na dit 6-jaren avontuur ben ik op dit moment weer terug te vinden in Oost-Vlaanderen.</p>
-        <p>In het dagelijkse leven werk ik sinds maart 2021 rond welzijn op het werk als veiligheidsconsultant, ook wel gekend als preventieadviseur. 
-          Hiernaast kan je mij vinden als (hoofd)animator op voornamelijk buitenlandse jeugdkampen. En naast dit alles, kan ik ook jouw persoonlijke gezondheidscoach en bodyworker zijn. Als gezondheidscoach ben ik erkend bij de Vlaamse Vereniging GezondheidsCoaches (VVGC) onder het erkenningsnummer 19-01-02-004.</p>
-        <p>Als persoon ben ik te vinden voor openheid, dit zowel in communicatie alsook energetisch. In mijn familie gaat het gezegde “Anke heeft een Willeke”, dus je kan mij ook omschrijven als een tikkeltje eigenzinnig. 
-          Wat je kan verwachten van mij: ik ben een sociaal iemand en recht door zee. Ik zal steeds oprecht en eerlijk zijn naar jou en jouw proces, en dit op een respectvolle manier. 
-          Ook ben ik een gevoelsmatig persoon en kan hierdoor vaak door de woorden kijken naar de betekenis die er achterligt. Verder hou ik ervan om mensen te coachen en dus te inspireren, zeker als dit via een doelgerichte aanpak kan gebeuren.</p>
+        <Wrapper cols={2}>
+          <div>
+            <p>
+              Ik ben geboren en getogen in Oost-Vlaanderen. Na enkele jaren in
+              West-Vlaanderen te hebben gestudeerd, meer exact Oostende en
+              Brugge, ben ik enkele jaren naar Denemarken getrokken om onder
+              andere een master in Kopenhagen te studeren. Na dit 6-jaren
+              avontuur ben ik op dit moment weer terug te vinden in
+              Oost-Vlaanderen.
+            </p>
+            <p>
+              In het dagelijkse leven werk ik sinds maart 2021 rond welzijn op
+              het werk als veiligheidsconsultant, ook wel gekend als
+              preventieadviseur. Hiernaast kan je mij vinden als (hoofd)animator
+              op voornamelijk buitenlandse jeugdkampen. En naast dit alles, kan
+              ik ook jouw persoonlijke gezondheidscoach en bodyworker zijn. Als
+              gezondheidscoach ben ik erkend bij de Vlaamse Vereniging
+              GezondheidsCoaches (VVGC) onder het erkenningsnummer 19-01-02-004.
+            </p>
+          </div>
+          <div>
+            <StaticImage
+              src="../images/_DSC9846_kopie.jpg"
+              quality={100}
+              alt="Anke Van Mullem"
+              placeholder="blurred"
+              loading="lazy"
+              transformOptions={{ fit: "cover", cropFocus: "attention" }}
+              style={{ width: "100%", height: "100%" }}
+            />
+          </div>
+        </Wrapper>
+        <p></p>
+        <p>
+          Als persoon ben ik te vinden voor openheid, dit zowel in communicatie
+          alsook energetisch. In mijn familie gaat het gezegde “Anke heeft een
+          Willeke”, dus je kan mij ook omschrijven als een tikkeltje
+          eigenzinnig. Wat je kan verwachten van mij: ik ben een sociaal iemand
+          en recht door zee. Ik zal steeds oprecht en eerlijk zijn naar jou en
+          jouw proces, en dit op een respectvolle manier. Ook ben ik een
+          gevoelsmatig persoon en kan hierdoor vaak door de woorden kijken naar
+          de betekenis die er achterligt. Verder hou ik ervan om mensen te
+          coachen en dus te inspireren, zeker als dit via een doelgerichte
+          aanpak kan gebeuren.
+        </p>
       </Section>
       <Section id="timeline">
         <h2>Mijn professioneel traject</h2>

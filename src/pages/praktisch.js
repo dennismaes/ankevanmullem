@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import { Section, Sticky, Wrapper } from "../components/intro"
 import { ButtonHome, ButtonContact } from "../components/button"
 import { Table } from "../components/table"
+import { StaticImage } from "gatsby-plugin-image";
 
 const Praktisch = () => {
     return (
@@ -16,13 +17,27 @@ const Praktisch = () => {
         <h2>Waar en wanneer?</h2>
         <Wrapper cols={2}>
         <div>
-              <h3>Live coaching</h3>
-              <p>Mogelijkheid tot live coaching te <i>Sint-Niklaas</i>.</p>
+            <h3>Live coaching</h3>
+            <p>
+              Mogelijkheid tot live coaching te <i>Sint-Niklaas</i>.
+            </p>
+            <h3>Wanneer?</h3>
+            <p>
+              Er is mogelijkheid om coaching te ontvangen in de weekdagen zowel
+              in de namiddag alsook in de avond. Verder is het ook mogelijk op
+              afspraak in het weekend.
+            </p>
           </div>
           <div>
-              <h3>Wanneer?</h3>
-              <p>Er is mogelijkheid om coaching te ontvangen in de weekdagen zowel in de namiddag alsook in de avond. 
-                Verder is het ook mogelijk op afspraak in het weekend.</p>
+            <StaticImage
+              src="../images/_DSC0110.jpg"
+              quality={100}
+              alt="Anke Van Mullem"
+              placeholder="blurred"
+              loading="lazy"
+              transformOptions={{ fit: "cover", cropFocus: "attention" }}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
           <div>
               <h3>Online coaching</h3>
@@ -39,7 +54,7 @@ const Praktisch = () => {
       </Section>
 
       <Section id="aboutme">
-        <h2>Kostprijs gezondheidscoaching?</h2>
+        <h2>Kostprijs?</h2>
         <Table>
           <thead>
             <tr>
@@ -73,7 +88,7 @@ const Praktisch = () => {
               <td>600 euro <i>(bespaar 61 euro)</i></td>
             </tr>
           <tr>
-            <td>Lichaamswerk</td>
+            <td>Bodywork: Connecteer met jezelf</td>
             <td>Contacteer mij voor prijzen</td>
           </tr>
           </tbody>

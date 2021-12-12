@@ -4,8 +4,8 @@ export const theme = {
     black: '#000',
     lightGrey: '#f6f6f6',
     mediumGrey: '#8f8f8f',
-    primary: '#329632',
-    primaryLight: '#ecf8ec',
+    primary: '#824921',
+    primaryLight: '#FFE2BA',
   },
   size: {
     xs: '480px',

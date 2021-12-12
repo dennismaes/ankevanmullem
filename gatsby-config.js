@@ -13,7 +13,7 @@ module.exports = {
         short_name: `Anke Van Mullem`,
         start_url: `/`,
         background_color: `#ecf8ec`,
-        theme_color: `#329632`,
+        theme_color: `#824921`,
         display: `standalone`,
         icon: `src/images/icon.png`,
         include_favicon: true,

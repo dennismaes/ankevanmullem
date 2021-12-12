@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image";
 
 import Layout from "../components/layout"
 import { Sticky, Section, Wrapper } from "../components/intro"
@@ -60,6 +61,17 @@ const Index = ({ data }) => {
             <p>Dit is een manier om blokkades, vastzittende energie, emoties en spanning uit het lichaam te halen – ook wel armour  genoemd (in het Nederlands “pantser”). Het is een spanning en/of pijn die het lichaam vasthoudt wanneer iets is ervaren dat het zenuwstelsel activeerde op een manier dat niet werd verwerkt. 
               Eén van de methodes die ik toepas is “soft-touch” de-armouring (vertaald “ontwapening”). De bedoeling is liefdevolle aandacht te brengen naar gebieden van spanning, gevoelloosheid en verbroken verbinding met onszelf en/of ons lichaam. 
               Belangrijk is dat we het pantser van het lichaam niet met geweld gaan doorbreken, eerder nodigen we het lichaam uit zich te openen. Dit kan ook seksuele de-armouring inhouden; dit is zeer effectief voor mensen met seksueel trauma, stoornissen of gebrek aan gevoeligheid. </p>
+          </div>
+          <div>
+            <StaticImage
+              src="../images/_DSC0147.jpg"
+              quality={100}
+              alt="Anke Van Mullem"
+              placeholder="blurred"
+              loading="lazy"
+              transformOptions={{ fit: "cover", cropFocus: "attention" }}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
         </Wrapper>
       </Section>
