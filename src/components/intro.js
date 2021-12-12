@@ -8,7 +8,7 @@ export const Section = styled.div`
     }
     background-color: ${props => props.bgGrey ? props.theme.color.lightGrey : "white"};
     h2 {
-        ${props => props.bgGrey ? "color: props.theme.color.primary": ""}
+        ${props => props.bgGrey ? "" : "color:"+props.theme.color.primary}
     }
 `
 export const Wrapper = styled.div`

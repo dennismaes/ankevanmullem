@@ -2,7 +2,7 @@ import React from "react"
 import styled, { css } from 'styled-components'
 import { Link } from 'gatsby'
 
-import { SiLinkedin, SiWhatsapp, SiGmail } from 'react-icons/si'
+import { SiLinkedin, SiWhatsapp, SiGmail, SiFacebook } from 'react-icons/si'
 import { BsFillCaretLeftFill, BsFillPersonLinesFill, BsChatDotsFill } from 'react-icons/bs'
 import { BiDna, BiDirections } from 'react-icons/bi'
 
@@ -119,4 +119,13 @@ export const ButtonPraktisch = () => (
     <ButtonLink to="/praktisch">
         <Praktisch />Praktische info
     </ButtonLink>
+)
+
+const Facebook = styled(SiFacebook)`
+  ${si}
+`
+export const ButtonFacebook = () => (
+    <Button href="https://www.facebook.com/PathToBodyAndHealth/" target="_blank" rel="noreferrer">
+        <Facebook />Facebook
+    </Button>
 )
