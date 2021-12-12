@@ -72,25 +72,31 @@ const Praktisch = () => {
               <td>25 euro</td>
             </tr>
             <tr>
-              <td>Traject 3 sessies van 1u (zie opmerking 1)</td>
-              <td>120 euro <i>(bespaar 15 euro) </i></td>
-            </tr>
-          <tr>
-              <td>Traject 6 sessies van 1u (zie opmerking 1)</td>
-              <td>240 euro <i>(bespaar 30 euro)</i></td>
+              <td>Traject met sessies van 1u (zie opmerking 1)</td>
+              <td>
+                <p>130 euro voor 3 sessies <i>(bespaar 5 euro)</i></p>
+                <p>250 euro voor 6 sessies <i>(bespaar 20 euro)</i></p>
+              </td>
             </tr>
             <tr>
               <td>DNA-analyse (via mijn kortingscode)</td>
-              <td>Krijg 2% extra korting, <Link to="/emma-health">bestel hier</Link></td>
+              <td>
+                Krijg 2% extra korting in het winkelmandje,{" "}
+                <Link to="/emma-health">bestel hier</Link>
+              </td>
             </tr>
-          <tr>
-              <td>DNA-analyse + 6 sessies van 1u (zie opmerking 1)</td>
-              <td>600 euro <i>(bespaar 61 euro)</i></td>
+            <tr>
+              <td>DNA-analyse + 6 sessies van 1u (zie opmerking 2)</td>
+              <td>
+                600 euro <i>(bespaar 61 euro)</i>
+              </td>
             </tr>
-          <tr>
-            <td>Bodywork: Connecteer met jezelf</td>
-            <td>Contacteer mij voor prijzen</td>
-          </tr>
+            <tr>
+              <td>Bodywork: Connecteer met jezelf</td>
+              <td>
+                Voor een traject van 6 sessies van ongeveer 90 min betaal je op dit moment slechts 500 euro
+              </td>
+            </tr>
           </tbody>
         </Table>
         <p>Opmerkingen: (1) De gesprekken zijn vrij in te plannen over een periode van 6 maanden vanaf de eerste coachingsessie.
