@@ -94,7 +94,7 @@ const Praktisch = () => {
             <tr>
               <td>Bodywork: Connecteer met jezelf</td>
               <td>
-                Voor een traject van 6 sessies van ongeveer 90 min betaal je op dit moment slechts 500 euro
+                Voor een traject van 6 sessies van ongeveer 90 min betaal je op dit moment slechts 555 euro
               </td>
             </tr>
           </tbody>
