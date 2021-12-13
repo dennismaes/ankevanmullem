@@ -9,7 +9,7 @@ export const Timeline = styled.div`
 	
 	&:before {
 		content:"";
-		width: 0.3em;
+		width: 4px;
 		height: 100%;
 		background: ${props => props.theme.color.primary};
 		position: absolute;
@@ -22,21 +22,21 @@ export const Timeline = styled.div`
 	}
 
     display: grid;
-    column-gap: 3em;
+    column-gap: 48px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
         "left ."
         "left right"
         ". right";
     
-    @media (max-width : ${props => props.theme.size.m}) {
+    @media (max-width : ${props => props.theme.size.l}) {
         grid-template-columns: 1fr;
         grid-template-areas:
         "left"
         "right";
-        padding-left: 2em;
+        padding-left: 34px;
         &:before {
-            left: 0.35em;
+            left: 8px;
             right:auto;
         }
     }
@@ -55,14 +55,14 @@ const TimelineEntryContainer = styled.dl`
     &:nth-child(odd) {
         border-left: 0;
         margin-left: 0;
-        @media (min-width : ${props => props.theme.size.m}) {
+        @media (min-width : ${props => props.theme.size.l}) {
             &:before{
-                right:-2.25em;
+                right:-36px;
                 left: auto;
             }
             dt {
                 &:before{
-                    right:-1em;
+                    right:-16px;
                     left: auto;
                     border-left: 10px solid ${props => props.theme.color.primaryLight};
                     border-right: transparent;
@@ -88,17 +88,17 @@ const TimelineEntryContainer = styled.dl`
 		&:before {
 			content: "";
             display: inline-block;
-            width: 1em;
-            height: 1em;
+            width: 16px;
+            height: 16px;
             position: absolute;
             border-top: 10px solid transparent;
             border-bottom: 10px solid transparent;
-			left: -1em;
+			left: -16px;
 			border-right: 10px solid ${props => props.theme.color.primaryLight};
 		}
         &:hover {
             cursor: pointer;
-        }
+        } 
 	}
 			
 	&:before {
@@ -107,15 +107,15 @@ const TimelineEntryContainer = styled.dl`
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 1.5em;
-		height: 1.5em;
+		width: 24px;
+		height: 24px;
 		background-color: ${props => props.theme.color.white};
-		border: .3em solid ${props => props.theme.color.primary};
+		border: 4px solid ${props => props.theme.color.primary};
 		border-radius: 50%;
 		position: absolute;
 		text-shadow: 0 1px 0 ${props => props.theme.color.primary};
-		top: 0.5em;
-        left: -2.25em;
+		top: 8px;
+        left: -36px;
 	}
 
     h3 {
