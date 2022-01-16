@@ -63,7 +63,7 @@ const Aboutme = () => {
       <Section id="timeline">
         <h2>Mijn professioneel traject</h2>
         <Timeline>
-          <TimelineEntry tilte="Sex, Love, and Relationship Coach (student)" date="2022">
+          <TimelineEntry title="Sex Love and Relationship Coach (student)" date="2022">
             <p>Dit is een 1-jarig programma (650 uur) aan Layla Martin's VITA™ Institute.</p>
             <p>De kernwaarden van VITA™ Coaching zijn gebaseerd op het geloof dat seksualiteit heilig, mooi, krachtig en natuurlijk is; 
               pure liefde is de primaire kracht die ons in stand houdt, en betekenisvolle relaties zijn noodzakelijk voor een vreugdevol leven.
@@ -122,7 +122,7 @@ const Aboutme = () => {
             Een internationale training rond gender gerelateerd geweld in samenwerking met 14 landen. Het leerdoel was om de kennis over gender gerelateerd geweld te vergroten, de competenties in het werken met jongeren te verbeteren, het bewustzijn van niet-formeel onderwijs in gender gerelateerd geweld bevorderen, en het uitwisselen van goede praktijken tussen jeugdwerkers.
           </TimelineEntry>
           <TimelineEntry title="GezondheidsTeamChallende" date="Voorjaar 2017">
-            <p>Deel van mijn stage tijdens mijn Bachelor opleiding. Het project liep van midden april tot midden juli 2017.</p>
+            <p>Maakt deel uit van één van mijn Bachelor stages. Tijdens deze stage heb ik een project uitgewerkt op maat. Dit liep van midden april tot midden juli 2017.</p>
             <p>Aan de hand van een bevraging was er een laagdrempelig project ontwikkeld waarbij gezondheid en teamspirit centraal staan. 
               Het was de bedoeling samen met de collega’s iedere week de ‘challenge of the week’ te voltooien. 
               Stil staan bij dagelijkse gewoonten en deze eventueel aanpassen naar een gezonder alternatief was de opzet. 
