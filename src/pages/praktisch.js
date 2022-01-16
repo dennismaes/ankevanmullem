@@ -48,7 +48,8 @@ const Praktisch = () => {
               <h3>Coaching aan huis</h3>
               <p>Bij coaching aan huis is het ook aangeraden om een rustige ruimte te voorzien waar wij ongestoord onze sessie kunnen houden, 
                   of een rustige wandelroute in de buurt waarbij we buiten een sessie kunnen uitvoeren.
-                  <i>Voor coaching aan huis wordt het normale tarief gerekend plus 5 euro en indien de buiten Sint-niklaas een kilometervergoeding van € 0,35/km (herzien op april 2021).</i></p>
+                  <i>Voor coaching aan huis wordt het normale tarief gerekend plus 5 euro. 
+                    Indien de locatie buiten de postcode 9100 valt, wordt ook een kilometervergoeding van € 0,37/km aangerekend (herzien in januari 2022).</i></p>
           </div>
         </Wrapper>
       </Section>
@@ -94,7 +95,7 @@ const Praktisch = () => {
             <tr>
               <td>Bodywork: Connecteer met jezelf</td>
               <td>
-                Voor een traject van 6 sessies van ongeveer 90 min betaal je op dit moment slechts 555 euro (3)
+                Voor een traject van 6 sessies van ongeveer 90 min betaal je op dit moment slechts 555 euro (zie opmerking 3)
               </td>
             </tr>
           </tbody>
@@ -102,7 +103,7 @@ const Praktisch = () => {
         <p>Opmerkingen: (1) De gesprekken zijn vrij in te plannen over een periode van 6 maanden vanaf de eerste coachingsessie.
           (2) De gesprekken zijn vrij in te plannen over een periode van 6 maanden na ontvangst van de DNA-resultaten. 
           Voor een korting te kunnen garanderen op de combinatie van de DNA-analyse en coachingsessies, gelieve mij eerst te contacteren via onderstaande informatie. 
-          (3) Prijswijziging vanaf 1 april: voor een "bodywork traject" van 6 sessies betaal je vanaf 1 april 666 euro. 
+          (3) Prijswijziging vanaf 1 april 2022: voor een "bodywork traject" van 6 sessies betaal je vanaf 1 april 666 euro. 
         </p>
 
         <p>Ben je overtuigd? Maak dan een afspraak via <a href="mailto:info@ankevanmullem.be" target="_blank" rel="noreferrer">info@ankevanmullem.be</a></p>
