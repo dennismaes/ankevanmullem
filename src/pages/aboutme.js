@@ -63,6 +63,21 @@ const Aboutme = () => {
       <Section id="timeline">
         <h2>Mijn professioneel traject</h2>
         <Timeline>
+          <TimelineEntry tilte="Sex, Love, and Relationship Coach (student)" date="2022">
+            <p>Dit is een 1-jarig programma (650 uur) aan Layla Martin's VITA™ Institute.</p>
+            <p>De kernwaarden van VITA™ Coaching zijn gebaseerd op het geloof dat seksualiteit heilig, mooi, krachtig en natuurlijk is; 
+              pure liefde is de primaire kracht die ons in stand houdt, en betekenisvolle relaties zijn noodzakelijk voor een vreugdevol leven.
+              De VITA™ Methode is een transformatieproces om seksualiteit te helen en wakker te maken. 
+              Gesteund door moderne wetenschap en bekrachtigd door oude wijsheid, gebruiken we holistische hulpmiddelen zoals ademwerk, plezierbeoefening, 
+              traumaheling, meditatie, energiewerk, klanken en beweging die zelfs de diepste problemen kunnen oplossen.</p>
+              <p>De VITA™-methode neemt de meest effectieve leringen van de moderne neurobiologie, holistische genezing en moderne coaching, 
+              en mengt deze met oude wijsheid en leringen. VITA™ staat voor: "De Vitale en Geïntegreerde Tantrische Benadering."</p>
+          </TimelineEntry>
+          <TimelineEntry title="Webinar Nooit meer naar de dokter" date="November 2021">
+            Dr. Servaas Bingé behandelde tips & tricks voor onze gezondheid; wat zijn fabeltjes en wat maakt je écht sterker? 
+            In dit webinar vertaalde Servaas de laatste wetenschappelijke inzichten naar praktisch advies waarmee ik aan de slag kan. 
+            Deze online bijeenkomst heeft meer inzicht gegeven in hoe de weerstand kan versterkt worden aan de hand van voeding, stressreductie, slaap en beweging.
+          </TimelineEntry>
           <TimelineEntry title="Dagworkshop Hormoonyoga" date="Oktober 2021">
             Binnen deze dagworkshop ben ik een set houdingen aangeleerd die Dinah Rodrigues ontwikkeld heeft onder de naam hormoonyoga. 
             Het stimuleert de hormoonklieren waardoor de hormoonbalans in je lichaam wordt hersteld en je hormoonproductie op peil wordt gehouden. 
@@ -105,6 +120,14 @@ const Aboutme = () => {
           </TimelineEntry>
           <TimelineEntry title="Project Say NO in Spanje" date="Mei 2017">
             Een internationale training rond gender gerelateerd geweld in samenwerking met 14 landen. Het leerdoel was om de kennis over gender gerelateerd geweld te vergroten, de competenties in het werken met jongeren te verbeteren, het bewustzijn van niet-formeel onderwijs in gender gerelateerd geweld bevorderen, en het uitwisselen van goede praktijken tussen jeugdwerkers.
+          </TimelineEntry>
+          <TimelineEntry title="GezondheidsTeamChallende" date="Voorjaar 2017">
+            <p>Deel van mijn stage tijdens mijn Bachelor opleiding. Het project liep van midden april tot midden juli 2017.</p>
+            <p>Aan de hand van een bevraging was er een laagdrempelig project ontwikkeld waarbij gezondheid en teamspirit centraal staan. 
+              Het was de bedoeling samen met de collega’s iedere week de ‘challenge of the week’ te voltooien. 
+              Stil staan bij dagelijkse gewoonten en deze eventueel aanpassen naar een gezonder alternatief was de opzet. 
+              Het ging om laagdrempelige opdrachtjes die doorheen de dag konden worden uitgevoerd. 
+              Het doel: sedentair gedrag en lichamelijke klachten tegen gaan.</p>
           </TimelineEntry>
           <TimelineEntry title="Opleiding tot Healthie (gezondheidspromotor)" date="Oktober 2016">
             Healthies trekken naar scholen in hun eigen regio om er vormingen rond seksualiteit te geven. Afhankelijk van de regio is er de mogelijkheid om nog andere vormingspakketten te geven.
