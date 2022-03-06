@@ -32,3 +32,5 @@ const EmmaHealth = () => {
         </Layout>
     )
 }
+
+export default EmmaHealth
