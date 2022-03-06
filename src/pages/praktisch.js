@@ -82,15 +82,13 @@ const Praktisch = () => {
             <tr>
               <td>Bodywork: Connecteer met jezelf</td>
               <td>
-                Voor een traject van 6 sessies van ongeveer 90 min betaal je op dit moment slechts 555 euro (zie opmerking 3)
+                Voor een traject van 6 sessies van ongeveer 90 min betaal je op dit moment slechts 555 euro (zie opmerking 2)
               </td>
             </tr>
           </tbody>
         </Table>
         <p>Opmerkingen: (1) De gesprekken zijn vrij in te plannen over een periode van 6 maanden vanaf de eerste coachingsessie.
-          (2) De gesprekken zijn vrij in te plannen over een periode van 6 maanden na ontvangst van de DNA-resultaten. 
-          Voor een korting te kunnen garanderen op de combinatie van de DNA-analyse en coachingsessies, gelieve mij eerst te contacteren via onderstaande informatie. 
-          (3) Prijswijziging vanaf 1 april 2022: voor een "bodywork traject" van 6 sessies betaal je vanaf 1 april 666 euro. 
+          (2) Prijswijziging vanaf 1 april 2022: voor een "bodywork traject" van 6 sessies betaal je vanaf 1 april 666 euro. 
         </p>
 
         <p>Ben je overtuigd? Maak dan een afspraak via <a href="mailto:info@ankevanmullem.be" target="_blank" rel="noreferrer">info@ankevanmullem.be</a></p>
