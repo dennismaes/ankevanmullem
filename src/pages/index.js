@@ -16,7 +16,6 @@ const Index = () => {
       <Sticky>
         <ButtonContact />
         <ButtonAboutme />
-        <ButtonDNA />
         <ButtonPraktisch />
         <ButtonFacebook />
       </Sticky>
