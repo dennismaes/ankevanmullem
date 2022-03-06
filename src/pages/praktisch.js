@@ -80,19 +80,6 @@ const Praktisch = () => {
               </td>
             </tr>
             <tr>
-              <td>DNA-analyse (via mijn kortingscode)</td>
-              <td>
-                Krijg 2% extra korting in het winkelmandje,{" "}
-                <Link to="/emma-health">bestel hier</Link>
-              </td>
-            </tr>
-            <tr>
-              <td>DNA-analyse + 6 sessies van 1u (zie opmerking 2)</td>
-              <td>
-                600 euro <i>(bespaar 61 euro)</i>
-              </td>
-            </tr>
-            <tr>
               <td>Bodywork: Connecteer met jezelf</td>
               <td>
                 Voor een traject van 6 sessies van ongeveer 90 min betaal je op dit moment slechts 555 euro (zie opmerking 3)
