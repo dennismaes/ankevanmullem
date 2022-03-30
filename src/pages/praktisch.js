@@ -65,15 +65,15 @@ const Praktisch = () => {
           </thead>
           <tbody>
             <tr>
-              <td>Coaching sessie van 60 minuten</td>
+              <td>Gezondheidscoaching sessie van 60 minuten</td>
               <td>45 euro</td>
             </tr>
             <tr>
-              <td>Vervolgsessie van 30 minuten</td>
+              <td>Vervolg sessie van 30 minuten</td>
               <td>25 euro</td>
             </tr>
             <tr>
-              <td>Traject met sessies van 1u (zie opmerking 1)</td>
+              <td>Gezondheidscoaching traject met sessies van 1u (zie opmerking 1)</td>
               <td>
                 <p>130 euro voor 3 sessies <i>(bespaar 5 euro)</i></p>
                 <p>250 euro voor 6 sessies <i>(bespaar 20 euro)</i></p>
@@ -82,13 +82,13 @@ const Praktisch = () => {
             <tr>
               <td>Bodywork: Connecteer met jezelf</td>
               <td>
-                Voor een traject van 6 sessies van ongeveer 90 min betaal je op dit moment slechts 555 euro (zie opmerking 2)
+                Voor een traject van 6 sessies van ongeveer 90 min betaal je op dit moment slechts 666 euro
               </td>
             </tr>
           </tbody>
         </Table>
         <p>Opmerkingen: (1) De gesprekken zijn vrij in te plannen over een periode van 6 maanden vanaf de eerste coachingsessie.
-          (2) Prijswijziging vanaf 1 april 2022: voor een "bodywork traject" van 6 sessies betaal je vanaf 1 april 666 euro. 
+          (2) Voor particulieren zijn alle prijzen incl. BTW. Voor bedrijven zijn de prijzen excl. BTW; u ontvangt een factuur via het gewenste mailadres.
         </p>
 
         <p>Ben je overtuigd? Maak dan een afspraak via <a href="mailto:info@ankevanmullem.be" target="_blank" rel="noreferrer">info@ankevanmullem.be</a></p>

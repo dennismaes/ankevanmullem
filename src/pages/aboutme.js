@@ -95,10 +95,10 @@ const Aboutme = () => {
           Beide stonden in het teken van het openen van de zintuigen. De eerste in het teken van sensule geneugten, en de laatste in het teken van zelfliefde en acceptatie.</p>
           <p>Dit alles draagt bij tot mijn professionele ervaring.</p>
           </TimelineEntry>
-          <TimelineEntry title="Partner met Emma.health" date="Maart 2021">
-            Via de Emma.health academy heb ik een uitgebreid opleidingsprogramma gekregen rond hun DNA-resultaten en hoe ik deze gericht kan inzetten in mijn coachingsessies.
-            Dankzij dit partnerschap kan ik ook een korting aanbieden op hun analyses. Een aanrader indien je graag de sterktes en mogelijke noden van jouw lichaam en groei wil ontdekken.<br/>
-            <Link to="/emma-health">Meer info</Link>.
+          <TimelineEntry title="Partner met Emma.health (nu Leadlife)" date="Maart 2021">
+            <p>Via de Emma.health academy heb ik een uitgebreid opleidingsprogramma gekregen rond hun DNA-resultaten en hoe ik deze gericht kan inzetten in mijn coachingsessies.
+            Dankzij dit partnerschap kan ik ook een korting aanbieden op hun analyses. Een aanrader indien je graag de sterktes en mogelijke noden van jouw lichaam en groei wil ontdekken.</p>
+            <p>Update mrt/'22: Ondertussen bestaat Emma.health niet langer en ben ik niet langer een partner. Graag verwijs ik jullie door naar de huidige website van <a href="https://www.leadlife.com/" target="_blank" rel="noreferrer">Leadlife</a>. </p>
           </TimelineEntry>
           <TimelineEntry title="Master of Arts in Cognition and Communication" date="Oktober 2020">
             Deze opleiding beantwoord de vraag: Hoe kunnen we cognitieve processen begrijpen die verband houden met de mediaconsumptie in de moderne samenleving? 
