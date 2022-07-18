@@ -10,6 +10,9 @@ export const Section = styled.div`
     h2 {
         ${props => props.bgGrey ? "" : "color:"+props.theme.color.primary}
     }
+    h3 {
+        ${props => props.bgGrey ? "" : "color:black"}
+    }
 `
 export const Wrapper = styled.div`
     display: grid;

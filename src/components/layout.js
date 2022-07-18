@@ -8,6 +8,7 @@ import { theme } from '../styles/theme'
 
 import ProfileSection from './profilesection'
 import Footer from '../components/footer'
+import { ButtonLang } from '../components/button'
 
 
 const Column = styled.div`
@@ -55,7 +56,7 @@ const Main = styled.main`
     flex: 1;
 `
 
-export default function Layout({ children, leftHiddenMobile }) {
+export default function Layout({ children, leftHiddenMobile, locale, location, noTranslate}) {
     const data = useStaticQuery(
         graphql`
           query {
@@ -67,16 +68,23 @@ export default function Layout({ children, leftHiddenMobile }) {
           }
         `
     )
+    console.log(location.pathname)
     return (
         <ThemeProvider theme={theme}>
             <Fragment>
                 <Helmet 
                     title={data.site.siteMetadata.title} 
-                    htmlAttributes={{ lang : 'nl' }}
+                    htmlAttributes={{ lang : locale }}
                 />
                 <GlobalStyle />
+                {locale === 'nl' && !noTranslate &&
+                    <ButtonLang to={'/en'+ location.pathname}>EN</ButtonLang>
+                }
+                {locale === 'en' && !noTranslate &&
+                    <ButtonLang to={location.pathname.substring(3)}>NL</ButtonLang>
+                }
                 <ColumnLeft leftHiddenMobile={leftHiddenMobile}>
-                    <ProfileSection />
+                    <ProfileSection locale={locale}/>
                 </ColumnLeft>
                 <ColumnRight>
                     <Main>

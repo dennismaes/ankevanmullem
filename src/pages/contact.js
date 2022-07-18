@@ -2,18 +2,18 @@ import React from "react"
 
 import Layout from "../components/layout"
 import { Sticky, Section } from "../components/intro"
-import { ButtonHome, ButtonMail } from "../components/button"
+import { ButtonLink, Back, ButtonMail } from "../components/button"
 import ContactForm from "../components/contact"
 
-const Contact = () => {
+const Contact = ({location}) => {
   return (
-    <Layout leftHiddenMobile>
+    <Layout locale='nl' location={location} leftHiddenMobile>
       <Section id="contact">
         <h2>Contact</h2>
         <p>Wil je meer weten? Laat hier je bericht achter, en ik beantwoord uw vraag zo snel mogelijk.</p>
       </Section>
       <Sticky>
-        <ButtonHome />
+        <ButtonLink><Back />Home</ButtonLink>
         <ButtonMail />
       </Sticky>
       <Section>

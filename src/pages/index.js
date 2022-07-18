@@ -4,19 +4,27 @@ import { StaticImage } from "gatsby-plugin-image";
 
 import Layout from "../components/layout"
 import { Sticky, Section, Wrapper } from "../components/intro"
-import { ButtonDNA, ButtonAboutme, ButtonContact, ButtonPraktisch, ButtonFacebook } from "../components/button"
+import {Button, ButtonLink, Aboutme, Contact, Praktisch, ButtonFacebook, Dropdown, DropdownContent } from "../components/button"
 
-const Index = () => {
+const Index = ({location}) => {
   return (
-    <Layout>
+    <Layout locale="nl" location={location}>
       <Section id="top">
         <h2>Welkom bij Path to Body and Health</h2>
         <p>In het dagelijkse leven werk ik rond welzijn op het werk als veiligheidsconsulent, beter bekend als preventieadviseur. Maar op deze site vind je alles over mijn werk als zelfstandige in bijberoep: uw persoonlijke gezondheidscoach en bodyworker.</p>
       </Section>
       <Sticky>
-        <ButtonContact />
-        <ButtonAboutme />
-        <ButtonPraktisch />
+        <Dropdown>
+          <Button>Coachings</Button>
+          <DropdownContent>
+            <ButtonLink to="#gezondheidscoach">Gezondheidscoaching</ButtonLink>
+            <ButtonLink to="#lichaamswerk">Lichaamswerk</ButtonLink>
+            <ButtonLink to="#">Sex, Love, Relationship coaching</ButtonLink>
+          </DropdownContent>
+        </Dropdown>
+        <ButtonLink to="/aboutme"><Aboutme />Wat meer over mij</ButtonLink>
+        <ButtonLink to="/praktisch"><Praktisch />Praktische info</ButtonLink>
+        <ButtonLink to="/contact"><Contact />Neem contact op</ButtonLink>
         <ButtonFacebook />
       </Sticky>
       <Section bgGrey id="gezondheidscoach">
@@ -49,7 +57,7 @@ const Index = () => {
           <div>
             <h3>Lichaamswerk: wat is het? </h3>
             <p>“Bodywork” is in de alternatieve geneeskunde elke therapeutische of persoonlijke ontwikkelingstechniek waarbij met het menselijk lichaam wordt gewerkt in een vorm van manipulatieve therapie, ademhaling of energie. 
-              Het soort lichaamswerk dat ik gebruik is een proces dat helpt om blokkades, patronen, trauma’s en overtuigingen die je loskoppelen van jezelf los te laten. Met andere woorden, staat bodywork voor mij voor connecteren met jezelf (op een dieper level). </p>
+              Het soort lichaamswerk dat ik gebruik is een proces dat helpt om blokkades, patronen, trauma's en overtuigingen die je loskoppelen van jezelf los te laten. Met andere woorden, staat bodywork voor mij voor connecteren met jezelf (op een dieper level). </p>
           </div>
           <div>
             <h3>Energie</h3>

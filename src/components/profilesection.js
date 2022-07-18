@@ -58,7 +58,7 @@ const Content = styled.div`
     }
 `
 
-const ProfileSection = () => (
+const ProfileSection = ({locale}) => (
     <ProfileContainer>
       <StaticImage
         src="../images/anke.jpg"
@@ -69,10 +69,18 @@ const ProfileSection = () => (
         style ={{width: "100%", height: "100%"}}
         width={1000}
       />
-      <Content>
-        <h1>Hey, mijn naam is<br/>Anke Van Mullem!</h1>
-        <p>Gezondheidscoach &#8211; Bodyworker</p>
-      </Content>
+      {locale === 'en' &&
+        <Content>
+          <h1>Hi, my name is<br/>Anke Van Mullem!</h1>
+          <p>Healt coach &#8211; Body worker</p>
+        </Content>
+      }
+      {locale === 'nl' &&
+        <Content>
+          <h1>Hey, mijn naam is<br/>Anke Van Mullem!</h1>
+          <p>Gezondheidscoach &#8211; Bodyworker</p>
+        </Content>
+      }
     </ProfileContainer>
 )
 
