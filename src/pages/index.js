@@ -5,6 +5,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/layout"
 import { Sticky, Section, Wrapper } from "../components/intro"
 import {Button, ButtonLink, Aboutme, Contact, Praktisch, ButtonFacebook, Dropdown, DropdownContent } from "../components/button"
+import Card from "../components/card"
 
 const Index = ({location}) => {
   return (
@@ -27,6 +28,43 @@ const Index = ({location}) => {
         {/* <ButtonLink to="/contact"><Contact />Neem contact op</ButtonLink> */}
         <ButtonFacebook />
       </Sticky>
+      <Section>
+        <Wrapper cols={3}>
+          <Card to="/coaching/health" title="Gezondheidscoaching" subtitle="Get healthy">
+            <StaticImage
+              src="../../images/pexels-ella-olsson-1640770.jpg"
+              width={600}
+              quality={60}
+              alt="Health"
+              placeholder="blurred"
+              loading="lazy"
+              transformOptions={{ fit: "cover", cropFocus: "attention" }}
+            />
+          </Card>
+          <Card to="/coaching/bodywork" title="Body Work" subtitle="Subtitle">
+            <StaticImage
+              src="../../images/pexels-pixabay-40751.jpg"
+              width={600}
+              quality={60}
+              alt="Health"
+              placeholder="blurred"
+              loading="lazy"
+              transformOptions={{ fit: "cover", cropFocus: "attention" }}
+            />
+          </Card>
+          <Card to="/coaching/sexloverelation" title="Lichaamswerk" subtitle="Subtitle">
+            <StaticImage
+              src="../../images/pexels-asad-photo-maldives-1024960.jpg"
+              width={600}
+              quality={60}
+              alt="Health"
+              placeholder="blurred"
+              loading="lazy"
+              transformOptions={{ fit: "cover", cropFocus: "attention" }}
+            />
+          </Card>
+          </Wrapper>
+      </Section>
       <Section bgGrey id="gezondheidscoach">
         <h2>Gezondheidscoaching</h2>
         <Wrapper cols={2}>

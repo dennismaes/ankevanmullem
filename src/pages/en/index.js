@@ -5,6 +5,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../../components/layout"
 import { Sticky, Section, Wrapper } from "../../components/intro"
 import { Button, ButtonLink, Contact, Dropdown, DropdownContent } from "../../components/button"
+import Card from "../../components/card"
 
 const IndexEn = ({location}) => {
   return (
@@ -18,17 +19,52 @@ const IndexEn = ({location}) => {
         <Dropdown>
           <Button>Coachings</Button>
           <DropdownContent>
-            <ButtonLink to="/en/coaching/health">Gezondheidscoaching</ButtonLink>
-            <ButtonLink to="/en/coaching/bodywork">Lichaamswerk</ButtonLink>
+            <ButtonLink to="/en/coaching/health">Health coaching</ButtonLink>
+            <ButtonLink to="/en/coaching/bodywork">Body work</ButtonLink>
             <ButtonLink to="/en/coaching/sexloverelationship">Sex, Love, Relationship coaching</ButtonLink>
           </DropdownContent>
         </Dropdown>
       </Sticky>
-      <Section bgGrey id="health">
-        <h2>Health Coaching</h2>
-        <Wrapper cols={2}>
-            TODO
+      <Section>
+        <Wrapper cols={3}>
+          <Card to="/en/coaching/health" title="Health coaching" subtitle="Get healthy">
+            <StaticImage
+              src="../../images/pexels-ella-olsson-1640770.jpg"
+              width={600}
+              quality={60}
+              alt="Health"
+              placeholder="blurred"
+              loading="lazy"
+              transformOptions={{ fit: "cover", cropFocus: "attention" }}
+            />
+          </Card>
+          <Card to="/en/coaching/bodywork" title="Body Work" subtitle="Subtitle">
+            <StaticImage
+              src="../../images/pexels-pixabay-40751.jpg"
+              width={600}
+              quality={60}
+              alt="Health"
+              placeholder="blurred"
+              loading="lazy"
+              transformOptions={{ fit: "cover", cropFocus: "attention" }}
+            />
+          </Card>
+          <Card to="/en/coaching/sexloverelation" title="Body Work" subtitle="Subtitle">
+            <StaticImage
+              src="../../images/pexels-asad-photo-maldives-1024960.jpg"
+              width={600}
+              quality={60}
+              alt="Health"
+              placeholder="blurred"
+              loading="lazy"
+              transformOptions={{ fit: "cover", cropFocus: "attention" }}
+            />
+          </Card>
         </Wrapper>
+      </Section>
+
+      <Section id="intro">     
+    
       </Section>
       <Section id="bodywork">
         <h2>Body work</h2>
