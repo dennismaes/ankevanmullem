@@ -1,17 +1,16 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from 'styled-components'
-import { GatsbyImage } from "gatsby-plugin-image";
 
 const CardInfo = styled.div`
     position: absolute;
-    bottom: 0;
+    bottom: 11px;
     padding: 30px 15px 5px;
     width: 100%;
     background: -webkit-linear-gradient( top,transparent 0%,rgba(0,0,0,0.5) 100% );
     z-index: 1; //fix
     h3 {
-        font-size: 1.2rem;
+        font-size: 1.8rem;
         line-height: 1;
         margin: 0;
         color: white;
@@ -36,13 +35,13 @@ const CardContainer = styled(Link)`
 
 
 
-const Card = ({ to, title, subtitle, imgdata }) => (
+const Card = ({children, to, title, subtitle }) => (
     <CardContainer to={to}>
         <CardInfo>
             <h3>{title}</h3>
             <small>{subtitle}</small>
         </CardInfo>
-        <GatsbyImage image={imgdata.childImageSharp.gatsbyImageData} />
+        {children}
     </CardContainer>
 )
 
