@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 import Layout from "../../components/layout"
 import { Sticky, Section, Wrapper } from "../../components/intro"
-import { ButtonLink, Contact } from "../../components/button"
+import { Button, ButtonLink, Contact, Dropdown, DropdownContent } from "../../components/button"
 
 const IndexEn = ({location}) => {
   return (
@@ -15,6 +15,14 @@ const IndexEn = ({location}) => {
       </Section>
       <Sticky>
         <ButtonLink to="/en/contact/"><Contact />Contact me</ButtonLink>
+        <Dropdown>
+          <Button>Coachings</Button>
+          <DropdownContent>
+            <ButtonLink to="/en/coaching/health">Gezondheidscoaching</ButtonLink>
+            <ButtonLink to="/en/coaching/bodywork">Lichaamswerk</ButtonLink>
+            <ButtonLink to="/en/coaching/sexloverelationship">Sex, Love, Relationship coaching</ButtonLink>
+          </DropdownContent>
+        </Dropdown>
       </Sticky>
       <Section bgGrey id="health">
         <h2>Health Coaching</h2>

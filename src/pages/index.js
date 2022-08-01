@@ -17,14 +17,14 @@ const Index = ({location}) => {
         <Dropdown>
           <Button>Coachings</Button>
           <DropdownContent>
-            <ButtonLink to="#gezondheidscoach">Gezondheidscoaching</ButtonLink>
-            <ButtonLink to="#lichaamswerk">Lichaamswerk</ButtonLink>
-            <ButtonLink to="#">Sex, Love, Relationship coaching</ButtonLink>
+            <ButtonLink to="/coaching/health">Gezondheidscoaching</ButtonLink>
+            <ButtonLink to="/coaching/bodywork">Lichaamswerk</ButtonLink>
+            <ButtonLink to="/coaching/sexloverelationship">Sex, Love, Relationship coaching</ButtonLink>
           </DropdownContent>
         </Dropdown>
         <ButtonLink to="/aboutme"><Aboutme />Wat meer over mij</ButtonLink>
-        <ButtonLink to="/praktisch"><Praktisch />Praktische info</ButtonLink>
-        <ButtonLink to="/contact"><Contact />Neem contact op</ButtonLink>
+        {/* <ButtonLink to="/praktisch"><Praktisch />Praktische info</ButtonLink> */}
+        {/* <ButtonLink to="/contact"><Contact />Neem contact op</ButtonLink> */}
         <ButtonFacebook />
       </Sticky>
       <Section bgGrey id="gezondheidscoach">

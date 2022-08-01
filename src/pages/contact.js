@@ -13,7 +13,7 @@ const Contact = ({location}) => {
         <p>Wil je meer weten? Laat hier je bericht achter, en ik beantwoord uw vraag zo snel mogelijk.</p>
       </Section>
       <Sticky>
-        <ButtonLink><Back />Home</ButtonLink>
+        <ButtonLink to="/"><Back />Home</ButtonLink>
         <ButtonMail />
       </Sticky>
       <Section>
