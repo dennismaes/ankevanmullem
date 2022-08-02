@@ -17,7 +17,7 @@ const Bodywork = ({ location }) => {
   return (
     <Layout locale="en" location={location} leftHiddenMobile>
       <Section id="top">
-        <h2>Body work</h2>
+        <h2>Bodywork</h2>
       </Section>
       <Sticky>
         <ButtonLink to="/en">
@@ -27,10 +27,9 @@ const Bodywork = ({ location }) => {
         <Dropdown>
           <Button>Coachings</Button>
           <DropdownContent>
-            <ButtonLink to="/en/coaching/health">Health</ButtonLink>
-            <ButtonLink to="/en/coaching/bodywork">Body Work</ButtonLink>
+            <ButtonLink to="/en/coaching/health">Health Coaching</ButtonLink>
             <ButtonLink to="/en/coaching/sexloverelation">
-              Sex, Love, Relationship
+              Sex, Love, and Relationship Coaching
             </ButtonLink>
           </DropdownContent>
         </Dropdown>
@@ -93,11 +92,11 @@ const Bodywork = ({ location }) => {
         </Wrapper>
       </Section>
 
-      <Section bgGrey id="pricing">
+      <Section id="pricing">
         <h2>Practical info</h2>
         <Wrapper cols={2}>
           <div>
-            <h3>Where?</h3>
+            <h3>Where and how?</h3>
             <p>
               It is only possible to receive live coaching in{" "}
               <i>Sint-Niklaas, Belgium</i>. This can also be done at home on
@@ -112,7 +111,17 @@ const Bodywork = ({ location }) => {
             <p>
               Always by appointment. In general there is the possibility to
               weekdays in the evening; on Fridays this is also possible
-              throughout the day. It is also possible in the weekend on request.
+              throughout the day. On request sessions are available in the
+              weekend.
+            </p>
+          </div>
+          <div>
+            <h3>Cost?</h3>
+            <p>
+              A session lasts about 90 minutes. For a course of 6 sessions
+              sessions you pay only 666 euros at the moment. Exceptionally one
+              test session can be arranged after making an appointment. For
+              private individuals, all prices include VAT.
             </p>
           </div>
           <div>
@@ -125,15 +134,6 @@ const Bodywork = ({ location }) => {
               loading="eager"
               transformOptions={{ fit: "cover", cropFocus: "attention" }}
             />
-          </div>
-          <div>
-            <h3>Cost?</h3>
-            <p>
-              A session lasts about 90 minutes. For a course of 6 sessions
-              sessions you pay only 666 euros at the moment. Exceptionally one
-              test session can be arranged after making an appointment. For
-              private individuals, all prices include VAT.
-            </p>
           </div>
         </Wrapper>
 
@@ -149,8 +149,8 @@ const Bodywork = ({ location }) => {
         </p>
         <p>
           Not quite sure yet and would you like more non-binding information?
-          Ask me all your questions and/or share your reservations via the
-          contact form or via{" "}
+          Ask me all your questions and/or share your reservations via the{" "}
+          <Link to="/en/contact">contact form</Link> or via{" "}
           <a
             href="mailto:info@ankevanmullem.be"
             target="_blank"

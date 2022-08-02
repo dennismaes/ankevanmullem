@@ -19,6 +19,20 @@
             "port": 8000
           },
           "closeable": true
+        },
+        {
+          "id": "codesandbox.browser",
+          "options": {
+            "port": 46179
+          },
+          "closeable": true
+        },
+        {
+          "id": "codesandbox.browser",
+          "options": {
+            "port": 39193
+          },
+          "closeable": true
         }
       ]
     },

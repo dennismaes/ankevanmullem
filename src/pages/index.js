@@ -32,10 +32,10 @@ const Index = ({ location }) => {
           <Button>Coachings</Button>
           <DropdownContent>
             <ButtonLink to="/coaching/health">Gezondheidscoaching</ButtonLink>
-            <ButtonLink to="/coaching/bodywork">Lichaamswerk</ButtonLink>
             <ButtonLink to="/coaching/sexloverelation">
               Sex, Love, Relationship coaching
             </ButtonLink>
+            <ButtonLink to="/coaching/bodywork">Lichaamswerk</ButtonLink>
           </DropdownContent>
         </Dropdown>
         <ButtonLink to="/aboutme">
@@ -54,21 +54,10 @@ const Index = ({ location }) => {
           <Card
             to="/coaching/health"
             title="Gezondheidscoaching"
-            subtitle="Get healthy"
+            subtitle="Holistische kijk op gezondheid"
           >
             <StaticImage
-              src="../../images/pexels-ella-olsson-1640770.jpg"
-              width={600}
-              quality={60}
-              alt="Health"
-              placeholder="blurred"
-              loading="lazy"
-              transformOptions={{ fit: "cover", cropFocus: "attention" }}
-            />
-          </Card>
-          <Card to="/coaching/bodywork" title="Body Work" subtitle="Subtitle">
-            <StaticImage
-              src="../../images/pexels-pixabay-40751.jpg"
+              src="../../images/Gcoaching.jpg"
               width={600}
               quality={60}
               alt="Health"
@@ -79,11 +68,26 @@ const Index = ({ location }) => {
           </Card>
           <Card
             to="/coaching/sexloverelation"
-            title="Lichaamswerk"
-            subtitle="Subtitle"
+            title="Sex, Love, and Relationship Coaching"
+            subtitle=" "
           >
             <StaticImage
-              src="../../images/pexels-asad-photo-maldives-1024960.jpg"
+              src="../../images/SLR01.jpg"
+              width={600}
+              quality={60}
+              alt="Health"
+              placeholder="blurred"
+              loading="lazy"
+              transformOptions={{ fit: "cover", cropFocus: "attention" }}
+            />
+          </Card>
+          <Card
+            to="/coaching/bodywork"
+            title="Bodywork"
+            subtitle="Energie en de-armouring"
+          >
+            <StaticImage
+              src="../../images/_DSC0110-2.jpg"
               width={600}
               quality={60}
               alt="Health"
@@ -104,26 +108,6 @@ export const cardImage = graphql`
   fragment cardImage on File {
     childImageSharp {
       gatsbyImageData(width: 640, height: 480, layout: CONSTRAINED)
-    }
-  }
-`;
-
-export const query = graphql`
-  query {
-    image1: file(relativePath: { eq: "denmark/architecture.jpg" }) {
-      ...cardImage
-    }
-
-    image2: file(relativePath: { eq: "denmark/copenhagen.jpg" }) {
-      ...cardImage
-    }
-
-    image3: file(relativePath: { eq: "denmark/expedition.jpg" }) {
-      ...cardImage
-    }
-
-    image4: file(relativePath: { eq: "denmark/statue.jpg" }) {
-      ...cardImage
     }
   }
 `;

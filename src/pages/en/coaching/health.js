@@ -16,7 +16,7 @@ const Health = ({ location }) => {
   return (
     <Layout locale="en" location={location} leftHiddenMobile>
       <Section id="top">
-        <h2>Health coaching</h2>
+        <h2>Health Coaching</h2>
       </Section>
       <Sticky>
         <ButtonLink to="/en">
@@ -26,11 +26,10 @@ const Health = ({ location }) => {
         <Dropdown>
           <Button>Coachings</Button>
           <DropdownContent>
-            <ButtonLink to="/en/coaching/health">Health</ButtonLink>
-            <ButtonLink to="/en/coaching/bodywork">Body Work</ButtonLink>
             <ButtonLink to="/en/coaching/sexloverelation">
-              Sex, Love, Relationship
+              Sex, Love, and Relationship Coaching
             </ButtonLink>
+            <ButtonLink to="/en/coaching/bodywork">Bodywork</ButtonLink>
           </DropdownContent>
         </Dropdown>
       </Sticky>
@@ -79,24 +78,36 @@ const Health = ({ location }) => {
           </div>
         </Wrapper>
       </Section>
-      <Section bgGrey id="pricing">
+      <Section id="pricing">
         <h2>Practical info</h2>
         <Wrapper cols={2}>
           <div>
-            <h3>Where?</h3>
+            <h3>Where and how?</h3>
             <p>
-              The most common is live coaching in <i>Sint-Niklaas</i>. It is
-              also possible to follow a coaching online via Zoom. For online
-              coaching it is recommended to provide a quiet room where you can
-              have the session undisturbed.
+              The most common is live coaching in <i>Sint-Niklaas, Belgium</i>.
+              It is also possible to follow a coaching online via Zoom. For
+              online coaching it is recommended to provide a quiet room where
+              you can have the session undisturbed.
             </p>
           </div>
+          <div>
+            <StaticImage
+              src="../images/Gcoaching.jpg"
+              width={600}
+              quality={60}
+              alt="Anke Van Mullem"
+              placeholder="blurred"
+              loading="eager"
+              transformOptions={{ fit: "cover", cropFocus: "attention" }}
+            />
+          </div>{" "}
           <div>
             <h3>When?</h3>
             <p>
               Always by appointment. In general there is the possibility to
               weekdays in the evening; on Fridays this is also possible
-              throughout the day. It is also possible in the weekend on request.
+              throughout the day. On request sessions are available in the
+              weekend.
             </p>
           </div>
           <div>
@@ -109,17 +120,6 @@ const Health = ({ location }) => {
               individuals, all prices include VAT.
             </p>
           </div>
-          <div>
-            <StaticImage
-              src="../images/_DSC9668.jpg"
-              width={600}
-              quality={60}
-              alt="Anke Van Mullem"
-              placeholder="blurred"
-              loading="eager"
-              transformOptions={{ fit: "cover", cropFocus: "attention" }}
-            />
-          </div>
         </Wrapper>
 
         <p>
@@ -131,11 +131,12 @@ const Health = ({ location }) => {
           >
             info@ankevanmullem.be
           </a>
+          .
         </p>
         <p>
           Not quite sure yet and would you like more non-binding information?
-          Ask me all your questions and/or share your reservations via the
-          contact form or via{" "}
+          Ask me all your questions and/or share your reservations via the{" "}
+          <Link to="/en/contact">contact form</Link> or via{" "}
           <a
             href="mailto:info@ankevanmullem.be"
             target="_blank"

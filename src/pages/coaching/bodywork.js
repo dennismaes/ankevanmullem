@@ -27,10 +27,9 @@ const Lichaamswerk = ({ location }) => {
         <Dropdown>
           <Button>Coachings</Button>
           <DropdownContent>
-            <ButtonLink to="/coaching/health">Gezondheid</ButtonLink>
-            <ButtonLink to="/coaching/bodywork">Lichaamswerk</ButtonLink>
+            <ButtonLink to="/coaching/health">Gezondheidscoaching</ButtonLink>
             <ButtonLink to="/coaching/sexloverelation">
-              Seks, Liefde, Relatie
+              Sex, Love, Relationship coaching
             </ButtonLink>
           </DropdownContent>
         </Dropdown>
@@ -96,7 +95,7 @@ const Lichaamswerk = ({ location }) => {
           </div>
         </Wrapper>
       </Section>
-      <Section bgGrey id="pricing">
+      <Section id="pricing">
         <h2>Praktische info</h2>
         <Wrapper cols={2}>
           <div>
@@ -106,7 +105,7 @@ const Lichaamswerk = ({ location }) => {
               <i>Sint-Niklaas</i>. Op aanvraag kan dit ook aan huis. Hierbij is
               het belangrijk een rustige ruimte te voorzien waar wij ongestoord
               onze sessie kunnen houden. Hiervoor wordt wel een extra kostprijs
-              aangerekend, nl. 5 euro plus een kilometervergoeding van € 0,42/km
+              aangerekend, nl. 5 euro plus een kilometervergoeding van €0,42/km
               (herzien op jul/'22).
             </p>
           </div>
@@ -151,14 +150,23 @@ const Lichaamswerk = ({ location }) => {
             {" "}
             info@ankevanmullem.be
           </a>
+          .
         </p>
         <p>
           Toch nog niet helemaal zeker en heb je graag nog wat vrijblijvende
-          informatie? Stel mij al jouw vragen en/of bedenkingen via het via het
-          contactformulier. Op aanvraag kunnen wij ook een online gesprek
-          inplannen om elkaar wat beter aan te voelen en te kijken hoe ik jou
-          kan helpen. Dan kan ik je gerichter vertellen over de mogelijkheden en
-          een voorstel doen over hoe we kunnen samenwerken.
+          informatie? Stel mij al jouw vragen en/of bedenkingen via het via het{" "}
+          <Link to="/contact">contactformulier</Link> of via{" "}
+          <a
+            href="mailto:info@ankevanmullem.be"
+            target="_blank"
+            rel="noreferrer"
+          >
+            info@ankevanmullem.be
+          </a>
+          . Op aanvraag kunnen wij ook een online gesprek inplannen om elkaar
+          wat beter aan te voelen en te kijken hoe ik jou kan helpen. Dan kan ik
+          je gerichter vertellen over de mogelijkheden en een voorstel doen over
+          hoe we kunnen samenwerken.
         </p>
       </Section>
     </Layout>

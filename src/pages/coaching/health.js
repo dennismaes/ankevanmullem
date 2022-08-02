@@ -27,11 +27,10 @@ const Gezondheid = ({ location }) => {
         <Dropdown>
           <Button>Coachings</Button>
           <DropdownContent>
-            <ButtonLink to="/coaching/health">Gezondheid</ButtonLink>
-            <ButtonLink to="/coaching/bodywork">Lichaamswerk</ButtonLink>
             <ButtonLink to="/coaching/sexloverelation">
-              Seks, Liefde, Relatie
+              Sex, Love, Relationship coaching
             </ButtonLink>
+            <ButtonLink to="/coaching/bodywork">Lichaamswerk</ButtonLink>
           </DropdownContent>
         </Dropdown>
       </Sticky>
@@ -86,7 +85,7 @@ const Gezondheid = ({ location }) => {
         </Wrapper>
       </Section>
 
-      <Section bgGrey id="pricing">
+      <Section id="pricing">
         <h2>Praktische info</h2>
         <Wrapper cols={2}>
           <div>
@@ -97,6 +96,17 @@ const Gezondheid = ({ location }) => {
               coaching is het aangeraden om een rustige ruimte te voorzien waar
               jij ongestoord de sessie kan houden.
             </p>
+          </div>
+          <div>
+            <StaticImage
+              src="../images/Gcoaching.jpg"
+              width={600}
+              quality={60}
+              alt="Anke Van Mullem"
+              placeholder="blurred"
+              loading="eager"
+              transformOptions={{ fit: "cover", cropFocus: "attention" }}
+            />
           </div>
           <div>
             <h3>Wanneer?</h3>
@@ -118,17 +128,6 @@ const Gezondheid = ({ location }) => {
               zijn alle prijzen incl. BTW.
             </p>
           </div>
-          <div>
-            <StaticImage
-              src="../images/_DSC9668.jpg"
-              width={600}
-              quality={60}
-              alt="Anke Van Mullem"
-              placeholder="blurred"
-              loading="eager"
-              transformOptions={{ fit: "cover", cropFocus: "attention" }}
-            />
-          </div>
         </Wrapper>
 
         <p>
@@ -140,14 +139,23 @@ const Gezondheid = ({ location }) => {
           >
             info@ankevanmullem.be
           </a>
+          .
         </p>
         <p>
           Toch nog niet helemaal zeker en heb je graag nog wat vrijblijvende
-          informatie? Stel mij al jouw vragen en/of bedenkingen via het via het
-          contactformulier. Op aanvraag kunnen wij ook een online gesprek
-          inplannen om elkaar wat beter aan te voelen en te kijken hoe ik jou
-          kan helpen. Dan kan ik je gerichter vertellen over de mogelijkheden en
-          een voorstel doen over hoe we kunnen samenwerken.
+          informatie? Stel mij al jouw vragen en/of bedenkingen via het via het{" "}
+          <Link to="/contact">contactformulier</Link> of via{" "}
+          <a
+            href="mailto:info@ankevanmullem.be"
+            target="_blank"
+            rel="noreferrer"
+          >
+            info@ankevanmullem.be
+          </a>
+          . Op aanvraag kunnen wij ook een online gesprek inplannen om elkaar
+          wat beter aan te voelen en te kijken hoe ik jou kan helpen. Dan kan ik
+          je gerichter vertellen over de mogelijkheden en een voorstel doen over
+          hoe we kunnen samenwerken.
         </p>
       </Section>
     </Layout>
