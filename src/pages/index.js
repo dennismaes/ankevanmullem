@@ -53,7 +53,7 @@ const Index = ({ location }) => {
         <Wrapper cols={3}>
           <Card
             to="/coaching/health"
-            title="Gezondheidscoaching"
+            title="Gezondheids-coaching"
             subtitle="Holistische kijk op gezondheid"
           >
             <StaticImage
@@ -69,13 +69,13 @@ const Index = ({ location }) => {
           <Card
             to="/coaching/sexloverelation"
             title="Sex, Love, and Relationship Coaching"
-            subtitle=" "
+            subtitle="Geen taboes, alles is mogelijk"
           >
             <StaticImage
               src="../../images/SLR01.jpg"
               width={600}
               quality={60}
-              alt="Health"
+              alt="Sex, Love, and Relationship"
               placeholder="blurred"
               loading="lazy"
               transformOptions={{ fit: "cover", cropFocus: "attention" }}

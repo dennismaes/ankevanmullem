@@ -63,7 +63,7 @@ const SexLoveRelationEN = ({ location }) => {
           </div>
           <div>
             <StaticImage
-              src="../images/SLR01.jpg"
+              src="../../images/SLR01.jpg"
               width={600}
               quality={60}
               alt="Anke Van Mullem"

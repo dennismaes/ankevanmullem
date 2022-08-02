@@ -99,7 +99,7 @@ const Gezondheid = ({ location }) => {
           </div>
           <div>
             <StaticImage
-              src="../images/Gcoaching.jpg"
+              src="../../images/Gcoaching.jpg"
               width={600}
               quality={60}
               alt="Anke Van Mullem"

@@ -84,8 +84,8 @@ const Lichaamswerk = ({ location }) => {
           </div>
           <div>
             <StaticImage
-              src="../images/_DSC0151.jpg"
-              width={600}
+              src="../../images/_DSC0151.jpg"
+              width={400}
               quality={60}
               alt="Anke Van Mullem"
               placeholder="blurred"
