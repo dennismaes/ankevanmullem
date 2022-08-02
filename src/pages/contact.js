@@ -1,27 +1,33 @@
-import React from "react"
+import React from "react";
 
-import Layout from "../components/layout"
-import { Sticky, Section } from "../components/intro"
-import { ButtonLink, Back, ButtonMail } from "../components/button"
-import ContactForm from "../components/contact"
+import Layout from "../components/layout";
+import { Sticky, Section } from "../components/intro";
+import { ButtonLink, Back, ButtonMail } from "../components/button";
+import ContactForm from "../components/contact";
 
-const Contact = ({location}) => {
+const Contact = ({ location }) => {
   return (
-    <Layout locale='nl' location={location} leftHiddenMobile>
+    <Layout locale="nl" location={location} leftHiddenMobile>
       <Section id="contact">
         <h2>Contact</h2>
-        <p>Wil je meer weten? Laat hier je bericht achter, en ik beantwoord uw vraag zo snel mogelijk.</p>
+        <p>
+          Wil je meer weten? Laat hier je bericht achter, en ik beantwoord uw
+          vraag zo snel mogelijk.
+        </p>
       </Section>
       <Sticky>
-        <ButtonLink to="/"><Back />Home</ButtonLink>
+        <ButtonLink to="/">
+          <Back />
+          Home
+        </ButtonLink>
         <ButtonMail />
       </Sticky>
       <Section>
         Of laat hieronder je bericht achter
-        <ContactForm />
+        <ContactForm locale="nl" />
       </Section>
     </Layout>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

@@ -21,7 +21,8 @@ const IndexEn = ({ location }) => {
         <p>
           In daily life, I work in the field of well-being at work as a safety
           consultant. But on this website you will find everything about my work
-          as a self-employed person: your personal coach!
+          as a self-employed person: your personal Health Coach and Sex, Love,
+          and Relationship Coach!
         </p>
       </Section>
       <Sticky>

@@ -23,8 +23,8 @@ const Index = ({ location }) => {
         <p>
           In het dagelijkse leven werk ik rond welzijn op het werk als
           veiligheidsconsulent, beter bekend als preventieadviseur. Maar op deze
-          site vind je alles over mijn werk als zelfstandige in bijberoep: uw
-          persoonlijke gezondheidscoach en bodyworker.
+          site vind je alles over mijn werk als zelfstandige in bijberoep: jouw
+          persoonlijke Gezondheidscoach en Seks, Liefde, en Relatiecoach.
         </p>
       </Section>
       <Sticky>

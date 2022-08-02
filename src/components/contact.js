@@ -17,7 +17,7 @@ const StyledForm = styled.form`
   }
 `;
 
-const Form = ({ children }) => {
+const Form = ({ children, locale }) => {
   const [serverState, setServerState] = useState({
     submitting: false,
     status: null
@@ -50,7 +50,8 @@ const Form = ({ children }) => {
   return (
     <StyledForm autoComplete="on" onSubmit={handleOnSubmit}>
       {children}
-      <ButtonButton type="submit">Versturen</ButtonButton>
+      {locale === "nl" && <ButtonButton type="submit">Versturen</ButtonButton>}
+      {locale === "en" && <ButtonButton type="submit">Submit</ButtonButton>}
       {serverState.status &&
         (serverState.status.ok ? (
           <p>Bedankt voor uw bericht! Ik neem spoedig met u contact op. </p>
@@ -163,76 +164,82 @@ const Button = styled.button`
   }
 `;
 
-const ContactForm = () => {
+const ContactForm = ({ locale }) => {
   return (
-    <Form>
-      <FormGroup>
-        <input type="text" name="name" placeholder="Wie bent u?" required />
-        <label htmlFor="name">Uw naam</label>
-      </FormGroup>
-      <FormGroup>
-        <input
-          type="email"
-          name="email"
-          placeholder="Wat is uw e-mailadres?"
-          required
-        />
-        <label htmlFor="email">Your Email</label>
-      </FormGroup>
-      <FormGroup>
-        <input
-          type="tel"
-          name="phone"
-          placeholder="Wat is uw telefoonnummer? (optioneel)"
-        />
-        <label htmlFor="phone">Telefoonnummer (optioneel)</label>
-      </FormGroup>
-      <FormGroup>
-        <textarea
-          type="text"
-          name="message"
-          placeholder="Wat is uw vraag?"
-          required
-        />
-        <label htmlFor="email">Uw vraag</label>
-      </FormGroup>
-    </Form>
-  );
-};
-
-export const ContactFormEN = () => {
-  return (
-    <Form>
-      <FormGroup>
-        <input type="text" name="name" placeholder="Wie bent u?" required />
-        <label htmlFor="name">Your name</label>
-      </FormGroup>
-      <FormGroup>
-        <input
-          type="email"
-          name="email"
-          placeholder="Wat is uw e-mailadres?"
-          required
-        />
-        <label htmlFor="email">Your Email</label>
-      </FormGroup>
-      <FormGroup>
-        <input
-          type="tel"
-          name="phone"
-          placeholder="Wat is uw telefoonnummer? (optioneel)"
-        />
-        <label htmlFor="phone">Telefoonnummer (optioneel)</label>
-      </FormGroup>
-      <FormGroup>
-        <textarea
-          type="text"
-          name="message"
-          placeholder="Wat is uw vraag?"
-          required
-        />
-        <label htmlFor="email">Uw vraag</label>
-      </FormGroup>
+    <Form locale={locale}>
+      {locale === "nl" && (
+        <span>
+          <FormGroup>
+            <input type="text" name="name" placeholder="Wie bent u?" required />
+            <label htmlFor="name">Uw naam</label>
+          </FormGroup>
+          <FormGroup>
+            <input
+              type="email"
+              name="email"
+              placeholder="Wat is uw e-mailadres?"
+              required
+            />
+            <label htmlFor="email">Your Email</label>
+          </FormGroup>
+          <FormGroup>
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Wat is uw telefoonnummer? (optioneel)"
+            />
+            <label htmlFor="phone">Telefoonnummer (optioneel)</label>
+          </FormGroup>
+          <FormGroup>
+            <textarea
+              type="text"
+              name="message"
+              placeholder="Wat is uw vraag?"
+              required
+            />
+            <label htmlFor="email">Uw vraag</label>
+          </FormGroup>
+        </span>
+      )}
+      {locale === "en" && (
+        <span>
+          <FormGroup>
+            <input
+              type="text"
+              name="name"
+              placeholder="Who are you?"
+              required
+            />
+            <label htmlFor="name">Your name</label>
+          </FormGroup>
+          <FormGroup>
+            <input
+              type="email"
+              name="email"
+              placeholder="What is your email address?"
+              required
+            />
+            <label htmlFor="email">Your Email</label>
+          </FormGroup>
+          <FormGroup>
+            <input
+              type="tel"
+              name="phone"
+              placeholder="What is your telephone number? (optional)"
+            />
+            <label htmlFor="phone">Telephone number (optional)</label>
+          </FormGroup>
+          <FormGroup>
+            <textarea
+              type="text"
+              name="message"
+              placeholder="Wat is your question?"
+              required
+            />
+            <label htmlFor="email">Your question</label>
+          </FormGroup>
+        </span>
+      )}
     </Form>
   );
 };
