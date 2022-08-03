@@ -99,18 +99,6 @@ const SexLoveRelationEN = ({ location }) => {
               understanding projections. And so much more!
             </p>
           </div>
-
-          <div>
-            <StaticImage
-              src="../../images/SLR02.jpg"
-              width={600}
-              quality={60}
-              alt="Anke Van Mullem"
-              placeholder="blurred"
-              loading="lazy"
-              transformOptions={{ fit: "cover", cropFocus: "attention" }}
-            />
-          </div>
         </Wrapper>
         <h2>
           Are you ready for a liberating sex and love life, and/or lasting
@@ -138,7 +126,7 @@ const SexLoveRelationEN = ({ location }) => {
           </div>
           <div>
             <StaticImage
-              src="../images/SLR02.jpg"
+              src="../../../images/SLR02.jpg"
               width={600}
               quality={60}
               alt="Anke Van Mullem"

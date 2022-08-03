@@ -53,7 +53,7 @@ const Index = ({ location }) => {
         <Wrapper cols={3}>
           <Card
             to="/coaching/health"
-            title="Gezondheids-coaching"
+            title="Gezondheids coaching"
             subtitle="Holistische kijk op gezondheid"
           >
             <StaticImage

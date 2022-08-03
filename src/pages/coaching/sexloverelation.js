@@ -124,7 +124,7 @@ const SexLoveRelation = ({ location }) => {
           </div>
           <div>
             <StaticImage
-              src="../images/SLR02.jpg"
+              src="../../images/SLR02.jpg"
               width={600}
               quality={60}
               alt="Anke Van Mullem"

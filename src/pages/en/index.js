@@ -5,6 +5,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../../components/layout";
 import { Sticky, Section, Wrapper } from "../../components/intro";
 import {
+  ButtonFacebook,
   Button,
   ButtonLink,
   Contact,
@@ -26,10 +27,6 @@ const IndexEn = ({ location }) => {
         </p>
       </Section>
       <Sticky>
-        <ButtonLink to="/en/contact/">
-          <Contact />
-          Contact me
-        </ButtonLink>
         <Dropdown>
           <Button>Coachings</Button>
           <DropdownContent>
@@ -40,6 +37,11 @@ const IndexEn = ({ location }) => {
             <ButtonLink to="/en/coaching/bodywork">Bodywork</ButtonLink>
           </DropdownContent>
         </Dropdown>
+        <ButtonLink to="/en/contact/">
+          <Contact />
+          Contact me
+        </ButtonLink>
+        <ButtonFacebook />
       </Sticky>
       <Section>
         <Wrapper cols={3}>
@@ -90,9 +92,6 @@ const IndexEn = ({ location }) => {
           </Card>
         </Wrapper>
       </Section>
-
-      <Section id="intro"></Section>
-      <Section id="bodywork"></Section>
     </Layout>
   );
 };
