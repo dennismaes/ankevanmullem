@@ -29,7 +29,7 @@ const Lichaamswerk = ({ location }) => {
           <DropdownContent>
             <ButtonLink to="/coaching/health">Gezondheidscoaching</ButtonLink>
             <ButtonLink to="/coaching/sexloverelation">
-              Sex, Love, Relationship coaching
+              Seks, Liefde, en Relatiecoaching
             </ButtonLink>
           </DropdownContent>
         </Dropdown>

@@ -110,16 +110,27 @@ const SexLoveRelation = ({ location }) => {
         <h2>Praktische info</h2>
         <Wrapper cols={2}>
           <div>
-            <h3>Waar en hoe?</h3>
+            <h3>Waar, wanneer, en hoe?</h3>
             <p>Coming soon!</p>
-          </div>
-          <div>
-            <h3>Wanneer?</h3>
             <p>
-              Steeds na afspraak. Algemeen is er mogelijkheid om coaching te
-              ontvangen in de weekdagen in de avond; op vrijdagen kan dit ook
-              doorheen de dag. Verder is het mogelijk in het weekend op
-              aanvraag.
+              Heb je graag dat ik je persoonlijk contacteer wanneer er meer
+              informatie is? Schrijf mij dan zeker een bericht via{" "}
+              <a
+                href="https://www.facebook.com/PathToBodyAndHealth/"
+                rel="_blank"
+                rel="noreferrer"
+              >
+                Facebook
+              </a>
+              , het <Link to="/en/contact">contactformulier</Link> of via{" "}
+              <a
+                href="mailto:info@ankevanmullem.be"
+                target="_blank"
+                rel="noreferrer"
+              >
+                info@ankevanmullem.be
+              </a>
+              .
             </p>
           </div>
           <div>

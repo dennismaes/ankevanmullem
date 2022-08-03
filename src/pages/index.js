@@ -33,7 +33,7 @@ const Index = ({ location }) => {
           <DropdownContent>
             <ButtonLink to="/coaching/health">Gezondheidscoaching</ButtonLink>
             <ButtonLink to="/coaching/sexloverelation">
-              Sex, Love, Relationship coaching
+              Seks, Liefde, en Relatiecoaching
             </ButtonLink>
             <ButtonLink to="/coaching/bodywork">Lichaamswerk</ButtonLink>
           </DropdownContent>
