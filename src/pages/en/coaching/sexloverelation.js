@@ -112,16 +112,27 @@ const SexLoveRelationEN = ({ location }) => {
         <h2>Practical info</h2>
         <Wrapper cols={2}>
           <div>
-            <h3>Where and how?</h3>
+            <h3>Where, when, and how?</h3>
             <p>Coming soon!</p>
-          </div>
-          <div>
-            <h3>When?</h3>
             <p>
-              Always by appointment. In general there is the possibility to
-              weekdays in the evening; on Fridays this is also possible
-              throughout the day. On request sessions are available in the
-              weekend.
+              Would you like me to contact you personally when there is more
+              information? Please write me message via{" "}
+              <a
+                href="https://www.facebook.com/PathToBodyAndHealth/"
+                rel="_blank"
+                rel="noreferrer"
+              >
+                Facebook
+              </a>
+              , the <Link to="/en/contact">contact form</Link> or via{" "}
+              <a
+                href="mailto:info@ankevanmullem.be"
+                target="_blank"
+                rel="noreferrer"
+              >
+                info@ankevanmullem.be
+              </a>
+              .
             </p>
           </div>
           <div>
