@@ -1,17 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
 import { Section, Sticky, Wrapper } from "../components/intro";
 import { Timeline, TimelineEntry } from "../components/timeline";
-import { ButtonHome, ButtonLinkedin } from "../components/button";
+import { ButtonLink, Back, Contact } from "../components/button";
 import { StaticImage } from "gatsby-plugin-image";
 
-const Aboutme = () => {
+const Aboutme = ({location}) => {
   return (
-    <Layout leftHiddenMobile>
+    <Layout locale="nl" location={location} leftHiddenMobile>
       <Sticky>
-        <ButtonHome />
-        <ButtonLinkedin />
+        <ButtonLink to="/"><Back />Home</ButtonLink>
+        <ButtonLink to="/contact"><Contact />Neem contact op</ButtonLink>
       </Sticky>
       <Section bgGrey id="aboutme">
         <h2>Over Anke</h2>

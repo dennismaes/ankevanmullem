@@ -2,59 +2,53 @@ import React from "react";
 import { graphql } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
-import Layout from "../components/layout";
-import { Sticky, Section, Wrapper } from "../components/intro";
+import Layout from "../../components/layout";
+import { Sticky, Section, Wrapper } from "../../components/intro";
 import {
+  ButtonFacebook,
   Button,
   ButtonLink,
-  Aboutme,
   Contact,
-  ButtonFacebook,
   Dropdown,
   DropdownContent
-} from "../components/button";
-import Card from "../components/card";
+} from "../../components/button";
+import Card from "../../components/card";
 
-const Index = ({ location }) => {
+const IndexEn = ({ location }) => {
   return (
-    <Layout locale="nl" location={location}>
+    <Layout locale="en" location={location}>
       <Section id="top">
-        <h2>Welkom bij Path to Body and Health</h2>
+        <h2>Welcome to Path to Body and Health</h2>
         <p>
-          In het dagelijkse leven werk ik rond welzijn op het werk als
-          veiligheidsconsulent, beter bekend als preventieadviseur. Maar op deze
-          site vind je alles over mijn werk als zelfstandige in bijberoep: jouw
-          persoonlijke Gezondheidscoach en Seks, Liefde, en Relatiecoach.
+          In daily life, I work in the field of well-being at work as a safety
+          consultant. But on this website you will find everything about my work
+          as a self-employed person: your personal Health Coach and Sex, Love,
+          and Relationship Coach!
         </p>
       </Section>
       <Sticky>
         <Dropdown>
           <Button>Coachings</Button>
           <DropdownContent>
-            <ButtonLink to="/coaching/health">Gezondheidscoaching</ButtonLink>
-            <ButtonLink to="/coaching/sexloverelation">
-              Seks, Liefde, en Relatiecoaching
+            <ButtonLink to="/en/coaching/health">Health Coaching</ButtonLink>
+            <ButtonLink to="/en/coaching/sexloverelation">
+              Sex, Love, and Relationship Coaching
             </ButtonLink>
-            <ButtonLink to="/coaching/bodywork">Lichaamswerk</ButtonLink>
+            <ButtonLink to="/en/coaching/bodywork">Bodywork</ButtonLink>
           </DropdownContent>
         </Dropdown>
-        <ButtonLink to="/aboutme">
-          <Aboutme />
-          Wat meer over mij
-        </ButtonLink>
-        {/* <ButtonLink to="/praktisch"><Praktisch />Praktische info</ButtonLink> */}
-        <ButtonLink to="/contact">
+        <ButtonLink to="/en/contact/">
           <Contact />
-          Neem contact op
+          Contact me
         </ButtonLink>
         <ButtonFacebook />
       </Sticky>
       <Section>
         <Wrapper cols={3}>
           <Card
-            to="/coaching/health"
-            title="Gezondheids coaching"
-            subtitle="Holistische kijk op gezondheid"
+            to="/en/coaching/health"
+            title="Health coaching"
+            subtitle="Holistic view on health"
           >
             <StaticImage
               src="../../images/Gcoaching.jpg"
@@ -67,24 +61,24 @@ const Index = ({ location }) => {
             />
           </Card>
           <Card
-            to="/coaching/sexloverelation"
-            title="Sex, Love, and Relationship Coaching"
-            subtitle="Geen taboes, alles is mogelijk"
+            to="/en/coaching/sexloverelation"
+            title="Sex, Love, Relationship Coaching"
+            subtitle="No taboos, everything is possible"
           >
             <StaticImage
               src="../../images/SLR01.jpg"
               width={600}
               quality={60}
-              alt="Sex, Love, and Relationship"
+              alt="Health"
               placeholder="blurred"
               loading="lazy"
               transformOptions={{ fit: "cover", cropFocus: "attention" }}
             />
           </Card>
           <Card
-            to="/coaching/bodywork"
+            to="/en/coaching/bodywork"
             title="Bodywork"
-            subtitle="Energie en de-armouring"
+            subtitle="Energy and de-armouring"
           >
             <StaticImage
               src="../../images/_DSC0110-2.jpg"
@@ -102,7 +96,7 @@ const Index = ({ location }) => {
   );
 };
 
-export default Index;
+export default IndexEn;
 
 export const cardImage = graphql`
   fragment cardImage on File {

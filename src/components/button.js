@@ -3,16 +3,15 @@ import styled, { css } from 'styled-components'
 import { Link } from 'gatsby'
 
 import { SiLinkedin, SiWhatsapp, SiGmail, SiFacebook } from 'react-icons/si'
-import { BsFillCaretLeftFill, BsFillPersonLinesFill, BsChatDotsFill } from 'react-icons/bs'
+import { BsFillCaretLeftFill, BsFillPersonLinesFill, BsChatDotsFill, BsTranslate } from 'react-icons/bs'
 import { BiDna, BiDirections } from 'react-icons/bi'
 
 const mixin = css`
     display: inline-block;
-    padding: 3px 20px 3px;
+    padding: 3px 16px 3px;
     font-size: 1rem;
     font-weight: 700;
     line-height: 2em;
-    border: 2px solid transparent;
     border-radius: 0px;
     color: ${props => props.theme.color.primary};
     background: ${props => props.theme.color.lightGrey};
@@ -27,7 +26,6 @@ const mixin = css`
     }
 `
 
-
 export const Button = styled.a`
     ${mixin}
 `
@@ -39,6 +37,27 @@ export const ButtonLink = styled(Link)`
 export const ButtonButton = styled.button`
     ${mixin} 
 `
+export const DropdownContent = styled.div`
+    display: none;
+    position: absolute;
+    z-index: 1;
+    ${Button}, ${ButtonLink} {
+        margin-top: 4px;
+    }
+`
+
+export const Dropdown = styled.div`
+    position: relative;
+    display: inline-block;
+    
+    &:hover ${DropdownContent} {
+        display: block;
+    }
+    &:hover ${Button} {
+        background: ${props => props.theme.color.primaryLight};
+    }
+`
+
 
 const si = css`
     color: ${props => props.theme.color.primary};
@@ -61,65 +80,35 @@ const Whatsapp = styled(SiWhatsapp)`
   ${si}
 `
 export const ButtonWhatsapp = () => (
-    <Button href="https://api.whatsapp.com/send?phone=32485941511&text=Dag%20Anke" target="_blank" rel="noreferrer">
-        <Whatsapp />Stuur een bericht op Whatsapp
+    <Button href="https://api.whatsapp.com/send?phone=32485941511" target="_blank" rel="noreferrer">
+        <Whatsapp />Whatsapp
     </Button>
 )
 
-const Mail = styled(SiGmail)`
+export const Mail = styled(SiGmail)`
   ${si}
 `
 export const ButtonMail = () => (
     <Button href="mailto:info@ankevanmullem.be?body=Dag%20Anke%0D%0A%0D%0A" target="_blank" rel="noreferrer">
-        <Mail />Stuur mij een mail
+        <Mail />info@ankevanmullem.be
     </Button>
 )
 
-const Aboutme = styled(BsFillPersonLinesFill)`
+export const Aboutme = styled(BsFillPersonLinesFill)`
   ${si}
 `
-export const ButtonAboutme = () => (
-    <ButtonLink to="/aboutme">
-        <Aboutme />Wat meer over mij
-    </ButtonLink>
-)
 
-
-const Back = styled(BsFillCaretLeftFill)`
+export const Back = styled(BsFillCaretLeftFill)`
   ${si}
 `
-export const ButtonHome = () => (
-    <ButtonLink to="/"><
-        Back />Home
-    </ButtonLink>
-)
 
-const Contact = styled(BsChatDotsFill)`
+export const Contact = styled(BsChatDotsFill)`
   ${si}
 `
-export const ButtonContact = () => (
-    <ButtonLink to="/contact">
-        <Contact />Neem contact op
-    </ButtonLink>
-)
 
-const DNA = styled(BiDna)`
+export const Praktisch = styled(BiDirections)`
   ${si}
 `
-export const ButtonDNA = () => (
-    <ButtonLink to="/emma-health">
-        <DNA />Emma.health
-    </ButtonLink>
-)
-
-const Praktisch = styled(BiDirections)`
-  ${si}
-`
-export const ButtonPraktisch = () => (
-    <ButtonLink to="/praktisch">
-        <Praktisch />Praktische info
-    </ButtonLink>
-)
 
 const Facebook = styled(SiFacebook)`
   ${si}
@@ -128,4 +117,23 @@ export const ButtonFacebook = () => (
     <Button href="https://www.facebook.com/PathToBodyAndHealth/" target="_blank" rel="noreferrer">
         <Facebook />Facebook
     </Button>
+)
+
+const Translate = styled(BsTranslate)`
+  ${si}
+`
+
+const ButtonLinkFloat = styled(ButtonLink)`
+    display: float;
+    position: relative;
+    float:right;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+`
+
+export const ButtonLang = ({to, children}) => (
+    <ButtonLinkFloat to={to}>
+        <Translate />{children}
+    </ButtonLinkFloat>
 )

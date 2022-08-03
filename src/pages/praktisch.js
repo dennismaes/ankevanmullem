@@ -2,16 +2,16 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import { Section, Sticky, Wrapper } from "../components/intro"
-import { ButtonHome, ButtonContact } from "../components/button"
+import { ButtonLink, Back, Contact } from "../components/button"
 import { Table } from "../components/table"
 import { StaticImage } from "gatsby-plugin-image";
 
-const Praktisch = () => {
+const Praktisch = ({location}) => {
     return (
-    <Layout leftHiddenMobile>
+    <Layout locale="nl" location={location} leftHiddenMobile noTranslate>
       <Sticky>
-        <ButtonHome />
-        <ButtonContact />
+        <ButtonLink to="/"><Back />Home</ButtonLink>
+        <ButtonLink to="/contact"><Contact />Neem contact op</ButtonLink>
       </Sticky>
       <Section bgGrey id="gezondheidscoach">
         <h2>Waar en wanneer?</h2>
