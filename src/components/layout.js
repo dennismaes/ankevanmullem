@@ -84,19 +84,21 @@ export default function Layout({
           htmlAttributes={{ lang: locale }}
         />
         <GlobalStyle />
-        {locale === "nl" && !noTranslate && (
-          <ButtonLang to={"/en" + location.pathname}>EN</ButtonLang>
-        )}
-        {locale === "en" && !noTranslate && (
-          <ButtonLang to={location.pathname.substring(3)}>NL</ButtonLang>
-        )}
-        <ColumnLeft leftHiddenMobile={leftHiddenMobile}>
-          <ProfileSection locale={locale} />
-        </ColumnLeft>
-        <ColumnRight>
-          <Main>{children}</Main>
-          <Footer />
-        </ColumnRight>
+        <div style= {{background: "White"}}>
+          <ColumnLeft leftHiddenMobile={leftHiddenMobile}>
+            <ProfileSection locale={locale} />
+          </ColumnLeft>
+          {locale === "nl" && !noTranslate && (
+            <ButtonLang to={"/en" + location.pathname}>EN</ButtonLang>
+          )}
+          {locale === "en" && !noTranslate && (
+            <ButtonLang to={location.pathname.substring(3)}>NL</ButtonLang>
+          )}
+          <ColumnRight>
+            <Main>{children}</Main>
+            <Footer />
+          </ColumnRight>
+        </div>
       </Fragment>
     </ThemeProvider>
   );
