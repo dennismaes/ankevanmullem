@@ -233,7 +233,7 @@ const ContactForm = ({ locale }) => {
             <textarea
               type="text"
               name="message"
-              placeholder="Wat is your question?"
+              placeholder="What is your question?"
               required
             />
             <label htmlFor="email">Your question</label>
