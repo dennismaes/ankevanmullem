@@ -20,7 +20,7 @@ const SexLoveRelationEN = ({ location }) => {
         <h2>Sex, Love, and Relationship Coaching</h2>
         <p>
           Under{" "}
-          <a href="https://laylamartin.com/" rel="_blank" rel="noreferrer">
+          <a href="https://laylamartin.com/" target="_blank" rel="noreferrer">
             Layla Martin
           </a>{" "}
           I am currently pursuing my Sex, Love, and Relationship Coach
@@ -119,7 +119,7 @@ const SexLoveRelationEN = ({ location }) => {
               information? Please write me message via{" "}
               <a
                 href="https://www.facebook.com/PathToBodyAndHealth/"
-                rel="_blank"
+                target="_blank"
                 rel="noreferrer"
               >
                 Facebook

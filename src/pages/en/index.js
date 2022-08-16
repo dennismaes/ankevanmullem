@@ -37,12 +37,18 @@ const IndexEn = ({ location }) => {
             <ButtonLink to="/en/coaching/bodywork">Bodywork</ButtonLink>
           </DropdownContent>
         </Dropdown>
+        <ButtonLink to="/en/aboutme">
+          <Aboutme />
+          More about me
+        </ButtonLink>
         <ButtonLink to="/en/contact/">
           <Contact />
           Contact me
         </ButtonLink>
         <ButtonFacebook />
       </Sticky>
+
+
       <Section>
         <Wrapper cols={3}>
           <Card
@@ -78,7 +84,7 @@ const IndexEn = ({ location }) => {
           <Card
             to="/en/coaching/bodywork"
             title="Bodywork"
-            subtitle="Energy and de-armouring"
+            subtitle="Energy and De-armouring"
           >
             <StaticImage
               src="../../images/_DSC0110-2.jpg"

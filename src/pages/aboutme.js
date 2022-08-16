@@ -29,9 +29,13 @@ const Aboutme = ({location}) => {
               het werk als veiligheidsconsultant, ook wel gekend als
               preventieadviseur. Hiernaast kan je mij vinden als (hoofd)animator
               op voornamelijk buitenlandse jeugdkampen. En naast dit alles, kan
-              ik ook jouw persoonlijke gezondheidscoach en bodyworker zijn. Als
+              ik ook jouw persoonlijke coach zijn! Als
               gezondheidscoach ben ik erkend bij de Vlaamse Vereniging
-              GezondheidsCoaches (VVGC) onder het erkenningsnummer 19-01-02-004.
+              GezondheidsCoaches (VVGC) onder het erkenningsnummer 19-01-02-004. 
+              Momenteel ben ik nog volop bezig met het behalen van mijn certificatie tot Seks, Liefde, en Relatiecoach onder{" "}
+          <a href="https://laylamartin.com/" target="_blank" rel="noreferrer">
+            Layla Martin
+          </a>.
             </p>
           </div>
           <div>
@@ -62,7 +66,7 @@ const Aboutme = ({location}) => {
       <Section id="timeline">
         <h2>Mijn professioneel traject</h2>
         <Timeline>
-          <TimelineEntry title="Sex Love and Relationship Coach (student)" date="2022">
+          <TimelineEntry title="Sex Love and Relationship Coach (student)" date="Heden">
             <p>Dit is een 1-jarig programma (650 uur) aan Layla Martin's VITA™ Institute.</p>
             <p>De kernwaarden van VITA™ Coaching zijn gebaseerd op het geloof dat seksualiteit heilig, mooi, krachtig en natuurlijk is; 
               pure liefde is de primaire kracht die ons in stand houdt, en betekenisvolle relaties zijn noodzakelijk voor een vreugdevol leven.
@@ -86,8 +90,8 @@ const Aboutme = ({location}) => {
           Zen, expressie, sensualiteit, integriteit, stilte, beweging, nabijheid, grenzen stellen en verlangen uiten stond centraal op  dit retraite. Mijn intentie die week was om lichamelijke en/of emotionele bagage los te laten om zo dieper te connecteren met mezelf, het universum en met anderen.
           Verschillende oefeningen en coaching kwamen aanbod zoals het Wheel of Consent, emotioneel lichaamswerk, actieve meditatie en verschillende andere therapeutische werkvormen.
           </TimelineEntry>
-          <TimelineEntry title="Algmene zelfontwikkeling via Compass to Connection" date="2021">
-          <p>Het jaar 2021 stond en staat in het teken van zelfontwikkeling voor mij. Sinds februari ben ik gestart met een individueel traject bij Compass to Connection.
+          <TimelineEntry title="Algemene zelfontwikkeling via Compass to Connection" date="2021">
+          <p>Het jaar 2021 stond en staat in het teken van zelfontwikkeling voor mij. Van februari tot oktober ben ik gestart met een individueel traject bij Compass to Connection.
           Als coach en bodyworker is het voor mij belangrijk om zelf in beweging te blijven en te blijven groeien door bijvoorbeeld met eigen trauma en pijnstukken te werken. 
           Ik ben van het geloof dat enkel wanneer ik hierzelf doorga, ik andere mensen kan helpen in hun proces.</p>
           <p>Ook heb ik deelgenomen aan een Cocao Temple Ceremony en ben ik een deel geweest van een Naakte Vrouwenencirkel. 
@@ -96,7 +100,7 @@ const Aboutme = ({location}) => {
           </TimelineEntry>
           <TimelineEntry title="Partner met Emma.health (nu Leadlife)" date="Maart 2021">
             <p>Via de Emma.health academy heb ik een uitgebreid opleidingsprogramma gekregen rond hun DNA-resultaten en hoe ik deze gericht kan inzetten in mijn coachingsessies.
-            Dankzij dit partnerschap kan ik ook een korting aanbieden op hun analyses. Een aanrader indien je graag de sterktes en mogelijke noden van jouw lichaam en groei wil ontdekken.</p>
+            Een DNA-analyse is een aanrader indien je graag de sterktes en mogelijke noden van jouw lichaam en groei wil ontdekken.</p>
             <p>Update mrt/'22: Ondertussen bestaat Emma.health niet langer en ben ik niet langer een partner. Graag verwijs ik jullie door naar de huidige website van <a href="https://www.leadlife.com/" target="_blank" rel="noreferrer">Leadlife</a>. </p>
           </TimelineEntry>
           <TimelineEntry title="Master of Arts in Cognition and Communication" date="Oktober 2020">

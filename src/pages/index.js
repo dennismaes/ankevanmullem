@@ -42,7 +42,6 @@ const Index = ({ location }) => {
           <Aboutme />
           Wat meer over mij
         </ButtonLink>
-        {/* <ButtonLink to="/praktisch"><Praktisch />Praktische info</ButtonLink> */}
         <ButtonLink to="/contact">
           <Contact />
           Neem contact op
