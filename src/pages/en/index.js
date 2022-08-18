@@ -8,6 +8,7 @@ import {
   ButtonFacebook,
   Button,
   ButtonLink,
+  Aboutme,
   Contact,
   Dropdown,
   DropdownContent
@@ -37,7 +38,7 @@ const IndexEn = ({ location }) => {
             <ButtonLink to="/en/coaching/bodywork">Bodywork</ButtonLink>
           </DropdownContent>
         </Dropdown>
-        <ButtonLink to="/en/aboutme">
+        <ButtonLink to="/en/aboutme/">
           <Aboutme />
           More about me
         </ButtonLink>
