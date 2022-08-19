@@ -8,6 +8,9 @@ import { StaticImage } from "gatsby-plugin-image";
 const Aboutme = ({ location }) => {
   return (
     <Layout locale="en" location={location} leftHiddenMobile>
+      <Section>
+      <h2>About Anke</h2>
+      </Section>
       <Sticky>
         <ButtonLink to="/en">
           <Back />
@@ -19,27 +22,26 @@ const Aboutme = ({ location }) => {
         </ButtonLink>
       </Sticky>
       <Section bgGrey id="aboutme">
-        <h2>About Anke</h2>
         <Wrapper cols={2}>
           <div>
             <p>
               I was born and raised in East Flanders (known for the city of
-              Ghent in Belgium). After having studied in West Flanders for a few
+              Ghent in Belgium). After having studied in West Flanders for a three
               years, more precisely in Ostend (a city on the Belgian coast) and
-              Bruges, I went to Denmark for my studies - a master’s degree in
-              Copenhagen in Cognition and Communication. After this 6-year
-              adventure, I am currently back in East Flanders, Belgium.
+              Bruges, I went to Denmark for three years to study my master's degree 
+              in Cognition and Communication in Copenhagen. After this 6-years
+              adventure in total, I am currently back in East Flanders, Belgium.
             </p>
             <p>
-              In daily life, since Marc 2021, I am working in the field of
+              In daily life, since March 2021, I am working in the field of
               well-being at work as a safety consultant. Besides this, you can
-              find me as a group leader on many foreign youth camps. And besides
-              all this, I can also be your personal coach! As a health coach, I
+              find me as a group leader on foreign youth camps or on a climbing wall or massif.<br/> 
+              Besides all this, I can also be your personal coach! As a health coach, I
               am recognized by the Flemish Association of Health Coaches (VVGC)
               under the accreditation number 19-01-02-004. Currently, I am still
-              following my certification to become a Sex, Love, and Relationship
+              following my certification to become an official Sex, Love, and Relationship
               Coach under{" "}
-              <a href="https://laylamartin.com/" target="_blank" rel="noreferrer"> Layla Martin</a>.
+              <a href="https://laylamartin.com/" target="_blank" rel="noreferrer"> Layla Martin's</a>{" "}VITA™ Institute.
             </p>
           </div>
           <div>
@@ -56,7 +58,7 @@ const Aboutme = ({ location }) => {
         </Wrapper>
           <p>
             As a person, I like openness, both in communication and energetically.
-            In my family the saying goes “Anke has a will”, so you can also
+            In my family the saying goes “Anke has a Will”, so you can also
             describe me as bit willful. What you can expect from me: I am a social
             person that has the right balance between outgoing and an introvert
             personality. I am mostly known for being straightforward. For me it is
@@ -72,14 +74,14 @@ const Aboutme = ({ location }) => {
       </Section>
       <Section id="timeline">
         <h2>My professional journey</h2>
+        <p>(Click on the event to get more information.)</p>
         <Timeline>
           <TimelineEntry
             title="Sex, Love, and Relationship Coach (student)"
-            date="Current"
+            date="Currently"
           >
             <p>
-            o	This is a 1-year program (650 hours) at Layla Martin’s VITA™
-              Institute.
+            This is a 1-year program (650 hours) at Layla Martin’s VITA™ Institute.
             </p>
             <p>
             The core values of VITA™ Coaching are based on the belief that sexuality is sacred, beautiful, powerful and natural; pure love is the primary force that sustains us, and meaningful relationships are necessary for a joyful life. 
@@ -90,7 +92,7 @@ const Aboutme = ({ location }) => {
             </p>
           </TimelineEntry>
           <TimelineEntry
-            title="Webinar No More Goint to the Doctor"
+            title="Webinar No More Going to the Doctor"
             date="November 2021"
           >
             Dr. Servaas Bingé discussed tips & tricks for our health; what are myths and what really makes you stronger?
@@ -119,7 +121,7 @@ const Aboutme = ({ location }) => {
               The year 2021 was all about self-development for me. 
               From February till October, I started an individual trajectory at Compass to Connection. 
               As a coach and bodyworker, it is important for me to keep moving and growing myself, for example by working with my own trauma and pain pieces.
-              I believe that only when I go through this, I will be able to help other people in their process to this level.
+              I believe that only when I go through this, I will be able to help other people in their process to a deeper level.
             </p>
             <p>
               I have also participated in a Cocao Temple Ceremony and have been a part of a Naked Woman Circle.
@@ -132,7 +134,7 @@ const Aboutme = ({ location }) => {
             date="March 2021"
           >
             <p>
-              VThrough the Emma.health academy, I received an extensive training programme about their DNA results and how I can use them in a targeted way in my coaching sessions.
+              Through the Emma.health academy, I received an extensive training programme about their DNA results and how I can use them in a targeted way in my coaching sessions.
               A DNA-analyses is recommended if you like to discover the strenghts and possible needs of your body and its growth. 
             </p>
             <p>
@@ -190,8 +192,9 @@ const Aboutme = ({ location }) => {
             title="Bachelor of Health Sciences"
             date="June 2017"
           >
-            This bachelor's degree gives me the specialisation certificate of prevention advisor level II.
-            In addition, this training focuses on halth promotion and prevention. A health coach guides individuals or groups towards a healthier lifestyle. Or develops, implements and evaluates health promotion programmes with organisations or companies.
+            This bachelor's degree gives me the specialisation certificate of prevention advisor level II.<br/>
+            In addition, this training focuses on health promotion and prevention. A health coach guides individuals or groups towards a healthier lifestyle. 
+            Or develops, implements and evaluates health promotion programmes with organisations or companies.<br/>
             <a
               href="https://www.howest.be/nl/opleidingen/bachelor/toegepaste-gezondheidswetenschappen?gclid=CjwKCAiAsaOBBhA4EiwAo0_AnM_Suv5L7wuqVxli8puEYOeh4jNJQp0vipjwToL_Ux_OE_KK222-QRoCZbEQAvD_BwE"
               target="_blank"
@@ -216,7 +219,7 @@ const Aboutme = ({ location }) => {
               The idea was to complete the 'challenge of the week' together with colleagues every week.
               The idea was to stop and think about daily habits and possibly change them to a healthier alternative.
               These were low-threshold tasks that could be performed throughout the day.
-              The aim: to combar sedentary behaviour and physical complaints.
+              The aim: to combat sedentary behaviour and physical complaints.
             </p>
           </TimelineEntry>
           <TimelineEntry

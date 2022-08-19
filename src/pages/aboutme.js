@@ -8,28 +8,31 @@ import { StaticImage } from "gatsby-plugin-image";
 const Aboutme = ({location}) => {
   return (
     <Layout locale="nl" location={location} leftHiddenMobile>
+      <Section>
+      <h2>Over Anke</h2>
+      </Section>
+    
       <Sticky>
         <ButtonLink to="/"><Back />Home</ButtonLink>
         <ButtonLink to="/contact"><Contact />Neem contact op</ButtonLink>
       </Sticky>
       <Section bgGrey id="aboutme">
-        <h2>Over Anke</h2>
         <Wrapper cols={2}>
           <div>
             <p>
-              Ik ben geboren en getogen in Oost-Vlaanderen. Na enkele jaren in
+              Ik ben geboren en getogen in Oost-Vlaanderen. Na drie jaar in
               West-Vlaanderen te hebben gestudeerd, meer exact Oostende en
-              Brugge, ben ik enkele jaren naar Denemarken getrokken om onder
-              andere een master in Kopenhagen te studeren. Na dit 6-jaren
-              avontuur ben ik op dit moment weer terug te vinden in
+              Brugge, ben ik drie jaar naar Denemarken getrokken om onder
+              andere mijn master in Cognitie en communicatie te studeren in Kopenhagen. 
+              Na dit, in totaal, 6-jaren avontuur ben ik op dit moment weer terug te vinden in
               Oost-Vlaanderen.
             </p>
             <p>
               In het dagelijkse leven werk ik sinds maart 2021 rond welzijn op
               het werk als veiligheidsconsultant, ook wel gekend als
               preventieadviseur. Hiernaast kan je mij vinden als (hoofd)animator
-              op voornamelijk buitenlandse jeugdkampen. En naast dit alles, kan
-              ik ook jouw persoonlijke coach zijn! Als
+              op voornamelijk buitenlandse jeugdkampen of op een klimmuur of -massief.<br/>
+              Naast dit alles, kan ik ook jouw persoonlijke coach zijn! Als
               gezondheidscoach ben ik erkend bij de Vlaamse Vereniging
               GezondheidsCoaches (VVGC) onder het erkenningsnummer 19-01-02-004. 
               Momenteel ben ik nog volop bezig met het behalen van mijn certificatie tot Seks, Liefde, en Relatiecoach onder{" "}
@@ -65,6 +68,7 @@ const Aboutme = ({location}) => {
       </Section>
       <Section id="timeline">
         <h2>Mijn professioneel traject</h2>
+        <p>(Klik op de gebeurtenis voor meer informatie.)</p>
         <Timeline>
           <TimelineEntry title="Sex Love and Relationship Coach (student)" date="Heden">
             <p>Dit is een 1-jarig programma (650 uur) aan Layla Martin's VITA™ Institute.</p>
@@ -117,7 +121,7 @@ const Aboutme = ({location}) => {
             Om binnen VVGC erkend te worden moet je aan verschillende voorwaarden voldoen: een holistische kijk hebben op de mens en zijn gezondheid, preventie hoog in het vaandel dragen, en coaching aanbieden binnen de 4 pijlers; Voeding, Beweging, Slaap en ontspanning, en als laatste Sociale relaties. 
           </TimelineEntry>
           <TimelineEntry title="Bachelor Toegepaste Gezondheidswetenschappen" date="Juni 2017">
-            Deze bachelor geeft mij het specialisatie attest van preventieadviseur niveau II. 
+            Deze bachelor geeft mij het specialisatie attest van preventieadviseur niveau II.<br/>
             Daarnaast richt deze opleiding zich op gezondheidsbevordering en preventie. Een gezondheidscoach begeleidt individuele mensen of groepen naar een gezondere levensstijl. Of ontwikkelt, implementeert en evalueert programma's voor gezondheidsbevordering binnen organisaties of bedrijven.
             <a href="https://www.howest.be/nl/opleidingen/bachelor/toegepaste-gezondheidswetenschappen?gclid=CjwKCAiAsaOBBhA4EiwAo0_AnM_Suv5L7wuqVxli8puEYOeh4jNJQp0vipjwToL_Ux_OE_KK222-QRoCZbEQAvD_BwE" target="_blank" rel="noreferrer">Meer info</a>.
           </TimelineEntry>
