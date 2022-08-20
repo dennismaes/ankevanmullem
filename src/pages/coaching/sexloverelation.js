@@ -48,7 +48,7 @@ const SexLoveRelation = ({ location }) => {
         <h2>Seks, Liefde, en Relatiecoaching</h2>
         <Wrapper cols={2}>
           <div>
-            <h3>Verlang jij ...?</h3>
+            <h3>Wat verlang jij?</h3>
             <p>
               Verlang jij naar een legendarisch liefdesleven dat een empowerend
               gevoel teweegbrengt? Seks waarvan je dacht dat het nooit mogelijk

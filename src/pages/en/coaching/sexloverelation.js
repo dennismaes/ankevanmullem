@@ -50,7 +50,7 @@ const SexLoveRelationEN = ({ location }) => {
 
         <Wrapper cols={2}>
           <div>
-            <h3>Do you long for...?</h3>
+            <h3>What do you long for?</h3>
             <p>
               Do you long for a legendary love life that is empowering? Sex you
               thought was never possible, read 'mind blowing'? A lasting
@@ -134,7 +134,7 @@ const SexLoveRelationEN = ({ location }) => {
             <p>
               The price is adjusted to your financial possibilities and I am happy to discuss this with you in an informal meeting. 
               Since I am still in the process of completing my certification, my prices are currently lower. So grab your chance now!<br/>
-              Would you like more information? Please write me message via{" "}
+              Would you like more information? Please write me a message via{" "}
               <a
                 href="https://www.facebook.com/PathToBodyAndHealth/"
                 target="_blank"
