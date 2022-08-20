@@ -143,7 +143,7 @@ const Gezondheid = ({ location }) => {
         </p>
         <p>
           Toch nog niet helemaal zeker en heb je graag nog wat vrijblijvende
-          informatie? Stel mij al jouw vragen en/of bedenkingen via het via het{" "}
+          informatie? Stel mij al jouw vragen en/of bedenkingen via het{" "}
           <Link to="/contact">contactformulier</Link> of via{" "}
           <a
             href="mailto:info@ankevanmullem.be"

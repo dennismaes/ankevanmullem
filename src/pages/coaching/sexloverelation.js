@@ -110,11 +110,30 @@ const SexLoveRelation = ({ location }) => {
         <h2>Praktische info</h2>
         <Wrapper cols={2}>
           <div>
-            <h3>Waar, wanneer, en hoe?</h3>
-            <p>Coming soon!</p>
+          <h3>Waar en hoe?</h3>
             <p>
-              Heb je graag dat ik je persoonlijk contacteer wanneer er meer
-              informatie is? Schrijf mij dan zeker een bericht via{" "}
+              Een sessie duurt algemeen tussen de 60 en 90 minuten. 
+              Deze sessies zijn origineel opgebouwd om online te volgen via Zoom in jouw eigen thuisomgeving.
+              Het is echter ook mogelijk om live coaching te ontvangen te <i>Sint-Niklaas</i>.
+              Belangrijk bij online coaching is dat je een rustige ruimte voorziet waar
+              jij ongestoord de sessie kan houden.
+            </p>
+          </div>
+          <div>
+            <h3>Wanneer?</h3>
+            <p>
+              Steeds na afspraak. Algemeen is er mogelijkheid om coaching te
+              ontvangen in de weekdagen in de avond; op vrijdagen kan dit ook
+              doorheen de dag. Verder is het mogelijk in het weekend op
+              aanvraag.
+            </p>
+          </div>
+          <div>
+            <h3>Kostprijs?</h3>
+            <p>
+              De prijs wordt afgesteld op jouw financiële mogelijkheden en bespreek ik dus graag in een vrijblijvend informatief gesprek. 
+              Sinds ik nog volop in de voltooing van mijn certificatie zit, liggen mijn prijzen momenteel lager. Grijp dus nu jouw kans!<br/>
+              Heb je graag meer informatie? Schrijf mij dan zeker een bericht via{" "}
               <a
                 href="https://www.facebook.com/PathToBodyAndHealth/"
                 target="_blank"
@@ -147,19 +166,9 @@ const SexLoveRelation = ({ location }) => {
         </Wrapper>
 
         <p>
-          Ben je overtuigd? Maak dan een afspraak via{" "}
-          <a
-            href="mailto:info@ankevanmullem.be"
-            target="_blank"
-            rel="noreferrer"
-          >
-            {" "}
-            info@ankevanmullem.be
-          </a>
-        </p>
-        <p>
-          Toch nog niet helemaal zeker en heb je graag nog wat vrijblijvende
-          informatie? Stel mij al jouw vragen en/of bedenkingen via het via het{" "}
+          Ben je toch nog niet helemaal zeker of dit iets voor jou is 
+          en heb je graag nog wat vrijblijvende informatie? 
+          Stel mij al jouw vragen en/of bedenkingen via het{" "}
           <Link to="/contact">contactformulier</Link> of via{" "}
           <a
             href="mailto:info@ankevanmullem.be"

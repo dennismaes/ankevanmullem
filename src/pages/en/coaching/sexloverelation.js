@@ -111,12 +111,30 @@ const SexLoveRelationEN = ({ location }) => {
       <Section id="pricing">
         <h2>Practical info</h2>
         <Wrapper cols={2}>
-          <div>
-            <h3>Where, when, and how?</h3>
-            <p>Coming soon!</p>
+        <div>
+          <h3>Where and how?</h3>
             <p>
-              Would you like me to contact you personally when there is more
-              information? Please write me message via{" "}
+              A session generally lasts between 60 and 90 minutes. 
+              These sessions are orginally designed to be followed online via Zoom in the comfort of your own home.
+              It is also possible to receive live coaching in <i>Sint-Niklaas, Belgium</i>.
+              Important with online coaching is that you provide a quiet room where you can have the session undisturbed.
+            </p>
+          </div>
+          <div>
+            <h3>When?</h3>
+            <p>
+              Always by appointment. In general there is the possibility to
+              weekdays in the evening; on Fridays this is also possible
+              throughout the day. On request sessions are available in the
+              weekend.
+            </p>
+          </div>
+          <div>
+            <h3>Cost?</h3>
+            <p>
+              The price is adjusted to your financial possibilities and I am happy to discuss this with you in an informal meeting. 
+              Since I am still in the process of completing my certification, my prices are currently lower. So grab your chance now!<br/>
+              Would you like more information? Please write me message via{" "}
               <a
                 href="https://www.facebook.com/PathToBodyAndHealth/"
                 target="_blank"
@@ -147,19 +165,9 @@ const SexLoveRelationEN = ({ location }) => {
             />
           </div>
         </Wrapper>
+        
         <p>
-          Are you conviced? Make an appointment via{" "}
-          <a
-            href="mailto:info@ankevanmullem.be"
-            target="_blank"
-            rel="noreferrer"
-          >
-            info@ankevanmullem.be
-          </a>
-          .
-        </p>
-        <p>
-          Not quite sure yet and would you like more non-binding information?
+          Are you not quite sure yet and would you like more non-binding information?
           Ask me all your questions and/or share your reservations via the{" "}
           <Link to="/en/contact">contact form</Link> or via{" "}
           <a

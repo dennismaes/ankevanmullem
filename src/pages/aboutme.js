@@ -29,9 +29,9 @@ const Aboutme = ({location}) => {
             </p>
             <p>
               In het dagelijkse leven werk ik sinds maart 2021 rond welzijn op
-              het werk als veiligheidsconsultant, ook wel gekend als
-              preventieadviseur. Hiernaast kan je mij vinden als (hoofd)animator
-              op voornamelijk buitenlandse jeugdkampen of op een klimmuur of -massief.<br/>
+              het werk als preventieadviseur. 
+              Hiernaast kan je mij vinden als (hoofd)animator
+              op voornamelijk buitenlandse jeugdkampen of op de klimmuur of massief.<br/>
               Naast dit alles, kan ik ook jouw persoonlijke coach zijn! Als
               gezondheidscoach ben ik erkend bij de Vlaamse Vereniging
               GezondheidsCoaches (VVGC) onder het erkenningsnummer 19-01-02-004. 
