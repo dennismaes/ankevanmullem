@@ -116,8 +116,8 @@ const SexLoveRelationEN = ({ location }) => {
             <p>
               A session generally lasts between 60 and 90 minutes. 
               These sessions are orginally designed to be followed online via Zoom in the comfort of your own home.
-              It is also possible to receive live coaching in <i>Sint-Niklaas, Belgium</i>.
               Important with online coaching is that you provide a quiet room where you can have the session undisturbed.
+              It is also possible to receive live coaching in <i>Sint-Niklaas, Belgium</i>.
             </p>
           </div>
           <div>

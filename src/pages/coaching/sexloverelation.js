@@ -114,9 +114,9 @@ const SexLoveRelation = ({ location }) => {
             <p>
               Een sessie duurt algemeen tussen de 60 en 90 minuten. 
               Deze sessies zijn origineel opgebouwd om online te volgen via Zoom in jouw eigen thuisomgeving.
-              Het is echter ook mogelijk om live coaching te ontvangen te <i>Sint-Niklaas</i>.
               Belangrijk bij online coaching is dat je een rustige ruimte voorziet waar
               jij ongestoord de sessie kan houden.
+              Het is echter ook mogelijk om live coaching te ontvangen te <i>Sint-Niklaas</i>.
             </p>
           </div>
           <div>
