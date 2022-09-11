@@ -91,6 +91,13 @@ const Aboutme = ({ location }) => {
             The VITA™ Method takes the most effective teachings of modern neurobiology, holistic healing and modern coaching, and blends it with ancient wisdom and teaching. VITA™ stands for “The Vital and Integrated Tantric Approach.”
             </p>
           </TimelineEntry>
+          <TimelineEntry title="Clothwork via Juli Pohan" date="September 2022">
+            <p>In Juli's words: "Working with a cloth is a gentle, nurturing and calming technique." 
+              From stretching the body to shaking it, 'bio-hacking' the nervous system and bringing the body to life, and also, above all, surrender and relaxation.  
+              For me it really stands for getting into your body and out of your head. A very interesting training! 
+              Can't wait to use this in my bodywork too.
+            </p>
+          </TimelineEntry>
           <TimelineEntry
             title="Webinar No More Going to the Doctor"
             date="November 2021"

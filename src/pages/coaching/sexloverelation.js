@@ -132,6 +132,7 @@ const SexLoveRelation = ({ location }) => {
             <h3>Kostprijs?</h3>
             <p>
               De prijs wordt afgesteld op jouw financiële mogelijkheden en bespreek ik dus graag in een vrijblijvend informatief gesprek. 
+              Een betalingsplan is ook een mogelijkheid. 
               Sinds ik nog volop in de voltooing van mijn certificatie zit, liggen mijn prijzen momenteel lager. Grijp dus nu jouw kans!<br/>
               Heb je graag meer informatie? Schrijf mij dan zeker een bericht via{" "}
               <a

@@ -119,8 +119,8 @@ const Bodywork = ({ location }) => {
             <h3>Cost?</h3>
             <p>
               A session lasts about 90 minutes. For a course of 6 sessions
-              sessions you pay only 666 euros at the moment. Exceptionally one
-              test session can be arranged after making an appointment. For
+              sessions you pay only 666 euros at the moment. A payment plan is available. 
+              Exceptionally one test session can be arranged after making an appointment. For
               private individuals, all prices include VAT.
             </p>
           </div>

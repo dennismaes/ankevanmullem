@@ -80,6 +80,13 @@ const Aboutme = ({location}) => {
               <p>De VITA™-methode neemt de meest effectieve leringen van de moderne neurobiologie, holistische genezing en moderne coaching, 
               en mengt deze met oude wijsheid en leringen. VITA™ staat voor: "De Vitale en Geïntegreerde Tantrische Benadering."</p>
           </TimelineEntry>
+          <TimelineEntry title="Doekenwerk via Juli Pohan" date="September 2022">
+            <p>Om Juli haar woorden te gebruiken: "Werken met een doek is een zachte, voedende en kalmerende techniek."
+              Van het licahaam strekken tot schudden, 'bio-hacken' van het zenuswstelsel en het tot leven brengen van het lijf, maar ook vooral overgave en ontspanning. 
+              Voor mij staat het echt voor in je lichaam komen en uit het hoofd. Een zeer interessante training! 
+              Kan niet wachten om dit ook in mijn bodywork te gaan gebruiken.
+            </p>
+          </TimelineEntry>
           <TimelineEntry title="Webinar Nooit meer naar de dokter" date="November 2021">
             Dr. Servaas Bingé behandelde tips & tricks voor onze gezondheid; wat zijn fabeltjes en wat maakt je écht sterker? 
             In dit webinar vertaalde Servaas de laatste wetenschappelijke inzichten naar praktisch advies waarmee ik aan de slag kan. 

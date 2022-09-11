@@ -133,8 +133,8 @@ const Lichaamswerk = ({ location }) => {
             <h3>Kostprijs?</h3>
             <p>
               Een sessie duurt ongeveer 90 minuten. Voor een traject van 6
-              sessies betaal je op dit moment slechts 666 euro. Uitzonderlijk
-              kan er na afspraak één proefsessie afgesproken worden. Voor
+              sessies betaal je op dit moment slechts 666 euro. Een betalingsplan is een mogelijkheid.
+              Uitzonderlijk kan er na afspraak één proefsessie afgesproken worden. Voor
               particulieren zijn alle prijzen incl. BTW.
             </p>
           </div>

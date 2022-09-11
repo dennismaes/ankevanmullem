@@ -133,6 +133,7 @@ const SexLoveRelationEN = ({ location }) => {
             <h3>Cost?</h3>
             <p>
               The price is adjusted to your financial possibilities and I am happy to discuss this with you in an informal meeting. 
+              A payment plan is also available. 
               Since I am still in the process of completing my certification, my prices are currently lower. So grab your chance now!<br/>
               Would you like more information? Please write me a message via{" "}
               <a
