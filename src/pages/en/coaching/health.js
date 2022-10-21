@@ -122,7 +122,7 @@ const Health = ({ location }) => {
               sessions you pay only 250 euro <i>(save 20 euro)</i>. I also offer
               follow-up sessions of 30 minutes for 25 euros. For private
               individuals, all prices include VAT.<br/>
-              From 1/jan/2023 you will pay 50 euros per session, 145 euros per 3, and 280 eruo per 6 sessions.
+              From 1/jan/2023 you will pay 50 euros per session, 145 euros per 3, and 280 euros per 6 sessions.
               So book your health coaching sessions before 2023 (you have 6 months to schedule them).
             </p>
           </div>

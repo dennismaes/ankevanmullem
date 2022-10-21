@@ -129,7 +129,7 @@ const Gezondheid = ({ location }) => {
               slechts 250 euro <i>(bespaar 20 euro)</i>. Ook bied ik
               vervolgsessies aan van 30 minuten voor 25 euro. Voor particulieren
               zijn alle prijzen incl. BTW.<br/>
-              Vanaf 1/jan/2023 betaal je 50 euro per sessie, 145 euro per 3, en 280 eruo per 6 sessies. 
+              Vanaf 1/jan/2023 betaal je 50 euro per sessie, 145 euro per 3, en 280 euro per 6 sessies. 
               Boek dus voor 2023 jouw sessies gezondheidscoaching (je hebt 6 maanden de tijd deze in te plannen). 
             </p>
           </div>
