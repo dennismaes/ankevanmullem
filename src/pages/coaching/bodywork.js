@@ -43,17 +43,18 @@ const Lichaamswerk = ({ location }) => {
               “Bodywork” is in de alternatieve geneeskunde elke therapeutische
               of persoonlijke ontwikkelingstechniek waarbij met het menselijk
               lichaam wordt gewerkt in een vorm van manipulatieve therapie,
-              ademhaling of energie. Het soort lichaamswerk dat ik gebruik is
-              een proces dat helpt om blokkades, patronen, trauma's en
-              overtuigingen die je loskoppelen van jezelf los te laten. Met
-              andere woorden, staat bodywork voor mij voor connecteren met
+              ademhaling of energie. Ik heb verschillende soorten lichaamswerk dat ik graag 
+              gebruik, namelijk een proces dat helpt om blokkades, patronen, trauma's en
+              overtuigingen die je loskoppelen van jezelf los te laten,
+              en een techniek waarbij je echt kan gaan landen in jouw lichaam. 
+              Met andere woorden, bodywork staat voor mij gelijk aan connecteren met
               jezelf (op een dieper level).
             </p>
           </div>
           <div>
-            <h3>Energie</h3>
+            <h3>Werken met energie</h3>
             <p>
-              Energie zijn trillingen en frequenties, die we kunnen sturen en of
+              Energie zijn trillingen en frequenties, die we kunnen sturen en/of
               beïnvloeden. Werken met lichaamsenergie gaat de geblokkeerde
               energie in het lichaam activeren, waardoor het onbewuste geheugen
               van het lichaam zich kan openen. Dit wil zeggen dat het lichaam
@@ -83,15 +84,14 @@ const Lichaamswerk = ({ location }) => {
             </p>
           </div>
           <div>
-            <StaticImage
-              src="../../images/_DSC0151.jpg"
-              width={400}
-              quality={60}
-              alt="Anke Van Mullem"
-              placeholder="blurred"
-              loading="lazy"
-              transformOptions={{ fit: "cover", cropFocus: "attention" }}
-            />
+            <h3>Doekenwerk</h3>
+            <p>Dit is een techniek waarbij we met behulp van een Sarong met het lichaam gaan werken. Het doel is om in ons lichaam te landen. 
+              Om Juli Pohan haar woorden te gebruiken: "Werken met een doek is een zachte, voedende en kalmerende techniek."
+              Van het lichaam strekken tot schudden, 'bio-hacken' van het zenuswstelsel en het tot leven brengen van het lijf, maar ook vooral overgave en ontspanning. 
+              Voor mij staat het voor uit het hoofd geraken, en zo echt in je lichaam landen. 
+              Eén van de technieken die hierin kan worden gebruikt is geïnspireerd op het Closing the Bones ritual;
+              enorm helend voor het afsluiten van een hoofdstuk, bijvoorbeeld, emotioneel en/of energetisch. 
+            </p>
           </div>
         </Wrapper>
       </Section>
@@ -112,10 +112,10 @@ const Lichaamswerk = ({ location }) => {
           <div>
             <h3>Wanneer?</h3>
             <p>
-              Steeds na afspraak. Algemeen is er mogelijkheid om coaching te
-              ontvangen in de weekdagen in de avond; op vrijdagen kan dit ook
-              doorheen de dag. Verder is het mogelijk in het weekend op
-              aanvraag.
+              Ik gebruik lichaamswerk vaak als verlengde en aanvulling van mijn andere coaching sessies.
+              Uitzonderlijk geef ik sessies lichaamswerk individueel. Deze sessies zijn dus steed na samenspraak en afspraak. 
+              Algemeen is er mogelijkheid om coaching te ontvangen in de weekdagen in de avond; op vrijdagen kan dit ook
+              doorheen de dag. Verder is het mogelijk in het weekend op aanvraag.
             </p>
           </div>
           <div>
@@ -138,9 +138,8 @@ const Lichaamswerk = ({ location }) => {
               particulieren zijn alle prijzen incl. BTW.
             </p>
           </div>
-        </Wrapper>
-
-        <p>
+          <div>
+          <p>
           Ben je overtuigd? Maak dan een afspraak via{" "}
           <a
             href="mailto:info@ankevanmullem.be"
@@ -150,9 +149,21 @@ const Lichaamswerk = ({ location }) => {
             {" "}
             info@ankevanmullem.be
           </a>
-          .
-        </p>
-        <p>
+          .</p>
+          </div>
+          <div>
+            <StaticImage
+              src="../../images/_DSC0151.jpg"
+              width={400}
+              quality={60}
+              alt="Anke Van Mullem"
+              placeholder="blurred"
+              loading="lazy"
+              transformOptions={{ fit: "cover", cropFocus: "attention" }}
+            />
+          </div>
+        </Wrapper>
+        <p>   
           Toch nog niet helemaal zeker en heb je graag nog wat vrijblijvende
           informatie? Stel mij al jouw vragen en/of bedenkingen via het{" "}
           <Link to="/contact">contactformulier</Link> of via{" "}

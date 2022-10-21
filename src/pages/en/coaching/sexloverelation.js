@@ -88,9 +88,9 @@ const SexLoveRelationEN = ({ location }) => {
           <div>
             <h3>Exciting subjects</h3>
             <p>
-              In total, there are 10 sessions that form a whole. Mapping your
-              specific desire. Transforming limiting belief systems and
-              unconscious objections. Liberating the family dynamic by
+              In total, there are 10 sessions that form a whole. The first sessions always 
+              consists of mapping your specific desire. After that we can use different techniques like: 
+              Transforming limiting belief systems and unconscious objections. Liberating the family dynamic by
               understanding the family legacy and ancestral issues. Embracing
               the inner child by looking into how it affects your patterns.
               Getting what you desire by creating real worthiness and
@@ -108,7 +108,23 @@ const SexLoveRelationEN = ({ location }) => {
         </h2>
       </Section>
 
-      <Section id="pricing">
+      <Section id="review">
+      <h2>How have other people experienced their transformation?</h2>
+          <h3>N.D.</h3>
+            <p>
+              Being coached by Anke was truly a pleasure. 
+              She always so naturally created a safe container for me where I had 
+              plenty of room to explore my feelings, my circumstances and myself, 
+              allowing me to get to the core of my truth. 
+              And yet there was always time to laugh and turn to lightness.
+              What I am most grateful for is that she always accepted me for who I am, 
+              which I find to be the most healing element in any coaching. 
+              This enabled me to reintegrate parts of myself that I used to reject or overlook in myself.
+              I feel my own power and the connection to my deepest self within me again.
+            </p>
+      </Section>
+
+      <Section bgGrey id="pricing">
         <h2>Practical info</h2>
         <Wrapper cols={2}>
         <div>

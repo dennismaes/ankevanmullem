@@ -42,11 +42,11 @@ const Bodywork = ({ location }) => {
             <p>
               “Bodywork” in alternative medicine is any therapeutic or personal
               development technique that involves working with the human body in
-              a form of manipulative therapy, breathing, or energy. The kind of
-              bodywork I use is a process that helps to release blockages,
-              patters, traumas and beliefs that disconnect from yourself. In
-              other words, bodywork for me is about connecting with yourself (on
-              a deeper level).
+              a form of manipulative therapy, breathing, or energy. 
+              I have several types of bodywork that I like to use, 
+              namely a process that helps release blockages, patterns, traumas and beliefs that disconnect you from yourself, 
+              and a technique that allows you to really land in your body. 
+              In other words, bodywork for me is about connecting with yourself (on a deeper level).
             </p>
           </div>
           <div>
@@ -79,16 +79,18 @@ const Bodywork = ({ location }) => {
             </p>
           </div>
           <div>
-            <StaticImage
-              src="../../../images/_DSC0151.jpg"
-              width={600}
-              quality={60}
-              alt="Anke Van Mullem"
-              placeholder="blurred"
-              loading="lazy"
-              transformOptions={{ fit: "cover", cropFocus: "attention" }}
-            />
+            <h3>Working with a Sarong</h3>
+            <p>This is a technique where we will work with the body using a Sarong. 
+              The goal is to land in our body. To use Juli Pohan's words, 
+              "Working with a Sarong is a gentle, nourishing and soothing technique." 
+              From stretching the body to shaking, "bio-hacking" the nervous system 
+              and bringing the body to life, but also, above all, surrender and relaxation. 
+              For me, it represents getting out of your head, and really land in your body. 
+              One of the techniques that can be used in this is inspired by the Closing the Bones ritual; 
+              enormously healing for closing a chapter, for example, emotionally and/or energetically.
+            </p>
           </div>
+
         </Wrapper>
       </Section>
 
@@ -109,19 +111,10 @@ const Bodywork = ({ location }) => {
           <div>
             <h3>When?</h3>
             <p>
-              Always by appointment. In general there is the possibility to
-              weekdays in the evening; on Fridays this is also possible
-              throughout the day. On request sessions are available in the
-              weekend.
-            </p>
-          </div>
-          <div>
-            <h3>Cost?</h3>
-            <p>
-              A session lasts about 90 minutes. For a course of 6 sessions
-              sessions you pay only 666 euros at the moment. A payment plan is available. 
-              Exceptionally one test session can be arranged after making an appointment. For
-              private individuals, all prices include VAT.
+              I often use bodywork as an extension and complement to my other coaching sessions. 
+              Exceptionally, I give individual bodywork sessions. These sessions are always by appointment.
+              In general there is the possibility to weekdays in the evening; on Fridays this is also possible
+              throughout the day. On request sessions are available in the weekend.
             </p>
           </div>
           <div>
@@ -135,9 +128,17 @@ const Bodywork = ({ location }) => {
               transformOptions={{ fit: "cover", cropFocus: "attention" }}
             />
           </div>
-        </Wrapper>
-
-        <p>
+          <div>
+            <h3>Cost?</h3>
+            <p>
+              A session lasts about 90 minutes. For a course of 6 sessions
+              sessions you pay only 666 euros at the moment. A payment plan is available. 
+              Exceptionally one test session can be arranged after making an appointment. For
+              private individuals, all prices include VAT.
+            </p>
+          </div>
+          <div>
+          <p>
           Are you conviced? Make an appointment via{" "}
           <a
             href="mailto:info@ankevanmullem.be"
@@ -145,8 +146,22 @@ const Bodywork = ({ location }) => {
             rel="noreferrer"
           >
             info@ankevanmullem.be
-          </a>
+          </a>.
         </p>
+          </div>
+          <div>
+            <StaticImage
+              src="../../../images/_DSC0151.jpg"
+              width={600}
+              quality={60}
+              alt="Anke Van Mullem"
+              placeholder="blurred"
+              loading="lazy"
+              transformOptions={{ fit: "cover", cropFocus: "attention" }}
+            />
+          </div>
+        </Wrapper>
+
         <p>
           Not quite sure yet and would you like more non-binding information?
           Ask me all your questions and/or share your reservations via the{" "}

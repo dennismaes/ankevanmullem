@@ -44,24 +44,28 @@ const Gezondheid = ({ location }) => {
               geestelijk en maatschappelijk welzijn. Naast een gebalanceerde
               voeding en voldoende beweging dragen een tal van factoren bij aan
               jouw algemene gezondheid: jouw work-life balance, een natuurlijk
-              slaappatroon, seksuele gezondheid, vervullende sociale contacten,
+              slaappatroon, vervullende sociale contacten, seksuele gezondheid <i>(zie ook mijn Seks, Liefde, Relatiecoachings; deze focussen veel dieper op dit thema)</i>,
               en zoveel meer.
             </p>
           </div>
           <div>
-            <h3>Laagdrempelig</h3>
+            <h3>Duurzame veranderingen</h3>
             <p>
-              De sleutel tot duurzame gedragsveranderingen zijn laagdrempelige
+              De sleutel tot duurzame gedragsveranderingen is onder andere laagdrempelige
               aanpassingen. Deze aanpassingen kan je makkelijk toepassen in je
               dagelijks leven. In plaats van je hele levensstijl om te gooien,
               neem ik samen met jou kleine stappen die uiteindelijk een groot
-              verschil maken.
+              verschil maken.<br/>
+              Een tweede factor die van belang is, is een luisterend oor. 
+              Mijn ervaring verteld mij dat gehoord worden "oh" zo belangrijk is. 
+              Dit doe ik dan ook via verdiepenede vragen, en specifieke technieken die ik doorheen mijn opleidingen heb aangeleerd. 
             </p>
           </div>
           <div>
             <h3>Duurzame coaching</h3>
             <p>
-              Aan de hand van een holistische kijk op jouw gezondheid ga ik aan
+              Gezondheid is een hollistisch gegeven.
+              Door deze bril kijk ik naar jouw gezondheid en ga ik aan
               de slag om jou naar een gezondere levensstijl te coachen. Als
               coach help ik jou leren. Dit is niet bedoeld in de zin van
               onderwijzen, maar eerder leren door te inspireren en te
@@ -72,7 +76,6 @@ const Gezondheid = ({ location }) => {
           <div>
             <h3>Positief zelfinzicht</h3>
             <p>
-              {" "}
               Tijdens onze sessies is het vooral belangrijk dat jijzelf een
               optimaal zelfinzicht verkrijgt, losstaand van wat ik als coach of
               anderen in jouw omgeving ervan vinden. Met een luisterend oor en
@@ -125,7 +128,9 @@ const Gezondheid = ({ location }) => {
               <i>(bespaar 5 euro)</i>; op een traject van 6 sessies betaal je
               slechts 250 euro <i>(bespaar 20 euro)</i>. Ook bied ik
               vervolgsessies aan van 30 minuten voor 25 euro. Voor particulieren
-              zijn alle prijzen incl. BTW.
+              zijn alle prijzen incl. BTW.<br/>
+              Vanaf 1/jan/2023 betaal je 50 euro per sessie, 145 euro per 3, en 280 eruo per 6 sessies. 
+              Boek dus voor 2023 jouw sessies gezondheidscoaching (je hebt 6 maanden de tijd deze in te plannen). 
             </p>
           </div>
         </Wrapper>
@@ -138,10 +143,7 @@ const Gezondheid = ({ location }) => {
             rel="noreferrer"
           >
             info@ankevanmullem.be
-          </a>
-          .
-        </p>
-        <p>
+          </a>.<br/>
           Toch nog niet helemaal zeker en heb je graag nog wat vrijblijvende
           informatie? Stel mij al jouw vragen en/of bedenkingen via het{" "}
           <Link to="/contact">contactformulier</Link> of via{" "}

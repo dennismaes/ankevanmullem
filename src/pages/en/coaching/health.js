@@ -42,17 +42,21 @@ const Health = ({ location }) => {
               Health is a broad concept: it includes physical, mental and social
               well-being. Besides a balanced diet and sufficient exercise, many
               factors contribute to your general health: your work-life balance,
-              a natural sleep pattern, sexual health, fulfilling social
-              contacts, and so much more.
+              a natural sleep pattern, fulfilling social contacts, 
+              sexual health <i>(also see my Sex, Love, and Relationship Coaching; these focus much deeper on this theme)</i>, 
+              and so much more.
             </p>
           </div>
           <div>
-            <h3>Accecible</h3>
+            <h3>Lasting change</h3>
             <p>
               The key to lasting behavioural change is low-threshold
               adjustments. These adjustments can easily be applied in your daily
               life. Instead of changing your entire lifestyle, I take small
-              steps with you that ultimately make a big difference.
+              steps with you that ultimately make a big difference.<br/>
+              A second factor that is important is a listening ear. 
+              My experience tells me that being heard is "oh" so important. 
+              I do this through in-depth questions, and specific techniques I have learned throughout my trainings.
             </p>
           </div>
           <div>
@@ -117,7 +121,9 @@ const Health = ({ location }) => {
               euros. For 3 sessions you pay 130 euro <i>(save 5 euro)</i>; for 6
               sessions you pay only 250 euro <i>(save 20 euro)</i>. I also offer
               follow-up sessions of 30 minutes for 25 euros. For private
-              individuals, all prices include VAT.
+              individuals, all prices include VAT.<br/>
+              From 1/jan/2023 you will pay 50 euros per session, 145 euros per 3, and 280 eruo per 6 sessions.
+              So book your health coaching sessions before 2023 (you have 6 months to schedule them).
             </p>
           </div>
         </Wrapper>
@@ -131,9 +137,7 @@ const Health = ({ location }) => {
           >
             info@ankevanmullem.be
           </a>
-          .
-        </p>
-        <p>
+          .<br/>
           Not quite sure yet and would you like more non-binding information?
           Ask me all your questions and/or share your reservations via the{" "}
           <Link to="/en/contact">contact form</Link> or via{" "}

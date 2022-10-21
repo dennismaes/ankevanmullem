@@ -87,9 +87,10 @@ const SexLoveRelation = ({ location }) => {
           <div>
             <h3>Opwindende onderwerpen</h3>
             <p>
-              In totaal zijn er 10 sessies die één geheel vormen. Voorbeelden
-              zijn: Het in kaart brengen van je specifieke verlangens. Het
-              transformeren van beperkende overtuigingen en onbewuste
+              In totaal zijn er 10 sessies die één geheel vormen. De eerste sessies
+              bestaat steeds uit het in kaart brengen van je specifieke verlangens.
+              Hierna kunnen verschillende andere technieken worden gebruikt, voorbeelden
+              zijn: Het transformeren van beperkende overtuigingen en onbewuste
               weerstanden. Omarmen van het innerlijke kind door te onderzoeken
               hoe het je liefdes-, seks-, en relatiepatronen beïnvloedt. Het
               vinden van emotioneel empowerment door een vernieuwde connectie
@@ -106,7 +107,24 @@ const SexLoveRelation = ({ location }) => {
         </h2>
       </Section>
 
-      <Section id="pricing">
+      <Section id="review">
+      <h2>Hoe hebben andere mensen hun transformatie ervaren?</h2>
+          <h3>N.D.</h3>
+            <p>
+            Gecoacht worden door Anke was echt een plezier. 
+            Ze creëerde altijd zo natuurlijk een veilige container voor me 
+            waarin ik alle ruimte had om mijn gevoelens, mijn omstandigheden en mezelf te onderzoeken, 
+            zodat ik tot de kern van mijn waarheid kon komen. 
+            En toch was er altijd tijd om te lachen en me te wenden tot lichtheid.
+            Waar ik het meest dankbaar voor ben is dat ze me altijd accepteerde voor wie ik ben, 
+            wat ik het meest helende element in elke coaching vind. 
+            Hierdoor kon ik delen van mezelf die ik vroeger afwees of over het hoofd zag in mezelf opnieuw integreren.
+            Ik voel mijn eigen kracht en de verbinding met mijn diepste zelf weer in mij.<br/>
+            <i>Deze getuigenis is een vertaling. De originele testimonium kan je terug vinden op mijn Engelse pagina.</i>
+            </p>
+      </Section>
+
+      <Section bgGrey id="pricing">
         <h2>Praktische info</h2>
         <Wrapper cols={2}>
           <div>

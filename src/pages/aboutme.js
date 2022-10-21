@@ -83,7 +83,7 @@ const Aboutme = ({location}) => {
           <TimelineEntry title="Doekenwerk via Juli Pohan" date="September 2022">
             <p>Om Juli haar woorden te gebruiken: "Werken met een doek is een zachte, voedende en kalmerende techniek."
               Van het lichaam strekken tot schudden, 'bio-hacken' van het zenuswstelsel en het tot leven brengen van het lijf, maar ook vooral overgave en ontspanning. 
-              Voor mij staat het echt voor in je lichaam landen en uit het hoofd. Een zeer interessante training! 
+              Voor mij staat het voor uit het hoofd geraken, en zo echt in je lichaam landen. Een zeer interessante training! 
               Kan niet wachten om dit ook in mijn bodywork te gaan gebruiken.
             </p>
           </TimelineEntry>
