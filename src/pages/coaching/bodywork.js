@@ -40,7 +40,7 @@ const Lichaamswerk = ({ location }) => {
           <div>
             <h3>Lichaamswerk: wat is het? </h3>
             <p>
-              “Bodywork” is in de alternatieve geneeskunde elke therapeutische
+              "Bodywork" is in de alternatieve geneeskunde elke therapeutische
               of persoonlijke ontwikkelingstechniek waarbij met het menselijk
               lichaam wordt gewerkt in een vorm van manipulatieve therapie,
               ademhaling of energie. Ik heb verschillende soorten lichaamswerk dat ik graag 
@@ -69,7 +69,7 @@ const Lichaamswerk = ({ location }) => {
             <h3>De-armouring</h3>
             <p>
               Dit is een manier om blokkades, vastzittende energie, emoties en
-              spanning uit het lichaam te halen – ook wel armour genoemd (in het
+              spanning uit het lichaam te halen - ook wel armour genoemd (in het
               Nederlands “pantser”). Het is een spanning en/of pijn die het
               lichaam vasthoudt wanneer iets is ervaren dat het zenuwstelsel
               activeerde op een manier dat niet werd verwerkt. Eén van de
@@ -120,7 +120,7 @@ const Lichaamswerk = ({ location }) => {
           </div>
           <div>
             <StaticImage
-              src="../images/_DSC0110.jpg"
+              src="../../images/_DSC0110.jpg"
               width={600}
               quality={60}
               alt="Anke Van Mullem"

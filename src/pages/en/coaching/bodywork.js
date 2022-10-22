@@ -119,7 +119,7 @@ const Bodywork = ({ location }) => {
           </div>
           <div>
             <StaticImage
-              src="../images/_DSC0110.jpg"
+              src="../../../images/_DSC0110.jpg"
               width={600}
               quality={60}
               alt="Anke Van Mullem"
