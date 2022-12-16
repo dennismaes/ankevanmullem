@@ -148,20 +148,6 @@ const Bodywork = ({ location }) => {
             info@ankevanmullem.be
           </a>.
         </p>
-          </div>
-          <div>
-            <StaticImage
-              src="../../../images/_DSC0151.jpg"
-              width={600}
-              quality={60}
-              alt="Anke Van Mullem"
-              placeholder="blurred"
-              loading="lazy"
-              transformOptions={{ fit: "cover", cropFocus: "attention" }}
-            />
-          </div>
-        </Wrapper>
-
         <p>
           Not quite sure yet and would you like more non-binding information?
           Ask me all your questions and/or share your reservations via the{" "}
@@ -178,6 +164,21 @@ const Bodywork = ({ location }) => {
           more specifically about the possibilities and make a proposal on how
           we can work together.
         </p>
+          </div>
+          <div>
+            <StaticImage
+              src="../../../images/_DSC0151.jpg"
+              width={600}
+              quality={60}
+              alt="Anke Van Mullem"
+              placeholder="blurred"
+              loading="lazy"
+              transformOptions={{ fit: "cover", cropFocus: "attention" }}
+            />
+          </div>
+        </Wrapper>
+
+       
       </Section>
     </Layout>
   );

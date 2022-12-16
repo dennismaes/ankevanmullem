@@ -150,20 +150,7 @@ const Lichaamswerk = ({ location }) => {
             info@ankevanmullem.be
           </a>
           .</p>
-          </div>
-          <div>
-            <StaticImage
-              src="../../images/_DSC0151.jpg"
-              width={400}
-              quality={60}
-              alt="Anke Van Mullem"
-              placeholder="blurred"
-              loading="lazy"
-              transformOptions={{ fit: "cover", cropFocus: "attention" }}
-            />
-          </div>
-        </Wrapper>
-        <p>   
+          <p>   
           Toch nog niet helemaal zeker en heb je graag nog wat vrijblijvende
           informatie? Stel mij al jouw vragen en/of bedenkingen via het{" "}
           <Link to="/contact">contactformulier</Link> of via{" "}
@@ -179,6 +166,20 @@ const Lichaamswerk = ({ location }) => {
           je gerichter vertellen over de mogelijkheden en een voorstel doen over
           hoe we kunnen samenwerken.
         </p>
+          </div>
+          <div>
+            <StaticImage
+              src="../../images/_DSC0151.jpg"
+              width={400}
+              quality={60}
+              alt="Anke Van Mullem"
+              placeholder="blurred"
+              loading="lazy"
+              transformOptions={{ fit: "cover", cropFocus: "attention" }}
+            />
+          </div>
+        </Wrapper>
+        
       </Section>
     </Layout>
   );

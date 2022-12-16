@@ -123,14 +123,12 @@ const Gezondheid = ({ location }) => {
           <div>
             <h3>Kostprijs?</h3>
             <p>
-              Een sessie duurt algemeen 60 minuten. Voor één sessie betaal je 45
-              euro. Voor een traject van 3 sessies betaal je 130 euro
+              Een sessie duurt algemeen 60 minuten. Voor één sessie betaal je 50
+              euro. Voor een traject van 3 sessies betaal je 145 euro
               <i>(bespaar 5 euro)</i>; op een traject van 6 sessies betaal je
-              slechts 250 euro <i>(bespaar 20 euro)</i>. Ook bied ik
+              slechts 280 euro <i>(bespaar 20 euro)</i>. Ook bied ik
               vervolgsessies aan van 30 minuten voor 25 euro. Voor particulieren
-              zijn alle prijzen incl. BTW.<br/>
-              Vanaf 1/jan/2023 betaal je 50 euro per sessie, 145 euro per 3, en 280 euro per 6 sessies. 
-              Boek dus voor 2023 jouw sessies gezondheidscoaching (je hebt 6 maanden de tijd deze in te plannen). 
+              zijn alle prijzen incl. BTW. 
             </p>
           </div>
         </Wrapper>

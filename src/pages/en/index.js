@@ -23,8 +23,10 @@ const IndexEn = ({ location }) => {
         <p>
           In daily life, I work in the field of well-being at work as a safety
           consultant. But on this website you will find everything about my work
-          as a self-employed person: your personal Health Coach and Sex, Love,
-          and Relationship Coach!
+          as a self-employed person: your personal Intimacy and Health Coach!
+          I specialise in a holistic view of health, and in the topics of 
+          Sex, Love, and Relationships through the VITA™ Method. 
+          This for individuals longing for that spark in their relation or life by creating a deep connection with themselves!
         </p>
       </Section>
       <Sticky>
@@ -69,8 +71,8 @@ const IndexEn = ({ location }) => {
           </Card>
           <Card
             to="/en/coaching/sexloverelation"
-            title="Sex, Love, Relationship Coaching"
-            subtitle="No taboos, everything is possible"
+            title="Intimacy Coaching"
+            subtitle="Specialized in Sex, Love, Relations. No taboos, everything is possible!"
           >
             <StaticImage
               src="../../images/SLR01.jpg"

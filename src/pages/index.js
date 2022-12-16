@@ -24,7 +24,10 @@ const Index = ({ location }) => {
           In het dagelijkse leven werk ik rond welzijn op het werk als
           veiligheidsconsulent, beter bekend als preventieadviseur. Maar op deze
           site vind je alles over mijn werk als zelfstandige in bijberoep: jouw
-          persoonlijke Gezondheidscoach en Seks, Liefde, en Relatiecoach.
+          persoonlijke Intimiteits- en Gezondheidscoach. Ik ben gespecialiseerd in 
+          een holistische kijk op gezondheid, en in de thema's Seks, Liefde, en Relaties 
+          via de VITA™ Methode. Dit voor individuen die verlangen naar die vonk in hun relatie 
+          of leven door een diepe verbinding met zichzelf te creëren. 
         </p>
       </Section>
       <Sticky>
@@ -67,8 +70,8 @@ const Index = ({ location }) => {
           </Card>
           <Card
             to="/coaching/sexloverelation"
-            title="Sex, Love, and Relationship Coaching"
-            subtitle="Geen taboes, alles is mogelijk"
+            title="Intimiteitscoaching"
+            subtitle="Gespecialiceerd in Seks, Liefde, en Relaties. Geen taboes, alles is mogelijk!"
           >
             <StaticImage
               src="../../images/SLR01.jpg"

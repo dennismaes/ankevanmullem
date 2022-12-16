@@ -78,8 +78,8 @@ const ProfileSection = ({ locale }) => (
           <br />
           Anke Van Mullem!
         </h1>
-        <p>Health coach</p>
-        <p>Sex, Love, and Relationship Coach (student)</p>
+        <p>Intimacy Coach</p>
+        <p>Health Coach</p>
       </Content>
     )}
     {locale === "nl" && (
@@ -89,8 +89,8 @@ const ProfileSection = ({ locale }) => (
           <br />
           Anke Van Mullem!
         </h1>
-        <p>Gezondheidscoach </p>
-        <p>Seks, Liefde, en Relatiecoach (student)</p>
+        <p>Intimiteitscoach</p>
+        <p>Gezondheidscoach</p>
       </Content>
     )}
   </ProfileContainer>

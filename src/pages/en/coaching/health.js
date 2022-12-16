@@ -117,13 +117,11 @@ const Health = ({ location }) => {
           <div>
             <h3>Cost?</h3>
             <p>
-              A session generally lasts 60 minutes. For one session you pay 45
-              euros. For 3 sessions you pay 130 euro <i>(save 5 euro)</i>; for 6
-              sessions you pay only 250 euro <i>(save 20 euro)</i>. I also offer
+              A session generally lasts 60 minutes. For one session you pay 50
+              euros. For 3 sessions you pay 145 euro <i>(save 5 euro)</i>; for 6
+              sessions you pay only 280 euro <i>(save 20 euro)</i>. I also offer
               follow-up sessions of 30 minutes for 25 euros. For private
-              individuals, all prices include VAT.<br/>
-              From 1/jan/2023 you will pay 50 euros per session, 145 euros per 3, and 280 euros per 6 sessions.
-              So book your health coaching sessions before 2023 (you have 6 months to schedule them).
+              individuals, all prices include VAT.
             </p>
           </div>
         </Wrapper>
