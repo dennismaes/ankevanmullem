@@ -180,7 +180,7 @@ const SexLoveRelation = ({ location }) => {
       </Section>
 
       <Section bgGrey id="review">
-      <h2>Hoe hebben andere mensen hun transformatie ervaren?</h2>
+      <h2>Hoe hebben anderen hun transformatie ervaren?</h2>
           <h3>N.D.</h3>
             <p>
             Gecoacht worden door Anke was echt een plezier. 

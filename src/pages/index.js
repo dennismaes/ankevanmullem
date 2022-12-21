@@ -71,7 +71,7 @@ const Index = ({ location }) => {
           <Card
             to="/coaching/sexloverelation"
             title="Intimiteitscoaching"
-            subtitle="Gespecialiceerd in Seks, Liefde, en Relaties.<br/>
+            subtitle="Gespecialiceerd in Seks, Liefde, en Relaties.
             Geen taboes, alles is mogelijk!"
           >
             <StaticImage

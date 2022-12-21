@@ -72,7 +72,7 @@ const IndexEn = ({ location }) => {
           <Card
             to="/en/coaching/sexloverelation"
             title="Intimacy Coaching"
-            subtitle="Specialized in Sex, Love, Relations.<br/>
+            subtitle="Specialized in Sex, Love, Relations.
             No taboos, everything is possible!"
           >
             <StaticImage
