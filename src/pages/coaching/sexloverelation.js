@@ -107,7 +107,79 @@ const SexLoveRelation = ({ location }) => {
         </h2>
       </Section>
 
-      <Section id="review">
+      <Section id="program">
+      <h2>Kies je eigen intimiteitsprogramma</h2>
+      <p>
+      Omdat mensen verschillend zijn, kan het niet anders als dat de stijl van 
+      coaching ook verschillend moet zijn. Dat is de reden waarom ik twee 
+      verschillende coachingsontwerpen heb gecreëerd. Omdat ik nogal wat 
+      belangstelling heb gekregen rond mijn sessies en de technieken die ik 
+      gebruik, wil ik je nu uitdagen door een specifieke structuur te volgen 
+      met de naam "Unstoppalicious". Lees hieronder meer over hoe de twee 
+      programma's verschillen en welke het beste bij jou past.
+      </p>
+      <Wrapper cols={2}>
+        <div>
+        <h3>Programma één: Sparklicious</h3>
+        <p>
+        Dit is het proces dat ik tot nu toe heb gebruikt. Het brengt je naar 
+        de kern van je verlangen dankzij het vertrouwen in je lichaam en dus 
+        je eigen intuïtie. Je lichaam weet al op een dieper niveau wat je nodig 
+        hebt, zodat je kunt genezen van trauma’s of oudere wonden. Via 
+        verschillende technieken uit de VITA™-Methode en mijn eigen ervaring, 
+        leid ik je door een programma waarin we de onbewuste geest kunnen 
+        ontvouwen en je dichter bij datgene kunnen brengen waar je het meest 
+        naar verlangt.
+        </p>
+        <p>
+        Dit proces heeft meer flexibiliteit om situaties op te vangen die je 
+        nu misschien van je pad afbrengen. Het geeft meer ruimte om te werken 
+        aan zowel je verlangen als aan, wat ik noem, acute uitdagingen. Er is 
+        meer tijd om over de verschillende transformaties te ventileren en te 
+        integreren. En bovenal wordt het programma bepaald door je eigen tempo!
+        </p>
+        <p>
+        Geweldig voor mensen die ervaring hebben met energetisch werk, en al 
+        vertrouwen hebben in hun innerlijke wijsheid. Aan de andere kant is het 
+        heerlijk voor mensen die helemaal nieuw zijn met innerlijk werk en wat 
+        meer tijd nodig hebben om in hun lichaam en in de verschillende 
+        technieken te komen.
+        </p>
+        </div>
+        <div>
+          <h3>Programma twee: Unstoppalicious</h3>
+          <p>
+          In dit programma gebruik ik tien verschillende technieken uit de 
+          VITA™ Methode. Een diepgaand en inzichtelijk proces met verschillende 
+          benaderingen om je verlangen te bereiken. Zeer geschikt voor mensen 
+          die een 'duidelijk' doel hebben binnen de thema's Seks, Liefde en/of 
+          Relatie, en voor wie toe is aan algemene groei. De tien verschillende 
+          benaderingen zijn:
+          </p>
+          <p>
+          Verlangens, Het creëren van een duidelijk doel<br/>
+          Je verlangen manifesteren<br/>
+          De familiedynamiek bevrijden<br/>
+          Het innerlijke kind omarmen<br/>
+          Het creëren van een bloeiende seksuele ecologie<br/>
+          Krijgen wat je verlangt<br/>
+          Emotionele empowerment vinden<br/>
+          De kracht van intentioneel zelfplezier<br/>
+          Reis naar het Zelf<br/>
+          Levendige en gezonde relatie
+          </p>
+          <p>
+          Dit proces is geweldig voor mensen die alles willen doen. Het heeft 
+          minder flexibiliteit, maar in ruil daarvoor heeft het een duidelijk 
+          programma, zodat je weet wat je elke sessie kan verwachten. Het 
+          garandeert je verschillende technieken om je naar je doel te brengen, 
+          en duidelijke taken tussen de sessies door voor degenen die dat willen.
+          </p>
+        </div>
+      </Wrapper>
+      </Section>
+
+      <Section bgGrey id="review">
       <h2>Hoe hebben andere mensen hun transformatie ervaren?</h2>
           <h3>N.D.</h3>
             <p>
@@ -124,7 +196,7 @@ const SexLoveRelation = ({ location }) => {
             </p>
       </Section>
 
-      <Section bgGrey id="pricing">
+      <Section id="pricing">
         <h2>Praktische info</h2>
         <Wrapper cols={2}>
           <div>

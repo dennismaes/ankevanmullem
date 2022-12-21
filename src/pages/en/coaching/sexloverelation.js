@@ -108,7 +108,75 @@ const SexLoveRelationEN = ({ location }) => {
         </h2>
       </Section>
 
-      <Section id="review">
+      <Section id="programs">
+        <h2>Choose Your Own Intimacy Program</h2>
+        <p>
+        As people are different, styles of coaching should be different as well. 
+        That is the why I have created two distinctive coaching designs. 
+        Since I have reached quite some interest in my sessions and the techniques 
+        I use, I now want to challenge you by following a specific structure named 
+        “Unstoppalicious”. Read more underneath on how the two programs are 
+        different and which could fit you best.
+        </p>
+        <Wrapper cols={2}>
+          <div>
+            <h3>Program One: Sparklicious</h3>
+            <p>
+            This is the process I have used up till now. It takes you to the 
+            core of your desire thanks to trusting your body and so your own 
+            intuition. Your body already knows on a deeper level what you need 
+            so you can heal from old wounding. Through different techniques from 
+            the VITA™ Method and my own experience, I lead you through a program 
+            where we can unfold the unconscious mind and get you closer to having 
+            what you long for most.
+            </p>
+            <p>
+            This process has more flexibility to take in situations that might 
+            be throwing you off of your path right now. It gives more room to 
+            work on both your desire and, what I call, acute challenges. There 
+            is more time to ventilate and integrate all the different 
+            transformations. And most of all, the program is defined by your own pace! 
+            </p>
+            <p>
+            Great for people who have experience with energetic work, 
+            and already trust in their inner wisdom. At the other hand, it is wonderful 
+            for people who are completely new to inner work and need a bit more time 
+            to get into their body and into the different techniques.
+            </p>
+          </div>
+          <div>
+            <h3>Program Two: Unstoppalicious</h3>
+            <p>
+            In this program I use ten different techniques from the VITA™ Method. 
+            A deep and insightful process with different approaches to reach your 
+            desire. Great for people who have a ‘clear’ goal within the themes of Sex, 
+            Love, and/or Relationship, and for who is ready to grow. The ten different 
+            approaches are: 
+            </p>
+            <p>
+            Desires, Creating a Clear Goal<br/>
+            Manifesting Your Desire<br/>
+            Liberating The Family Dynamic<br/>
+            Embracing The Inner Child<br/>
+            Creating a Thriving Sexual Ecology<br/>
+            Getting What You Desire<br/>
+            Finding Emotional Empowerment<br/>
+            The Power of Intentional Self-Pleasure<br/>
+            Journey Into the Self<br/>
+            Vibrant And Healthy Relationship
+            </p>
+            <p>
+            This process is great for people who want to do it all. 
+            It has less flexibility, but in return it has a clear program up 
+            front so you will know what to bring to the sessions every time again. 
+            It guarantees you different techniques to get you to your goal, 
+            and clear tasks in between sessions for the ones who want.
+            </p>
+          </div>
+        </Wrapper>
+      </Section>
+
+      <Section bgGrey id="review">
       <h2>How have other people experienced their transformation?</h2>
           <h3>N.D.</h3>
             <p>
@@ -124,7 +192,7 @@ const SexLoveRelationEN = ({ location }) => {
             </p>
       </Section>
 
-      <Section bgGrey id="pricing">
+      <Section id="pricing">
         <h2>Practical info</h2>
         <Wrapper cols={2}>
         <div>
