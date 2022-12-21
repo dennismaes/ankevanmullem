@@ -153,8 +153,8 @@ const SexLoveRelation = ({ location }) => {
           VITA™ Methode. Een diepgaand en inzichtelijk proces met verschillende 
           benaderingen om je verlangen te bereiken. Zeer geschikt voor mensen 
           die een 'duidelijk' doel hebben binnen de thema's Seks, Liefde en/of 
-          Relatie, en voor wie toe is aan algemene groei. De tien verschillende 
-          benaderingen zijn:
+          Relatie, en voor wie toe is aan algemene groei.<br/>
+          De tien verschillende benaderingen zijn:
           </p>
           <p>
           Verlangens, Het creëren van een duidelijk doel<br/>

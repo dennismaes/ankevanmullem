@@ -91,8 +91,7 @@ const SexLoveRelationEN = ({ location }) => {
               In total, there are 10 sessions that form a whole. The first sessions always 
               consists of mapping your specific desire. After that we can use different techniques like: 
               Transforming limiting belief systems and unconscious objections. Liberating the family dynamic by
-              understanding the family legacy and ancestral issues. Embracing
-              the inner child by looking into how it affects your patterns.
+              understanding the family legacy and ancestral issues.
               Getting what you desire by creating real worthiness and
               deservingness. Finding emotional empowerment by rewiring your
               relationship to emotions. Healthy and fabulous relationships by
@@ -168,7 +167,7 @@ const SexLoveRelationEN = ({ location }) => {
             <p>
             This process is great for people who want to do it all. 
             It has less flexibility, but in return it has a clear program up 
-            front so you will know what to bring to the sessions every time again. 
+            front so you know what to expect. 
             It guarantees you different techniques to get you to your goal, 
             and clear tasks in between sessions for the ones who want.
             </p>
