@@ -10,7 +10,6 @@ import {
   Dropdown,
   DropdownContent
 } from "../../../components/button";
-import { Table } from "../../../components/table";
 import { StaticImage } from "gatsby-plugin-image";
 
 const SexLoveRelationEN = ({ location }) => {

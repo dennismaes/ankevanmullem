@@ -10,6 +10,7 @@ import {
   ButtonLink,
   Aboutme,
   Contact,
+  Bag,
   Dropdown,
   DropdownContent
 } from "../../components/button";
@@ -47,6 +48,10 @@ const IndexEn = ({ location }) => {
         <ButtonLink to="/en/contact/">
           <Contact />
           Contact me
+        </ButtonLink>
+        <ButtonLink to="/shop">
+          <Bag />
+          Webshop
         </ButtonLink>
         <ButtonFacebook />
       </Sticky>

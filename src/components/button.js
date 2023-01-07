@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components'
 import { Link } from 'gatsby'
 
 import { SiLinkedin, SiWhatsapp, SiGmail, SiFacebook } from 'react-icons/si'
-import { BsFillCaretLeftFill, BsFillPersonLinesFill, BsChatDotsFill, BsTranslate } from 'react-icons/bs'
+import { BsFillBagFill, BsFillCaretLeftFill, BsFillPersonLinesFill, BsChatDotsFill, BsTranslate } from 'react-icons/bs'
 import { BiDna, BiDirections } from 'react-icons/bi'
 
 const mixin = css`
@@ -95,6 +95,10 @@ export const ButtonMail = () => (
 )
 
 export const Aboutme = styled(BsFillPersonLinesFill)`
+  ${si}
+`
+
+export const Bag = styled(BsFillBagFill)`
   ${si}
 `
 
