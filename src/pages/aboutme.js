@@ -35,7 +35,7 @@ const Aboutme = ({location}) => {
               Naast dit alles, kan ik ook jouw persoonlijke coach zijn! Als
               gezondheidscoach ben ik erkend bij de Vlaamse Vereniging
               GezondheidsCoaches (VVGC) onder het erkenningsnummer 19-01-02-004. 
-              Momenteel ben ik nog volop bezig met het behalen van mijn certificatie tot Seks, Liefde, en Relatiecoach onder{" "}
+              Momenteel ben ik nog volop bezig met het behalen van mijn certificatie tot Liefde, Intimeit en Relatiecoach onder{" "}
           <a href="https://laylamartin.com/" target="_blank" rel="noreferrer">
             Layla Martin
           </a>.
@@ -70,12 +70,12 @@ const Aboutme = ({location}) => {
         <h2>Mijn professioneel traject</h2>
         <p>(Klik op de gebeurtenis voor meer informatie.)</p>
         <Timeline>
-          <TimelineEntry title="Sex Love and Relationship Coach (student)" date="Heden">
+          <TimelineEntry title="VITA™ Coaching Methode voor Liefde, Intimiteit, en Relaties" date="Heden">
             <p>Dit is een 1-jarig programma (650 uur) aan Layla Martin's VITA™ Institute.</p>
             <p>De kernwaarden van VITA™ Coaching zijn gebaseerd op het geloof dat seksualiteit heilig, mooi, krachtig en natuurlijk is; 
               pure liefde is de primaire kracht die ons in stand houdt, en betekenisvolle relaties zijn noodzakelijk voor een vreugdevol leven.
               De VITA™ Methode is een transformatieproces om seksualiteit te helen en wakker te maken. 
-              Gesteund door moderne wetenschap en bekrachtigd door oude wijsheid, gebruiken we holistische hulpmiddelen zoals ademwerk, plezierbeoefening, 
+              Gesteund door moderne wetenschap en bekrachtigd door oude wijsheid, gebruiken we holistische hulpmiddelen zoals ademwerk, 
               traumaheling, meditatie, energiewerk, klanken en beweging die zelfs de diepste problemen kunnen oplossen.</p>
               <p>De VITA™-methode neemt de meest effectieve leringen van de moderne neurobiologie, holistische genezing en moderne coaching, 
               en mengt deze met oude wijsheid en leringen. VITA™ staat voor: "De Vitale en Geïntegreerde Tantrische Benadering."</p>

@@ -39,7 +39,7 @@ const Aboutme = ({ location }) => {
               Besides all this, I can also be your personal coach! As a health coach, I
               am recognized by the Flemish Association of Health Coaches (VVGC)
               under the accreditation number 19-01-02-004. Currently, I am still
-              following my certification to become an official Sex, Love, and Relationship
+              following my certification to become an official Love,Intimacy, and Relationships
               Coach under{" "}
               <a href="https://laylamartin.com/" target="_blank" rel="noreferrer"> Layla Martin's</a>{" "}VITA™ Institute.
             </p>
@@ -77,7 +77,7 @@ const Aboutme = ({ location }) => {
         <p>(Click on the event to get more information.)</p>
         <Timeline>
           <TimelineEntry
-            title="Sex, Love, and Relationship Coach (student)"
+            title="VITA™ Coaching Method for Love, Intimacy, and Relationships (student)"
             date="Currently"
           >
             <p>

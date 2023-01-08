@@ -29,7 +29,7 @@ const Bodywork = ({ location }) => {
           <DropdownContent>
             <ButtonLink to="/en/coaching/health">Health Coaching</ButtonLink>
             <ButtonLink to="/en/coaching/sexloverelation">
-              Sex, Love, and Relationship Coaching
+              Intimacy Coaching
             </ButtonLink>
           </DropdownContent>
         </Dropdown>

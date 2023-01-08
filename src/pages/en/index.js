@@ -25,8 +25,7 @@ const IndexEn = ({ location }) => {
           In daily life, I work in the field of well-being at work as a safety
           consultant. But on this website you will find everything about my work
           as a self-employed person: your personal Intimacy and Health Coach!
-          I specialise in a holistic view of health, and in the topics of 
-          Sex, Love, and Relationships through the VITA™ Method. 
+          I specialise in a holistic view of health, and in VITA™ Coaching Method for Love, Intimacy, and Relationships. 
           This for individuals longing for that spark in their relation or life by creating a deep connection with themselves!
         </p>
       </Section>
@@ -36,7 +35,7 @@ const IndexEn = ({ location }) => {
           <DropdownContent>
             <ButtonLink to="/en/coaching/health">Health Coaching</ButtonLink>
             <ButtonLink to="/en/coaching/sexloverelation">
-              Sex, Love, and Relationship Coaching
+              Intimacy Coaching
             </ButtonLink>
             <ButtonLink to="/en/coaching/bodywork">Bodywork</ButtonLink>
           </DropdownContent>
@@ -77,8 +76,7 @@ const IndexEn = ({ location }) => {
           <Card
             to="/en/coaching/sexloverelation"
             title="Intimacy Coaching"
-            subtitle="Specialized in Sex, Love, Relations.
-            No taboos, everything is possible!"
+            subtitle="No taboos, everything is possible!"
           >
             <StaticImage
               src="../../images/SLR01.jpg"

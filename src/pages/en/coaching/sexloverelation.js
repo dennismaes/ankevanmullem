@@ -16,17 +16,18 @@ const SexLoveRelationEN = ({ location }) => {
   return (
     <Layout locale="en" location={location} leftHiddenMobile>
       <Section id="top">
-        <h2>Sex, Love, and Relationship Coaching</h2>
+        <h2>Intimacy Coaching</h2>
         <p>
           Under{" "}
           <a href="https://laylamartin.com/" target="_blank" rel="noreferrer">
             Layla Martin
           </a>{" "}
-          I am currently pursuing my Sex, Love, and Relationship Coach
-          certification. She is the founder of the VITA™ Method, which stands
-          for: “The Vital and Integrated Tantric Approach.” This training excist
+          I am currently pursuing my coach certification specifically 
+          of the VITA™ Coaching Method for Love, Intimacy, and Relationships.
+          She is the founder of the VITA™ Method, which stands
+          for: “The Vital and Integrated Tantric Approach.” This training exist
           of 650 hours... And in her own words it's the most advanced and
-          in-depth coaching certification available for sex, love, and
+          in-depth coaching certification available for love, intimacy, and
           relationships in the world.
         </p>
       </Section>
@@ -45,19 +46,18 @@ const SexLoveRelationEN = ({ location }) => {
       </Sticky>
 
       <Section bgGrey id="info">
-        <h2>Sex, Love, and Relationship Coaching</h2>
+        <h2>Intimacy Coaching</h2>
 
         <Wrapper cols={2}>
           <div>
             <h3>What do you long for?</h3>
             <p>
-              Do you long for a legendary love life that is empowering? Sex you
-              thought was never possible, read 'mind blowing'? A lasting
-              relationship where passion and romance are central? Do you yearn
-              for general self-development where you take your sexuality into
-              your own hands? Or do you desire more happiness, passion,
-              connection and intimacy in your life and relationships? Then you
-              have come to the right place.
+            Do you long for a legendary love life that is empowering? 
+            Intimacy you thought was never possible, read 'mind blowing'? 
+            A lasting relationship where passion and romance are central? 
+            Do you yearn for general self-development where you heal your trauma's 
+            and step into empowerment? Or do you desire more happiness, passion, 
+            connection and intimacy in general? Then you have come to the right place.
             </p>
           </div>
           <div>
@@ -77,7 +77,7 @@ const SexLoveRelationEN = ({ location }) => {
               Thanks to the VITA™ Method, I am able to guide you with effective
               tools that lead to a deep transformation. Through these specific
               techniques, I support you in transforming your body, mind and
-              emotions to release trauma, limiting beliefs and sexual blockages.
+              emotions to release trauma, limiting beliefs and blockages.
               Think of childhood wounds, broken hearts, certain fears,
               unconscious patterns, and so on. Through this method, we can
               restore or update sexual health, erotic desires, self-love,
@@ -92,14 +92,12 @@ const SexLoveRelationEN = ({ location }) => {
               Transforming limiting belief systems and unconscious objections. Liberating the family dynamic by
               understanding the family legacy and ancestral issues.
               Getting what you desire by creating real worthiness and
-              deservingness. Finding emotional empowerment by rewiring your
-              relationship to emotions. Healthy and fabulous relationships by
-              understanding projections. And so much more!
+              deservingness. And so much more!
             </p>
           </div>
         </Wrapper>
         <h2>
-          Are you ready for a liberating sex and love life, and/or lasting
+          Are you ready for a liberating life, and/or lasting
           relationships that bring growth? Don't wait and{" "}
           <Link to="/en/contact">contact me</Link> with all your questions and
           desires!
@@ -111,10 +109,9 @@ const SexLoveRelationEN = ({ location }) => {
         <p>
         As people are different, styles of coaching should be different as well. 
         That is the why I have created two distinctive coaching designs. 
-        Since I have reached quite some interest in my sessions and the techniques 
-        I use, I now want to challenge you by following a specific structure named 
-        “Unstoppalicious”. Read more underneath on how the two programs are 
-        different and which could fit you best.
+        Now, you can be challenged by following a specific structure named 
+        “Unstoppalicious”.<br/> 
+        Read more underneath on how the two programs are different and which could fit you best.
         </p>
         <Wrapper cols={2}>
           <div>
@@ -147,8 +144,8 @@ const SexLoveRelationEN = ({ location }) => {
             <p>
             In this program I use ten different techniques from the VITA™ Method. 
             A deep and insightful process with different approaches to reach your 
-            desire. Great for people who have a ‘clear’ goal within the themes of Sex, 
-            Love, and/or Relationship, and for who is ready to grow. The ten different 
+            desire. Great for people who have a ‘clear’ goal within the themes of  
+            Love, Intimacy, and/or Relationship. It is perfect for who is ready to grow. The ten different 
             approaches are: 
             </p>
             <p>
@@ -215,7 +212,7 @@ const SexLoveRelationEN = ({ location }) => {
             <h3>Cost?</h3>
             <p>
               The price is adjusted to your financial possibilities and I am happy to discuss this with you in an informal meeting. 
-              A payment plan is also available. 
+              Payment plans are also available. 
               Since I am still in the process of completing my certification, my prices are currently lower. So grab your chance now!<br/>
               Would you like more information? Please write me a message via{" "}
               <a
@@ -225,15 +222,7 @@ const SexLoveRelationEN = ({ location }) => {
               >
                 Facebook
               </a>
-              , the <Link to="/en/contact">contact form</Link> or via{" "}
-              <a
-                href="mailto:info@ankevanmullem.be"
-                target="_blank"
-                rel="noreferrer"
-              >
-                info@ankevanmullem.be
-              </a>
-              .
+              , or the <Link to="/en/contact">contact form</Link>.
             </p>
           </div>
           <div>

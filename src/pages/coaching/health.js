@@ -28,7 +28,7 @@ const Gezondheid = ({ location }) => {
           <Button>Coachings</Button>
           <DropdownContent>
             <ButtonLink to="/coaching/sexloverelation">
-              Seks, Liefde, en Relatiecoaching
+            Intimiteitscoaching
             </ButtonLink>
             <ButtonLink to="/coaching/bodywork">Lichaamswerk</ButtonLink>
           </DropdownContent>

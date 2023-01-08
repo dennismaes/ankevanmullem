@@ -27,7 +27,7 @@ const Health = ({ location }) => {
           <Button>Coachings</Button>
           <DropdownContent>
             <ButtonLink to="/en/coaching/sexloverelation">
-              Sex, Love, and Relationship Coaching
+              Intimacy Coaching
             </ButtonLink>
             <ButtonLink to="/en/coaching/bodywork">Bodywork</ButtonLink>
           </DropdownContent>

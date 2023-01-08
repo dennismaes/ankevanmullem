@@ -17,18 +17,17 @@ const SexLoveRelation = ({ location }) => {
   return (
     <Layout locale="nl" location={location} leftHiddenMobile>
       <Section id="top">
-        <h2>Seks, Liefde, en Relatiecoaching</h2>
+        <h2>Intimiteitscoaching</h2>
         <p>
           Onder{" "}
           <a href="https://laylamartin.com/" target="_blank" rel="noreferrer">
             Layla Martin
           </a>{" "}
-          volg ik momenteel mijn certificatie tot Seks, Liefde, en Relatiecoach.
+          volg ik momenteel mijn coach certificering in de VITA™ Coaching Methode voor Liefde, Intimiteit, en Relaties.
           Zij is de oprichtster van VITA™, dit staat voor: "De Vitale en
           Geïntegreerde Tantrische Benadering.” Deze training bestaat uit 650
           uur... En in haar eigen woorden is het de meest geavanceerde en
-          diepgaande coachingcertificering die beschikbaar is voor seks, liefde
-          en relaties ter wereld.
+          diepgaande coachingcertificering die beschikbaar is rond liefde, intimiteit, en relaties ter wereld.
         </p>
       </Section>
       <Sticky>
@@ -45,18 +44,18 @@ const SexLoveRelation = ({ location }) => {
         </Dropdown>
       </Sticky>
       <Section bgGrey id="info">
-        <h2>Seks, Liefde, en Relatiecoaching</h2>
+        <h2>Intimiteitscoaching</h2>
         <Wrapper cols={2}>
           <div>
             <h3>Wat verlang jij?</h3>
             <p>
               Verlang jij naar een legendarisch liefdesleven dat een empowerend
-              gevoel teweegbrengt? Seks waarvan je dacht dat het nooit mogelijk
+              gevoel teweegbrengt? Intimiteit waarvan je dacht dat het nooit mogelijk
               was, lees ‘mind blowing’? Een duurzame relatie waar passie en
               romantiek centraal staan? Snak je naar algemene zelfontwikkeling
-              waarbij jij jouw seksualiteit in eigen handen neemt? Of wil je
-              graag meer geluk, passie, verbinding en intimiteit in jouw leven
-              en relaties? Dan ben je hier op de juiste plaats.
+              waarbij je trauma's heelt en in empowerment stapt? Of wil je
+              graag meer geluk, passie, verbinding en intimiteit in het algemeen? 
+              Dan ben je hier op de juiste plaats.
             </p>
           </div>
           <div>
@@ -92,15 +91,14 @@ const SexLoveRelation = ({ location }) => {
               Hierna kunnen verschillende andere technieken worden gebruikt, voorbeelden
               zijn: Het transformeren van beperkende overtuigingen en onbewuste
               weerstanden. Omarmen van het innerlijke kind door te onderzoeken
-              hoe het je liefdes-, seks-, en relatiepatronen beïnvloedt. Het
-              vinden van emotioneel empowerment door een vernieuwde connectie
+              hoe het je patronen beïnvloedt. Het vinden van emotioneel empowerment door een vernieuwde connectie
               met emoties aan te gaan. Gezonde relaties door het begrijpen van
               projecties. En zoveel meer!
             </p>
           </div>
         </Wrapper>
         <h2>
-          Ben jij klaar voor een bevrijdend seks en liefdesleven, en duurzame
+          Ben jij klaar voor een bevrijdend leven, en duurzame
           relaties die groei met zich meebrengen? Wacht niet en{" "}
           <Link to="/contact">contacteer mij</Link> met al jouw vragen en
           verlangens!
@@ -112,9 +110,8 @@ const SexLoveRelation = ({ location }) => {
       <p>
       Omdat mensen verschillend zijn, kan het niet anders als dat de stijl van 
       coaching ook verschillend moet zijn. Dat is de reden waarom ik twee 
-      verschillende coachingsontwerpen heb gecreëerd. Omdat ik nogal wat 
-      belangstelling heb gekregen rond mijn sessies en de technieken die ik 
-      gebruik, wil ik je nu uitdagen door een specifieke structuur te volgen 
+      verschillende coachingsontwerpen heb gecreëerd. Je kan jezelf uitdagen 
+      door een specifieke structuur te volgen 
       met de naam "Unstoppalicious". Lees hieronder meer over hoe de twee 
       programma's verschillen en welke het beste bij jou past.
       </p>
@@ -152,8 +149,8 @@ const SexLoveRelation = ({ location }) => {
           In dit programma gebruik ik tien verschillende technieken uit de 
           VITA™ Methode. Een diepgaand en inzichtelijk proces met verschillende 
           benaderingen om je verlangen te bereiken. Zeer geschikt voor mensen 
-          die een 'duidelijk' doel hebben binnen de thema's Seks, Liefde en/of 
-          Relatie, en voor wie toe is aan algemene groei.<br/>
+          die een 'duidelijk' doel hebben binnen de thema's Liefde, Intimiteit en/of 
+          Relaties, en voor wie toe is aan algemene groei.<br/>
           De tien verschillende benaderingen zijn:
           </p>
           <p>
@@ -232,14 +229,7 @@ const SexLoveRelation = ({ location }) => {
               >
                 Facebook
               </a>
-              , het <Link to="/en/contact">contactformulier</Link> of via{" "}
-              <a
-                href="mailto:info@ankevanmullem.be"
-                target="_blank"
-                rel="noreferrer"
-              >
-                info@ankevanmullem.be
-              </a>
+              of via het <Link to="/en/contact">contactformulier</Link>
               .
             </p>
           </div>
