@@ -27,7 +27,7 @@ const Index = ({ location }) => {
           site vind je alles over mijn werk als zelfstandige in bijberoep: jouw
           persoonlijke Intimiteits- en Gezondheidscoach. 
           Ik ben gespecialiseerd in een holistische kijk op gezondheid, en in de 
-          tVITA™ Coaching Methode voor Liefde, Intimiteit en Relaties. 
+          VITA™ Coaching Methode voor Liefde, Intimiteit en Relaties. 
           Dit voor individuen die verlangen naar die vonk in hun relatie 
           of leven door een diepe verbinding met zichzelf te creëren. 
         </p>
