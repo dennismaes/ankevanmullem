@@ -28,10 +28,12 @@ const Shop = ({ location }) => {
 
       <Section id="shop">
         <div data-reflow-type="product" data-reflow-product="584342990"></div> 
+        <div data-reflow-type="product" data-reflow-product="1718209490"></div>
       </Section>
     
       <Section id="empty">
-        <p>Is deze pagina leeg? Ververs ze dan dan even, of duw op F5. </p>
+        <p>Is deze pagina leeg? Ververs ze dan dan even, of duw op F5. Het beste is om deze pagina via een computer te bekijken.<br/>
+        Is this page empty? Then refresh it, or press F5. It is best to view this page from a computer.</p>
       </Section>
       
     </Layout>
