@@ -135,7 +135,7 @@ const Aboutme = ({location}) => {
           <TimelineEntry title="Project Say NO in Spanje" date="Mei 2017">
             Een internationale training rond gender gerelateerd geweld in samenwerking met 14 landen. Het leerdoel was om de kennis over gender gerelateerd geweld te vergroten, de competenties in het werken met jongeren te verbeteren, het bewustzijn van niet-formeel onderwijs in gender gerelateerd geweld bevorderen, en het uitwisselen van goede praktijken tussen jeugdwerkers.
           </TimelineEntry>
-          <TimelineEntry title="GezondheidsTeamChallende" date="Voorjaar 2017">
+          <TimelineEntry title="GezondheidsTeamChallenge" date="Voorjaar 2017">
             <p>Maakt deel uit van één van mijn Bachelor stages. Tijdens deze stage heb ik een project uitgewerkt op maat. Dit liep van midden april tot midden juli 2017.</p>
             <p>Aan de hand van een bevraging was er een laagdrempelig project ontwikkeld waarbij gezondheid en teamspirit centraal staan. 
               Het was de bedoeling samen met de collega’s iedere week de ‘challenge of the week’ te voltooien. 
