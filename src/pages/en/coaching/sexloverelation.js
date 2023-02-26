@@ -173,6 +173,8 @@ const SexLoveRelationEN = ({ location }) => {
 
       <Section bgGrey id="review">
       <h2>How have other people experienced their transformation?</h2>
+      <Wrapper cols={2}>
+        <div>
           <h3>N.D.</h3>
             <p>
               Being coached by Anke was truly a pleasure. 
@@ -185,6 +187,20 @@ const SexLoveRelationEN = ({ location }) => {
               This enabled me to reintegrate parts of myself that I used to reject or overlook in myself.
               I feel my own power and the connection to my deepest self within me again.
             </p>
+        </div>
+        <div>
+            <h3>C.B.</h3>
+            <p>
+            I worked with Anke over her 10 session block and I could easily book in another 10. 
+            My life shifted from when I booked her, and through the sessions she easily amended 
+            the sessions to suit my needs for where I was - which I have to admit - was ever changing. 
+            Anke held me so safely in her container and I felt heard, seen and understood. 
+            She has a beautiful way of helping me feel calm and nourished through the sessions and 
+            her nudges to find my inner truths have been incredibly valuable. I recommend her highly 
+            and look forward to continuing working with her further.
+            </p>
+          </div>
+      </Wrapper>
       </Section>
 
       <Section id="pricing">
@@ -203,9 +219,8 @@ const SexLoveRelationEN = ({ location }) => {
             <h3>When?</h3>
             <p>
               Always by appointment. In general there is the possibility to
-              weekdays in the evening; on Fridays this is also possible
-              throughout the day. On request sessions are available in the
-              weekend.
+              receive coaching on Mondays and Fridays, and Wednesday evenings. 
+              On request sessions are available in the weekend.
             </p>
           </div>
           <div>

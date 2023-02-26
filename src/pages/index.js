@@ -22,8 +22,7 @@ const Index = ({ location }) => {
       <Section id="top">
         <h2>Welkom bij Path to Body and Health</h2>
         <p>
-          In het dagelijkse leven werk ik rond welzijn op het werk als
-          veiligheidsconsulent, beter bekend als preventieadviseur. Maar op deze
+          In het dagelijkse leven werk ik deeltijds als Communicatiemedewerker Studentenwerving. Maar op deze
           site vind je alles over mijn werk als zelfstandige in bijberoep: jouw
           persoonlijke Intimiteits- en Gezondheidscoach. 
           Ik ben gespecialiseerd in een holistische kijk op gezondheid, en in de 

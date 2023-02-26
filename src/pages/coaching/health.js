@@ -44,7 +44,7 @@ const Gezondheid = ({ location }) => {
               geestelijk en maatschappelijk welzijn. Naast een gebalanceerde
               voeding en voldoende beweging dragen een tal van factoren bij aan
               jouw algemene gezondheid: jouw work-life balance, een natuurlijk
-              slaappatroon, vervullende sociale contacten, seksuele gezondheid <i>(zie ook mijn Seks, Liefde, Relatiecoachings; deze focussen veel dieper op dit thema)</i>,
+              slaappatroon, vervullende sociale contacten, seksuele gezondheid <i>(zie ook mijn Intimiteitscoaching; deze focust veel dieper op dit thema)</i>,
               en zoveel meer.
             </p>
           </div>

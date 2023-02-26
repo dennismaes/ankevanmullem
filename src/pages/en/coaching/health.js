@@ -43,7 +43,7 @@ const Health = ({ location }) => {
               well-being. Besides a balanced diet and sufficient exercise, many
               factors contribute to your general health: your work-life balance,
               a natural sleep pattern, fulfilling social contacts, 
-              sexual health <i>(also see my Sex, Love, and Relationship Coaching; these focus much deeper on this theme)</i>, 
+              sexual health <i>(also see my Intimacy Coaching; which focuses much deeper on this theme)</i>, 
               and so much more.
             </p>
           </div>

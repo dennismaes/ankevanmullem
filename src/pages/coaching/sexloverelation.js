@@ -178,6 +178,8 @@ const SexLoveRelation = ({ location }) => {
 
       <Section bgGrey id="review">
       <h2>Hoe hebben anderen hun transformatie ervaren?</h2>
+      <Wrapper cols={2}>
+        <div>
           <h3>N.D.</h3>
             <p>
             Gecoacht worden door Anke was echt een plezier. 
@@ -191,6 +193,21 @@ const SexLoveRelation = ({ location }) => {
             Ik voel mijn eigen kracht en de verbinding met mijn diepste zelf weer in mij.<br/>
             <i>Deze getuigenis is een vertaling. De originele testimonium kan je terug vinden op mijn Engelse pagina.</i>
             </p>
+          </div>
+          <div>
+            <h3>C.B.</h3>
+            <p>
+            Ik werkte met Anke in een blok van 10 sessies en ik kon er gemakkelijk nog eens 10 bijboeken. 
+            Mijn leven veranderde vanaf het moment dat ik haar begon te werken. Tijdens de sessies paste ze de 
+            sessies gemakkelijk aan aan mijn behoeften - en ik moet toegeven dat die steeds veranderden. 
+            Anke hield me zo veilig in haar coaching container en ik voelde me gehoord, gezien en 
+            begrepen. Ze heeft een prachtige manier om mij te helpen rustig en gevoed te voelen tijdens 
+            de sessies. Haar aansporingen om mijn innerlijke waarheden te vinden zijn ongelooflijk waardevol 
+            geweest. Ik beveel haar ten zeerste aan en kijk ernaar uit om verder met haar samen te werken.<br/>
+            <i>Deze getuigenis is een vertaling. De originele testimonium kan je terug vinden op mijn Engelse pagina.</i>
+            </p>
+          </div>
+      </Wrapper>
       </Section>
 
       <Section id="pricing">
@@ -210,9 +227,8 @@ const SexLoveRelation = ({ location }) => {
             <h3>Wanneer?</h3>
             <p>
               Steeds na afspraak. Algemeen is er mogelijkheid om coaching te
-              ontvangen in de weekdagen in de avond; op vrijdagen kan dit ook
-              doorheen de dag. Verder is het mogelijk in het weekend op
-              aanvraag.
+              ontvangen op maandag en vrijdag, en woensdag avond. 
+              Verder is het mogelijk in het weekend op aanvraag.
             </p>
           </div>
           <div>

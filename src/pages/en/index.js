@@ -22,8 +22,7 @@ const IndexEn = ({ location }) => {
       <Section id="top">
         <h2>Welcome to Path to Body and Health</h2>
         <p>
-          In daily life, I work in the field of well-being at work as a safety
-          consultant. But on this website you will find everything about my work
+          In daily life, I work part-time as Communications Officer Student Recruitment. But on this website you will find everything about my work
           as a self-employed person: your personal Intimacy and Health Coach!
           I specialise in a holistic view of health, and in VITA™ Coaching Method for Love, Intimacy, and Relationships. 
           This for individuals longing for that spark in their relation or life by creating a deep connection with themselves!
