@@ -215,7 +215,7 @@ const SexLoveRelation = ({ location }) => {
             De sessies waren interactief en afgestemd op wat ik nodig had - ik hield vooral van de klankoefening en de meditatie met de 
             5 zintuigen (waarvan Anke zo vriendelijk was een downloadbare opname te geven). Ik voelde me diep gehoord 
             en begrepen aan het begin van onze sessies samen en dat Anke in staat was 'tussen de regels door te lezen' in wat ik uitte, 
-            bevorderde de natuurlijke stroom van onze sessies. Bedankt voor de gelegenheid, ik zou haar ten zeerste aanbevelen.
+            bevorderde de natuurlijke stroom van onze sessies. Bedankt voor de gelegenheid, ik zou haar ten zeerste aanbevelen.<br/>
             <i>Deze getuigenis is een vertaling. De originele testimonium kan je terug vinden op mijn Engelse pagina.</i>
             </p>
           </TimelineEntry>

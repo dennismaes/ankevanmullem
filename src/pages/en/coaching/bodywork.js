@@ -120,7 +120,8 @@ const Bodywork = ({ location }) => {
           >
             info@ankevanmullem.be
           </a>
-          . On request we can also schedule an online meeting to get a better
+          .<br/> 
+          On request we can also schedule an online meeting to get a better
           feel for each other and see how I can help you. Then I can tell you
           more specifically about the possibilities and make a proposal on how
           we can work together.

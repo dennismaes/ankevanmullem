@@ -123,7 +123,8 @@ const Lichaamswerk = ({ location }) => {
           >
             info@ankevanmullem.be
           </a>
-          . Op aanvraag kunnen wij ook een Discovery Call inplannen om elkaar
+          .<br/> 
+          Op aanvraag kunnen wij ook een Discovery Call inplannen om elkaar
           wat beter aan te voelen en te kijken hoe ik jou kan helpen. Dan kan ik
           je gerichter vertellen over de mogelijkheden en een voorstel doen over
           hoe we kunnen samenwerken.
