@@ -18,6 +18,18 @@ const Lichaamswerk = ({ location }) => {
     <Layout locale="nl" location={location} leftHiddenMobile>
       <Section id="top">
         <h2>Lichaamswerk</h2>
+        <p>Lichaamswerk wordt momenteel enkel aangeboden als verlengde en aanvulling op mijn andere coaching sessies.
+        Wil je graag meer informate? Stel mij al jouw vragen en/of bedenkingen via het{" "}
+          <Link to="/contact">contactformulier</Link> of via{" "}
+          <a
+            href="mailto:info@ankevanmullem.be"
+            target="_blank"
+            rel="noreferrer"
+          >
+            info@ankevanmullem.be
+          </a>
+          .
+        </p>
       </Section>
       <Sticky>
         <ButtonLink to="/">
@@ -99,60 +111,10 @@ const Lichaamswerk = ({ location }) => {
         <h2>Praktische info</h2>
         <Wrapper cols={2}>
           <div>
-            <h3>Waar en hoe?</h3>
             <p>
-              Het is enkel mogelijk om live coaching te ontvangen te{" "}
-              <i>Sint-Niklaas</i>. Op aanvraag kan dit ook aan huis. Hierbij is
-              het belangrijk een rustige ruimte te voorzien waar wij ongestoord
-              onze sessie kunnen houden. Hiervoor wordt wel een extra kostprijs
-              aangerekend, nl. 5 euro plus een kilometervergoeding van €0,42/km
-              (herzien op jul/'22).
-            </p>
-          </div>
-          <div>
-            <h3>Wanneer?</h3>
-            <p>
-              Ik gebruik lichaamswerk vaak als verlengde en aanvulling van mijn andere coaching sessies.
-              Uitzonderlijk geef ik sessies lichaamswerk individueel. Deze sessies zijn dus steed na samenspraak en afspraak. 
-              Algemeen is er mogelijkheid om coaching te ontvangen in de weekdagen in de avond; op vrijdagen kan dit ook
-              doorheen de dag. Verder is het mogelijk in het weekend op aanvraag.
-            </p>
-          </div>
-          <div>
-            <StaticImage
-              src="../../images/_DSC0110.jpg"
-              width={600}
-              quality={60}
-              alt="Anke Van Mullem"
-              placeholder="blurred"
-              loading="eager"
-              transformOptions={{ fit: "cover", cropFocus: "attention" }}
-            />
-          </div>
-          <div>
-            <h3>Kostprijs?</h3>
-            <p>
-              Een sessie duurt ongeveer 90 minuten. Voor een traject van 6
-              sessies betaal je op dit moment slechts 666 euro. Een betalingsplan is een mogelijkheid.
-              Uitzonderlijk kan er na afspraak één proefsessie afgesproken worden. Voor
-              particulieren zijn alle prijzen incl. BTW.
-            </p>
-          </div>
-          <div>
-          <p>
-          Ben je overtuigd? Maak dan een afspraak via{" "}
-          <a
-            href="mailto:info@ankevanmullem.be"
-            target="_blank"
-            rel="noreferrer"
-          >
-            {" "}
-            info@ankevanmullem.be
-          </a>
-          .</p>
-          <p>   
-          Toch nog niet helemaal zeker en heb je graag nog wat vrijblijvende
-          informatie? Stel mij al jouw vragen en/of bedenkingen via het{" "}
+            Lichaamswerk wordt momenteel enkel aangeboden als verlengde en aanvulling op mijn andere coaching sessies.<br/>
+            Wil je graag de mogelijkheden verder bespreken? 
+            Stel mij al jouw vragen en/of bedenkingen via het{" "}
           <Link to="/contact">contactformulier</Link> of via{" "}
           <a
             href="mailto:info@ankevanmullem.be"
@@ -161,7 +123,7 @@ const Lichaamswerk = ({ location }) => {
           >
             info@ankevanmullem.be
           </a>
-          . Op aanvraag kunnen wij ook een online gesprek inplannen om elkaar
+          . Op aanvraag kunnen wij ook een Discovery Call inplannen om elkaar
           wat beter aan te voelen en te kijken hoe ik jou kan helpen. Dan kan ik
           je gerichter vertellen over de mogelijkheden en een voorstel doen over
           hoe we kunnen samenwerken.

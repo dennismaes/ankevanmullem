@@ -178,9 +178,9 @@ const SexLoveRelation = ({ location }) => {
 
       <Section bgGrey id="review">
       <h2>Hoe hebben anderen hun transformatie ervaren?</h2>
-      <Wrapper cols={2}>
-        <div>
-          <h3>N.D.</h3>
+      <p>(Klik voor meer informatie.)</p>
+      <Timeline>
+        <TimelineEntry title="N.D." date="">
             <p>
             Gecoacht worden door Anke was echt een plezier. 
             Ze creëerde altijd zo natuurlijk een veilige container voor me 
@@ -193,9 +193,8 @@ const SexLoveRelation = ({ location }) => {
             Ik voel mijn eigen kracht en de verbinding met mijn diepste zelf weer in mij.<br/>
             <i>Deze getuigenis is een vertaling. De originele testimonium kan je terug vinden op mijn Engelse pagina.</i>
             </p>
-          </div>
-          <div>
-            <h3>C.B.</h3>
+          </TimelineEntry>
+          <TimelineEntry title="C.B." date="">
             <p>
             Ik werkte met Anke in een blok van 10 sessies en ik kon er gemakkelijk nog eens 10 bijboeken. 
             Mijn leven veranderde vanaf het moment dat ik haar begon te werken. Tijdens de sessies paste ze de 
@@ -206,8 +205,20 @@ const SexLoveRelation = ({ location }) => {
             geweest. Ik beveel haar ten zeerste aan en kijk ernaar uit om verder met haar samen te werken.<br/>
             <i>Deze getuigenis is een vertaling. De originele testimonium kan je terug vinden op mijn Engelse pagina.</i>
             </p>
-          </div>
-      </Wrapper>
+          </TimelineEntry>
+          <TimelineEntry title="A.R." date="">
+            <p>
+            Ik heb 3 sessies met Anke gedaan en het was precies wat ik op dat moment nodig had. 
+            Anke bood een veilige, warme en open ruimte om te verschijnen en volledig mezelf te zijn. 
+            Ik resoneerde veel met haar zachte en meelevende energie - de hele ervaring was zeer voedend voor mij en ook versterkend. 
+            De sessies waren interactief en afgestemd op wat ik nodig had - ik hield vooral van de klankoefening en de meditatie met de 
+            5 zintuigen (waarvan Anke zo vriendelijk was een downloadbare opname te geven). Ik voelde me diep gehoord 
+            en begrepen aan het begin van onze sessies samen en dat Anke in staat was 'tussen de regels door te lezen' in wat ik uitte, 
+            bevorderde de natuurlijke stroom van onze sessies. Bedankt voor de gelegenheid, ik zou haar ten zeerste aanbevelen.
+            <i>Deze getuigenis is een vertaling. De originele testimonium kan je terug vinden op mijn Engelse pagina.</i>
+            </p>
+          </TimelineEntry>
+      </Timeline>
       </Section>
 
       <Section id="pricing">

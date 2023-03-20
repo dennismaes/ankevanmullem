@@ -18,6 +18,17 @@ const Bodywork = ({ location }) => {
     <Layout locale="en" location={location} leftHiddenMobile>
       <Section id="top">
         <h2>Bodywork</h2>
+        <p>Bodywork is currently only offered as an extension and addition to my other coaching sessions.
+        Would you like to have more information? Ask me all your questions via the{" "}
+          <Link to="/en/contact">contact form</Link> or via{" "}
+          <a
+            href="mailto:info@ankevanmullem.be"
+            target="_blank"
+            rel="noreferrer"
+          >
+            info@ankevanmullem.be
+          </a>.
+        </p>
       </Section>
       <Sticky>
         <ButtonLink to="/en">
@@ -98,59 +109,9 @@ const Bodywork = ({ location }) => {
         <h2>Practical info</h2>
         <Wrapper cols={2}>
           <div>
-            <h3>Where and how?</h3>
-            <p>
-              It is only possible to receive live coaching in{" "}
-              <i>Sint-Niklaas, Belgium</i>. This can also be done at home on
-              request. It is important to provide a quiet space where we can
-              hold our session undisturbed. An extra cost will be charged for
-              this, namely 5 euros plus a kilometer allowance of € 0.42/km
-              (revised on Jul/'22).
-            </p>
-          </div>
-          <div>
-            <h3>When?</h3>
-            <p>
-              I often use bodywork as an extension and complement to my other coaching sessions. 
-              Exceptionally, I give individual bodywork sessions. These sessions are always by appointment.
-              In general there is the possibility to weekdays in the evening; on Fridays this is also possible
-              throughout the day. On request sessions are available in the weekend.
-            </p>
-          </div>
-          <div>
-            <StaticImage
-              src="../../../images/_DSC0110.jpg"
-              width={600}
-              quality={60}
-              alt="Anke Van Mullem"
-              placeholder="blurred"
-              loading="eager"
-              transformOptions={{ fit: "cover", cropFocus: "attention" }}
-            />
-          </div>
-          <div>
-            <h3>Cost?</h3>
-            <p>
-              A session lasts about 90 minutes. For a course of 6 sessions
-              sessions you pay only 666 euros at the moment. A payment plan is available. 
-              Exceptionally one test session can be arranged after making an appointment. For
-              private individuals, all prices include VAT.
-            </p>
-          </div>
-          <div>
           <p>
-          Are you conviced? Make an appointment via{" "}
-          <a
-            href="mailto:info@ankevanmullem.be"
-            target="_blank"
-            rel="noreferrer"
-          >
-            info@ankevanmullem.be
-          </a>.
-        </p>
-        <p>
-          Not quite sure yet and would you like more non-binding information?
-          Ask me all your questions and/or share your reservations via the{" "}
+          Bodywork is currently only offered as an extension and addition to my other coaching sessions.
+          Would you like to have more information? Ask me all your questions and/or share your reservations via the{" "}
           <Link to="/en/contact">contact form</Link> or via{" "}
           <a
             href="mailto:info@ankevanmullem.be"

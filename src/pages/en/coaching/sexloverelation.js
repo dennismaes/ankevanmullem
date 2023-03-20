@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import Layout from "../../../components/layout";
 import { Section, Sticky, Wrapper } from "../../../components/intro";
+import { Timeline, TimelineEntry } from "../components/timeline";
 import {
   Button,
   ButtonLink,
@@ -172,10 +173,10 @@ const SexLoveRelationEN = ({ location }) => {
       </Section>
 
       <Section bgGrey id="review">
-      <h2>How have other people experienced their transformation?</h2>
-      <Wrapper cols={2}>
-        <div>
-          <h3>N.D.</h3>
+        <h2>How have other people experienced their transformation?</h2>
+        <p>(Click on it for more information.)</p>
+        <Timeline>
+        <TimelineEntry title="N.D." date="">
             <p>
               Being coached by Anke was truly a pleasure. 
               She always so naturally created a safe container for me where I had 
@@ -187,9 +188,8 @@ const SexLoveRelationEN = ({ location }) => {
               This enabled me to reintegrate parts of myself that I used to reject or overlook in myself.
               I feel my own power and the connection to my deepest self within me again.
             </p>
-        </div>
-        <div>
-            <h3>C.B.</h3>
+          </TimelineEntry>
+          <TimelineEntry title="C.B." date="">
             <p>
             I worked with Anke over her 10 session block and I could easily book in another 10. 
             My life shifted from when I booked her, and through the sessions she easily amended 
@@ -199,8 +199,21 @@ const SexLoveRelationEN = ({ location }) => {
             her nudges to find my inner truths have been incredibly valuable. I recommend her highly 
             and look forward to continuing working with her further.
             </p>
-          </div>
-      </Wrapper>
+          </TimelineEntry>
+          <TimelineEntry title="A.R." date="">
+            <p>
+            I completed 3 sessions with Anke and it was exactly what I needed at the time. 
+            Anke provided a safe, warm and open space to show up and completely be myself in. 
+            I resonated a lot with her gentle and compassionate energy - the whole experience 
+            was very nurturing for me and also empowering. The sessions were interactive and 
+            tailored towards what I needed - I particularly loved the sounding practice and 
+            the 5 senses meditation (which Anke kindly gifted a downloadable recording of). 
+            I felt deeply heard, understood at the start of our sessions together and that 
+            Anke was able to 'read between the lines' in what I was expressing which aided the 
+            natural flow of our sessions together. Thank you for the opportunity, I would highly recommend.
+            </p>
+          </TimelineEntry>
+          </Timeline>
       </Section>
 
       <Section id="pricing">
