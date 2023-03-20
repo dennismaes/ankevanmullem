@@ -19,7 +19,7 @@ const Lichaamswerk = ({ location }) => {
       <Section id="top">
         <h2>Lichaamswerk</h2>
         <p>Lichaamswerk wordt momenteel enkel aangeboden als verlengde en aanvulling op mijn andere coaching sessies.
-        Wil je graag meer informate? Stel mij al jouw vragen en/of bedenkingen via het{" "}
+        Wil je graag meer informatie? Stel mij al jouw vragen en/of bedenkingen via het{" "}
           <Link to="/contact">contactformulier</Link> of via{" "}
           <a
             href="mailto:info@ankevanmullem.be"
